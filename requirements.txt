@@ -1,0 +1,15 @@
+scikit-learn
+scipy
+numpy
+pandas
+matplotlib
+seaborn
+nb_conda_kernels
+statsmodels
+jupyter
+patsy
+xgboost
+imbalanced-learn
+optuna
+graphviz
+optuna-integration[xgboost]
