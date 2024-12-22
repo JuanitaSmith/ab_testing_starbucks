@@ -2,7 +2,7 @@
 
 ---
 ## Portfolio Exercise: Starbucks take home assignment
-The purpose of this project is to demonstrate the ability to create ETL, NTL and ML pipelines using software and data engineering skills. 
+The purpose of this project is to demonstrate the ability to do AB tests
 
 #### Created by: Juanita Smith
 #### Last date: September 2024

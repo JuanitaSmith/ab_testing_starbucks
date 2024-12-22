@@ -1,0 +1,2 @@
+train-auc-mean,train-auc-std,train-aucpr-mean,train-aucpr-std,test-auc-mean,test-auc-std,test-aucpr-mean,test-aucpr-std,train-irr_score-mean,train-irr_score-std,test-irr_score-mean,test-irr_score-std
+0.5,0.0,0.5194401741787448,4.712407329856963e-06,0.5,0.0,0.5194401734855736,1.885000665912244e-05,0.5194399999999999,4.898979485544061e-06,0.5194404,1.9106019993714302e-05
