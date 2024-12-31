@@ -1,5 +1,4 @@
 ## Udacity Data Science Nanodegree
-
 ---
 ## Portfolio Exercise: Starbucks take home assignment
 The purpose of this project is to demonstrate the ability to do AB tests

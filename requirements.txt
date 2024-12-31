@@ -13,3 +13,4 @@ imbalanced-learn
 optuna
 graphviz
 optuna-integration[xgboost]
+basemap

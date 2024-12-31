@@ -5,3 +5,4 @@ __pycache__
 *.pytest_cache/
 Starbucks-2.ipynb
 xgboost_cv_results
+irr_with_v2_scaled

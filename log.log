@@ -1539,3 +1539,1157 @@ KeyboardInterrupt
 2024-12-22 20:30:46 INFO     Trial 498 pruned. Trial was pruned at iteration 0.
 2024-12-22 20:32:56 INFO     n_estimators: 25
 2024-12-22 20:32:56 INFO     Trial 499 finished with value: 0.8725990000000001 and parameters: {'scale_pos_weight': 32, 'max_delta_step': 46.72219273970166, 'colsample_bytree': 0.9591234547245803, 'min_child_weight': 16.948058534137317, 'min_data_in_leaf': 1.4977008658657747, 'lambda': 7.035551999086362, 'alpha': 3.23901063983391, 'max_depth': 9, 'eta': 1.3615328172869454, 'gamma': 1.722921652380459}. Best is trial 458 with value: 0.8805401666666667.
+2024-12-22 22:30:14 INFO     A new study created in RDB with name: xgboost-starbucks-irr_with_v2-scaled
+2024-12-22 22:30:41 INFO     n_estimators: 2
+2024-12-22 22:30:41 INFO     Trial 0 finished with value: 0.5180626666666667 and parameters: {'scale_pos_weight': 53, 'max_delta_step': 88.63152082488163, 'colsample_bytree': 0.8411559780403454, 'min_child_weight': 22.289684272347866, 'min_data_in_leaf': 5.276943036742292, 'lambda': 6.453734102529059, 'alpha': 46.679392757940676, 'max_depth': 3, 'eta': 2.5272211825043898, 'gamma': 6.721049582913084}. Best is trial 0 with value: 0.5180626666666667.
+2024-12-22 22:31:07 INFO     n_estimators: 1
+2024-12-22 22:31:07 INFO     Trial 1 finished with value: 0.4901451666666667 and parameters: {'scale_pos_weight': 23, 'max_delta_step': 43.62793906888523, 'colsample_bytree': 0.8441088011692559, 'min_child_weight': 111.84286179198277, 'min_data_in_leaf': 1.0208403780902886, 'lambda': 6.31087450612916, 'alpha': 99.204240565618, 'max_depth': 7, 'eta': 7.3004362501523605, 'gamma': 5.232530713849061}. Best is trial 0 with value: 0.5180626666666667.
+2024-12-22 22:31:34 INFO     n_estimators: 1
+2024-12-22 22:31:34 INFO     Trial 2 finished with value: 0.5092504999999999 and parameters: {'scale_pos_weight': 51, 'max_delta_step': 96.49917232043902, 'colsample_bytree': 0.8338184886070259, 'min_child_weight': 91.98937576112615, 'min_data_in_leaf': 9.595173457199754, 'lambda': 2.2101339838296004, 'alpha': 67.56258613381594, 'max_depth': 3, 'eta': 9.793064069557206, 'gamma': 4.954685917119337}. Best is trial 0 with value: 0.5180626666666667.
+2024-12-22 22:31:59 INFO     n_estimators: 1
+2024-12-22 22:31:59 INFO     Trial 3 finished with value: 0.5092504999999999 and parameters: {'scale_pos_weight': 42, 'max_delta_step': 92.75144293317648, 'colsample_bytree': 0.9162325254645256, 'min_child_weight': 80.90536641401681, 'min_data_in_leaf': 8.666486814708065, 'lambda': 76.59674848406564, 'alpha': 23.903232127833668, 'max_depth': 1, 'eta': 4.835377134647694, 'gamma': 2.9974816126978996}. Best is trial 0 with value: 0.5180626666666667.
+2024-12-22 22:32:26 INFO     n_estimators: 1
+2024-12-22 22:32:26 INFO     Trial 4 finished with value: 0.6082291666666667 and parameters: {'scale_pos_weight': 96, 'max_delta_step': 89.54377391925671, 'colsample_bytree': 0.9802416328797476, 'min_child_weight': 65.1243730642733, 'min_data_in_leaf': 6.942229431101106, 'lambda': 23.70394108318439, 'alpha': 58.088434974700924, 'max_depth': 8, 'eta': 8.995408176439422, 'gamma': 1.907173329939695}. Best is trial 4 with value: 0.6082291666666667.
+2024-12-22 22:32:52 INFO     n_estimators: 1
+2024-12-22 22:32:52 INFO     Trial 5 finished with value: 0.5092504999999999 and parameters: {'scale_pos_weight': 82, 'max_delta_step': 40.23136935884415, 'colsample_bytree': 0.8184513000047997, 'min_child_weight': 118.06775755826821, 'min_data_in_leaf': 7.784285040983908, 'lambda': 17.69087868565943, 'alpha': 2.7587395423918335, 'max_depth': 3, 'eta': 9.551814789106718, 'gamma': 0.9655278265510944}. Best is trial 4 with value: 0.6082291666666667.
+2024-12-22 22:33:19 INFO     n_estimators: 1
+2024-12-22 22:33:19 INFO     Trial 6 finished with value: 0.5589451666666667 and parameters: {'scale_pos_weight': 12, 'max_delta_step': 40.159015354485184, 'colsample_bytree': 0.9367781067543135, 'min_child_weight': 44.1055638352577, 'min_data_in_leaf': 2.6842420120969446, 'lambda': 56.128042927003314, 'alpha': 26.940182954524957, 'max_depth': 4, 'eta': 5.617094949343844, 'gamma': 8.745095100697473}. Best is trial 4 with value: 0.6082291666666667.
+2024-12-22 22:33:19 INFO     Trial 7 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:33:46 INFO     n_estimators: 1
+2024-12-22 22:33:46 INFO     Trial 8 finished with value: 0.619735 and parameters: {'scale_pos_weight': 71, 'max_delta_step': 35.99014109493641, 'colsample_bytree': 0.9609452702322698, 'min_child_weight': 13.993747797843033, 'min_data_in_leaf': 8.04893273273777, 'lambda': 39.26678541953784, 'alpha': 73.30115645983884, 'max_depth': 9, 'eta': 8.71393369169294, 'gamma': 6.558903461043616}. Best is trial 8 with value: 0.619735.
+2024-12-22 22:34:45 INFO     n_estimators: 56
+2024-12-22 22:34:45 INFO     Trial 9 finished with value: 0.7979978333333334 and parameters: {'scale_pos_weight': 30, 'max_delta_step': 80.74447921339602, 'colsample_bytree': 0.9198606752628177, 'min_child_weight': 64.3450966907816, 'min_data_in_leaf': 5.44861693100885, 'lambda': 75.33002873280779, 'alpha': 52.97697776376939, 'max_depth': 4, 'eta': 1.4383477426657458, 'gamma': 3.418606952459791}. Best is trial 9 with value: 0.7979978333333334.
+2024-12-22 22:35:13 INFO     Trial 10 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:35:40 INFO     n_estimators: 1
+2024-12-22 22:35:40 INFO     Trial 11 finished with value: 0.6252826666666667 and parameters: {'scale_pos_weight': 72, 'max_delta_step': 65.5911237377811, 'colsample_bytree': 0.9685758240486061, 'min_child_weight': 8.67967029751592, 'min_data_in_leaf': 6.587450375396288, 'lambda': 47.36013142933566, 'alpha': 46.19309211434787, 'max_depth': 9, 'eta': 3.1188813610511343, 'gamma': 7.091107923526835}. Best is trial 9 with value: 0.7979978333333334.
+2024-12-22 22:36:06 INFO     Trial 12 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:36:33 INFO     Trial 13 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:36:57 INFO     n_estimators: 1
+2024-12-22 22:36:57 INFO     Trial 14 finished with value: 0.6087656666666666 and parameters: {'scale_pos_weight': 35, 'max_delta_step': 66.63726477971711, 'colsample_bytree': 0.9139620637591976, 'min_child_weight': 69.09537982832865, 'min_data_in_leaf': 6.22233458118378, 'lambda': 41.84092695456787, 'alpha': 50.628116653721, 'max_depth': 9, 'eta': 4.132590650958788, 'gamma': 6.804376936181354}. Best is trial 9 with value: 0.7979978333333334.
+2024-12-22 22:37:50 INFO     n_estimators: 50
+2024-12-22 22:37:51 INFO     Trial 15 finished with value: 0.8346843333333333 and parameters: {'scale_pos_weight': 65, 'max_delta_step': 76.8232110217556, 'colsample_bytree': 0.9608391773102628, 'min_child_weight': 31.876735095900322, 'min_data_in_leaf': 4.167623650514744, 'lambda': 75.54100251279611, 'alpha': 36.79145374405982, 'max_depth': 5, 'eta': 1.3292084800716115, 'gamma': 2.6433057087299114}. Best is trial 15 with value: 0.8346843333333333.
+2024-12-22 22:40:47 INFO     n_estimators: 283
+2024-12-22 22:40:47 INFO     Trial 16 finished with value: 0.9113156666666669 and parameters: {'scale_pos_weight': 59, 'max_delta_step': 80.3002445035154, 'colsample_bytree': 0.9303687169107211, 'min_child_weight': 25.84106557538918, 'min_data_in_leaf': 3.4143811024318342, 'lambda': 75.92370193830672, 'alpha': 16.6295859699096, 'max_depth': 5, 'eta': 1.3446460436230023, 'gamma': 0.029824504069014157}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 22:41:43 INFO     Trial 17 pruned. Trial was pruned at iteration 105.
+2024-12-22 22:42:07 INFO     n_estimators: 1
+2024-12-22 22:42:07 INFO     Trial 18 finished with value: 0.5835928333333332 and parameters: {'scale_pos_weight': 83, 'max_delta_step': 79.15014894750122, 'colsample_bytree': 0.9476306176803548, 'min_child_weight': 31.816932563044155, 'min_data_in_leaf': 3.6829103775162997, 'lambda': 85.75872374607917, 'alpha': 17.459228178523702, 'max_depth': 6, 'eta': 5.878069337984191, 'gamma': 2.003036118399425}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 22:42:32 INFO     n_estimators: 1
+2024-12-22 22:42:32 INFO     Trial 19 finished with value: 0.5937713333333333 and parameters: {'scale_pos_weight': 63, 'max_delta_step': 55.139731678489895, 'colsample_bytree': 0.8910308017609082, 'min_child_weight': 37.36197460031716, 'min_data_in_leaf': 1.321742488254773, 'lambda': 63.410326900114725, 'alpha': 33.4825399275869, 'max_depth': 7, 'eta': 3.712160368589177, 'gamma': 0.35615706880654446}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 22:42:33 INFO     Trial 20 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:42:34 INFO     Trial 21 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:42:35 INFO     Trial 22 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:43:02 INFO     Trial 23 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:43:03 INFO     Trial 24 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:43:28 INFO     Trial 25 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:43:29 INFO     Trial 26 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:43:56 INFO     Trial 27 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:44:21 INFO     n_estimators: 1
+2024-12-22 22:44:21 INFO     Trial 28 finished with value: 0.5748428333333333 and parameters: {'scale_pos_weight': 16, 'max_delta_step': 85.5972328368174, 'colsample_bytree': 0.9754665729096438, 'min_child_weight': 26.398936167655975, 'min_data_in_leaf': 4.915882425110152, 'lambda': 82.82310680429423, 'alpha': 51.79228953990394, 'max_depth': 5, 'eta': 4.441495582082306, 'gamma': 5.848665006645515}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 22:44:22 INFO     Trial 29 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:44:23 INFO     Trial 30 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:44:23 INFO     Trial 31 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:44:50 INFO     Trial 32 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:45:19 INFO     Trial 33 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:45:46 INFO     Trial 34 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:45:47 INFO     Trial 35 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:45:48 INFO     Trial 36 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:45:49 INFO     Trial 37 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:46:14 INFO     n_estimators: 1
+2024-12-22 22:46:14 INFO     Trial 38 finished with value: 0.59843 and parameters: {'scale_pos_weight': 90, 'max_delta_step': 87.8864736223652, 'colsample_bytree': 0.9371342300355929, 'min_child_weight': 99.00982407062301, 'min_data_in_leaf': 7.149519115750124, 'lambda': 20.204152723350653, 'alpha': 38.30900602473716, 'max_depth': 8, 'eta': 7.13293369138481, 'gamma': 1.7480104758206907}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 22:46:15 INFO     Trial 39 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:46:16 INFO     Trial 40 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:46:43 INFO     n_estimators: 1
+2024-12-22 22:46:43 INFO     Trial 41 finished with value: 0.618591 and parameters: {'scale_pos_weight': 68, 'max_delta_step': 22.99003140475203, 'colsample_bytree': 0.9517334570992193, 'min_child_weight': 13.942199586129972, 'min_data_in_leaf': 8.104610774534159, 'lambda': 39.70045081821171, 'alpha': 88.03721805412661, 'max_depth': 9, 'eta': 8.401382984313235, 'gamma': 7.404031735106219}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 22:47:35 INFO     n_estimators: 40
+2024-12-22 22:47:35 INFO     Trial 42 finished with value: 0.84068 and parameters: {'scale_pos_weight': 73, 'max_delta_step': 32.43850530830132, 'colsample_bytree': 0.960323248855376, 'min_child_weight': 4.605182122712835, 'min_data_in_leaf': 6.777796108699677, 'lambda': 30.33487265651644, 'alpha': 76.75537939342838, 'max_depth': 9, 'eta': 1.9916730137394438, 'gamma': 8.394022222827806}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 22:48:22 INFO     n_estimators: 32
+2024-12-22 22:48:22 INFO     Trial 43 finished with value: 0.8431848333333333 and parameters: {'scale_pos_weight': 75, 'max_delta_step': 23.541356173279, 'colsample_bytree': 0.9837881322365754, 'min_child_weight': 1.4338727709698773, 'min_data_in_leaf': 6.815244693721603, 'lambda': 8.129262034596511, 'alpha': 71.97809858651196, 'max_depth': 8, 'eta': 1.8649299283154113, 'gamma': 9.084317629041061}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 22:48:53 INFO     Trial 44 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:49:23 INFO     Trial 45 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:49:54 INFO     Trial 46 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:50:23 INFO     Trial 47 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:50:54 INFO     Trial 48 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:50:55 INFO     Trial 49 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:50:56 INFO     Trial 50 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:51:26 INFO     Trial 51 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:52:07 INFO     n_estimators: 20
+2024-12-22 22:52:07 INFO     Trial 52 finished with value: 0.8477151666666667 and parameters: {'scale_pos_weight': 53, 'max_delta_step': 46.55728459978795, 'colsample_bytree': 0.9667751006473538, 'min_child_weight': 8.068423315808102, 'min_data_in_leaf': 7.500833145239858, 'lambda': 45.84456598933703, 'alpha': 55.28247652355951, 'max_depth': 9, 'eta': 1.7919367176813144, 'gamma': 8.200490505286433}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 22:52:53 INFO     n_estimators: 28
+2024-12-22 22:52:53 INFO     Trial 53 finished with value: 0.8518621666666665 and parameters: {'scale_pos_weight': 54, 'max_delta_step': 46.507813548444645, 'colsample_bytree': 0.9547390371575202, 'min_child_weight': 5.618798978204305, 'min_data_in_leaf': 8.222614756036027, 'lambda': 25.84456476947299, 'alpha': 70.2162845564238, 'max_depth': 9, 'eta': 1.9492366318722043, 'gamma': 7.984789856576871}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 22:53:24 INFO     Trial 54 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:53:55 INFO     Trial 55 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:54:26 INFO     Trial 56 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:54:57 INFO     Trial 57 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:55:28 INFO     Trial 58 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:55:59 INFO     Trial 59 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:56:31 INFO     Trial 60 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:56:32 INFO     Trial 61 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:57:03 INFO     Trial 62 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:57:33 INFO     Trial 63 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:57:34 INFO     Trial 64 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:57:35 INFO     Trial 65 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:57:36 INFO     Trial 66 pruned. Trial was pruned at iteration 0.
+2024-12-22 22:58:08 INFO     Trial 67 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:58:58 INFO     n_estimators: 34
+2024-12-22 22:58:58 INFO     Trial 68 finished with value: 0.8458826666666668 and parameters: {'scale_pos_weight': 75, 'max_delta_step': 26.016370062445738, 'colsample_bytree': 0.9938197245082646, 'min_child_weight': 39.930993267119135, 'min_data_in_leaf': 5.552792671828744, 'lambda': 79.61130771418334, 'alpha': 35.495247196063254, 'max_depth': 8, 'eta': 1.3536036213671117, 'gamma': 4.626504566555067}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 22:59:30 INFO     Trial 69 pruned. Trial was pruned at iteration 51.
+2024-12-22 22:59:59 INFO     n_estimators: 1
+2024-12-22 22:59:59 INFO     Trial 70 finished with value: 0.6008216666666667 and parameters: {'scale_pos_weight': 86, 'max_delta_step': 21.47319206732872, 'colsample_bytree': 0.983449986663811, 'min_child_weight': 39.10105632510354, 'min_data_in_leaf': 2.5847029278264024, 'lambda': 85.37777668606438, 'alpha': 20.551198248218963, 'max_depth': 8, 'eta': 3.339451414478606, 'gamma': 8.948175731045545}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:00:46 INFO     n_estimators: 29
+2024-12-22 23:00:46 INFO     Trial 71 finished with value: 0.8518045000000001 and parameters: {'scale_pos_weight': 81, 'max_delta_step': 14.947161833383491, 'colsample_bytree': 0.9728356215855885, 'min_child_weight': 30.23029243539564, 'min_data_in_leaf': 5.5102476583469615, 'lambda': 79.43863647918201, 'alpha': 40.78460905675906, 'max_depth': 9, 'eta': 1.5283348120295663, 'gamma': 4.338599784742458}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:01:32 INFO     n_estimators: 27
+2024-12-22 23:01:32 INFO     Trial 72 finished with value: 0.8478661666666668 and parameters: {'scale_pos_weight': 75, 'max_delta_step': 9.629465215910749, 'colsample_bytree': 0.9729193582099254, 'min_child_weight': 31.580782239689896, 'min_data_in_leaf': 4.808794393558109, 'lambda': 78.9900382249671, 'alpha': 40.29351669417438, 'max_depth': 9, 'eta': 1.3655459395638974, 'gamma': 5.240125402250937}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:02:20 INFO     n_estimators: 30
+2024-12-22 23:02:20 INFO     Trial 73 finished with value: 0.8700776666666666 and parameters: {'scale_pos_weight': 81, 'max_delta_step': 4.007098937724811, 'colsample_bytree': 0.9873685167782053, 'min_child_weight': 29.20551968413828, 'min_data_in_leaf': 5.774529521662906, 'lambda': 78.91231125234417, 'alpha': 28.035330835077126, 'max_depth': 9, 'eta': 1.5050515295802283, 'gamma': 4.307039299744963}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:02:51 INFO     Trial 74 pruned. Trial was pruned at iteration 51.
+2024-12-22 23:03:23 INFO     Trial 75 pruned. Trial was pruned at iteration 51.
+2024-12-22 23:04:11 INFO     n_estimators: 30
+2024-12-22 23:04:11 INFO     Trial 76 finished with value: 0.8640515000000001 and parameters: {'scale_pos_weight': 94, 'max_delta_step': 8.022104409217398, 'colsample_bytree': 0.9724121714381703, 'min_child_weight': 47.186226054238205, 'min_data_in_leaf': 5.181178886178403, 'lambda': 71.68057030227611, 'alpha': 29.03254051110175, 'max_depth': 9, 'eta': 1.4602075323323827, 'gamma': 3.8547975187880397}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:04:43 INFO     Trial 77 pruned. Trial was pruned at iteration 50.
+2024-12-22 23:05:31 INFO     n_estimators: 30
+2024-12-22 23:05:31 INFO     Trial 78 finished with value: 0.8656510000000001 and parameters: {'scale_pos_weight': 100, 'max_delta_step': 16.20646893332077, 'colsample_bytree': 0.9928100722994722, 'min_child_weight': 41.25409339636763, 'min_data_in_leaf': 5.4528003950681585, 'lambda': 72.51792272951478, 'alpha': 27.609811269384508, 'max_depth': 9, 'eta': 1.394664575880622, 'gamma': 4.1216215731188415}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:06:19 INFO     n_estimators: 30
+2024-12-22 23:06:20 INFO     Trial 79 finished with value: 0.8649856666666667 and parameters: {'scale_pos_weight': 99, 'max_delta_step': 14.57482588357566, 'colsample_bytree': 0.9730754425842683, 'min_child_weight': 54.2150500582627, 'min_data_in_leaf': 5.356466589333483, 'lambda': 71.88268620333571, 'alpha': 27.30991316560194, 'max_depth': 9, 'eta': 1.5122825139611924, 'gamma': 3.789974313295091}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:06:21 INFO     Trial 80 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:07:11 INFO     n_estimators: 34
+2024-12-22 23:07:11 INFO     Trial 81 finished with value: 0.8815743333333333 and parameters: {'scale_pos_weight': 100, 'max_delta_step': 7.153529627212061, 'colsample_bytree': 0.963777486516535, 'min_child_weight': 45.67293614585656, 'min_data_in_leaf': 4.289600919599863, 'lambda': 65.53151471257328, 'alpha': 16.3836946549875, 'max_depth': 9, 'eta': 1.6078410778220926, 'gamma': 4.0465062504677665}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:08:02 INFO     n_estimators: 34
+2024-12-22 23:08:02 INFO     Trial 82 finished with value: 0.8808704999999999 and parameters: {'scale_pos_weight': 99, 'max_delta_step': 5.955290878917044, 'colsample_bytree': 0.9875461439581545, 'min_child_weight': 45.24324523330465, 'min_data_in_leaf': 4.198967479490718, 'lambda': 68.75936288611831, 'alpha': 14.50142648431624, 'max_depth': 9, 'eta': 1.5371152446090561, 'gamma': 4.024268966029941}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:08:53 INFO     n_estimators: 36
+2024-12-22 23:08:54 INFO     Trial 83 finished with value: 0.8677416666666667 and parameters: {'scale_pos_weight': 100, 'max_delta_step': 5.988193435357919, 'colsample_bytree': 0.9873048912164195, 'min_child_weight': 45.86865917509391, 'min_data_in_leaf': 4.28444042086931, 'lambda': 67.99145267702538, 'alpha': 13.690464677201039, 'max_depth': 9, 'eta': 0.9319057406055384, 'gamma': 3.1603422117432656}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:09:48 INFO     n_estimators: 40
+2024-12-22 23:09:48 INFO     Trial 84 finished with value: 0.8648576666666665 and parameters: {'scale_pos_weight': 100, 'max_delta_step': 5.723507046127051, 'colsample_bytree': 0.9877800450560181, 'min_child_weight': 45.96590004674396, 'min_data_in_leaf': 4.241141060619318, 'lambda': 66.60910437869836, 'alpha': 15.230077448979706, 'max_depth': 9, 'eta': 0.8202297079594102, 'gamma': 3.1356083763401696}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:10:30 INFO     Trial 85 pruned. Trial was pruned at iteration 69.
+2024-12-22 23:10:31 INFO     Trial 86 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:10:32 INFO     Trial 87 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:10:33 INFO     Trial 88 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:10:34 INFO     Trial 89 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:10:35 INFO     Trial 90 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:10:36 INFO     Trial 91 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:10:39 INFO     Trial 92 pruned. Trial was pruned at iteration 3.
+2024-12-22 23:10:40 INFO     Trial 93 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:10:41 INFO     Trial 94 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:11:31 INFO     n_estimators: 33
+2024-12-22 23:11:31 INFO     Trial 95 finished with value: 0.8743181666666667 and parameters: {'scale_pos_weight': 98, 'max_delta_step': 10.383769110171485, 'colsample_bytree': 0.9935641898623104, 'min_child_weight': 40.906237664401715, 'min_data_in_leaf': 3.873206437248003, 'lambda': 67.28842688631715, 'alpha': 15.365075453367881, 'max_depth': 9, 'eta': 1.1362206573178895, 'gamma': 3.5497319489301606}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:11:34 INFO     Trial 96 pruned. Trial was pruned at iteration 3.
+2024-12-22 23:11:35 INFO     Trial 97 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:11:38 INFO     Trial 98 pruned. Trial was pruned at iteration 3.
+2024-12-22 23:11:39 INFO     Trial 99 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:11:40 INFO     Trial 100 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:11:41 INFO     Trial 101 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:11:43 INFO     Trial 102 pruned. Trial was pruned at iteration 3.
+2024-12-22 23:11:45 INFO     Trial 103 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:12:35 INFO     n_estimators: 33
+2024-12-22 23:12:35 INFO     Trial 104 finished with value: 0.8759758333333333 and parameters: {'scale_pos_weight': 100, 'max_delta_step': 10.144352536772049, 'colsample_bytree': 0.9750862003084526, 'min_child_weight': 24.7491657379937, 'min_data_in_leaf': 4.631338384347451, 'lambda': 64.75896152698573, 'alpha': 12.4873843097116, 'max_depth': 9, 'eta': 0.922566624283037, 'gamma': 3.381059017172965}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:13:25 INFO     n_estimators: 33
+2024-12-22 23:13:25 INFO     Trial 105 finished with value: 0.8800539999999999 and parameters: {'scale_pos_weight': 84, 'max_delta_step': 20.968083042737046, 'colsample_bytree': 0.9764697839536066, 'min_child_weight': 25.935717454121992, 'min_data_in_leaf': 4.676722510388393, 'lambda': 64.16025970961009, 'alpha': 0.07902115581380897, 'max_depth': 9, 'eta': 0.909236023471623, 'gamma': 4.382758824672779}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:13:26 INFO     Trial 106 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:14:16 INFO     n_estimators: 31
+2024-12-22 23:14:16 INFO     Trial 107 finished with value: 0.8785578333333334 and parameters: {'scale_pos_weight': 90, 'max_delta_step': 21.300931179642657, 'colsample_bytree': 0.9771271791019746, 'min_child_weight': 23.235724976241162, 'min_data_in_leaf': 4.242039963683611, 'lambda': 66.09450459302452, 'alpha': 12.642449210169005, 'max_depth': 9, 'eta': 0.9643418467269482, 'gamma': 3.291746496043161}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:14:17 INFO     Trial 108 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:15:04 INFO     n_estimators: 28
+2024-12-22 23:15:04 INFO     Trial 109 finished with value: 0.8755824999999998 and parameters: {'scale_pos_weight': 96, 'max_delta_step': 20.64746768183385, 'colsample_bytree': 0.9782322761022318, 'min_child_weight': 28.90029594259749, 'min_data_in_leaf': 5.709257760584352, 'lambda': 76.7177637275186, 'alpha': 12.463452498710355, 'max_depth': 9, 'eta': 1.2500864468786528, 'gamma': 4.165724854447718}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:15:52 INFO     n_estimators: 30
+2024-12-22 23:15:52 INFO     Trial 110 finished with value: 0.8740651666666666 and parameters: {'scale_pos_weight': 91, 'max_delta_step': 9.934592699646883, 'colsample_bytree': 0.9946403257425613, 'min_child_weight': 28.99061031137268, 'min_data_in_leaf': 5.750659974709145, 'lambda': 55.188065129636804, 'alpha': 0.45091393985276795, 'max_depth': 9, 'eta': 0.9057384175180284, 'gamma': 4.772249014776455}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:16:37 INFO     n_estimators: 25
+2024-12-22 23:16:37 INFO     Trial 111 finished with value: 0.872448 and parameters: {'scale_pos_weight': 91, 'max_delta_step': 17.986390489327597, 'colsample_bytree': 0.9946270926989592, 'min_child_weight': 29.603592262205, 'min_data_in_leaf': 5.80520072675238, 'lambda': 55.163768158850274, 'alpha': 0.4062915425706209, 'max_depth': 9, 'eta': 0.9230274130576196, 'gamma': 4.879601611874603}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:16:39 INFO     Trial 112 pruned. Trial was pruned at iteration 2.
+2024-12-22 23:17:26 INFO     n_estimators: 27
+2024-12-22 23:17:26 INFO     Trial 113 finished with value: 0.8750031666666667 and parameters: {'scale_pos_weight': 90, 'max_delta_step': 20.952573948144053, 'colsample_bytree': 0.8831469641113106, 'min_child_weight': 21.41496347764383, 'min_data_in_leaf': 5.796819712723942, 'lambda': 60.67848036724078, 'alpha': 0.8065945958109355, 'max_depth': 9, 'eta': 0.9709394210040706, 'gamma': 5.073727520847569}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:17:27 INFO     Trial 114 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:17:29 INFO     Trial 115 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:17:29 INFO     Trial 116 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:18:15 INFO     n_estimators: 26
+2024-12-22 23:18:15 INFO     Trial 117 finished with value: 0.8829831666666665 and parameters: {'scale_pos_weight': 90, 'max_delta_step': 24.272332751197105, 'colsample_bytree': 0.8969722989810156, 'min_child_weight': 24.876381530538374, 'min_data_in_leaf': 6.095213709758246, 'lambda': 62.44140118873045, 'alpha': 4.260283735084685, 'max_depth': 9, 'eta': 1.2632115080307118, 'gamma': 4.709478957010406}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:18:16 INFO     Trial 118 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:19:04 INFO     n_estimators: 29
+2024-12-22 23:19:04 INFO     Trial 119 finished with value: 0.8788658333333332 and parameters: {'scale_pos_weight': 92, 'max_delta_step': 23.723161008398318, 'colsample_bytree': 0.8975068138546621, 'min_child_weight': 25.660261309311533, 'min_data_in_leaf': 4.884833262450272, 'lambda': 56.58963997653244, 'alpha': 7.520973267855844, 'max_depth': 9, 'eta': 1.2215593807495386, 'gamma': 5.104251976612978}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:19:48 INFO     n_estimators: 23
+2024-12-22 23:19:48 INFO     Trial 120 finished with value: 0.8745138333333332 and parameters: {'scale_pos_weight': 93, 'max_delta_step': 23.068947397101716, 'colsample_bytree': 0.8971627063908023, 'min_child_weight': 17.24957336800017, 'min_data_in_leaf': 4.621142049738534, 'lambda': 51.6185590282752, 'alpha': 7.154941224379464, 'max_depth': 9, 'eta': 1.229453432422881, 'gamma': 5.457480999179822}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:20:35 INFO     n_estimators: 28
+2024-12-22 23:20:35 INFO     Trial 121 finished with value: 0.8796868333333333 and parameters: {'scale_pos_weight': 93, 'max_delta_step': 22.153783696632264, 'colsample_bytree': 0.8982422621446965, 'min_child_weight': 19.389857081541024, 'min_data_in_leaf': 4.920797947372098, 'lambda': 62.1771444921713, 'alpha': 8.203740641643774, 'max_depth': 9, 'eta': 1.2500790019129646, 'gamma': 5.787519153721149}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:21:25 INFO     n_estimators: 32
+2024-12-22 23:21:25 INFO     Trial 122 finished with value: 0.8812315000000001 and parameters: {'scale_pos_weight': 93, 'max_delta_step': 23.07353741041677, 'colsample_bytree': 0.8977602695402169, 'min_child_weight': 20.099529104029692, 'min_data_in_leaf': 4.91010521980305, 'lambda': 61.958555679918064, 'alpha': 7.534377857813173, 'max_depth': 9, 'eta': 1.2470758669456876, 'gamma': 5.443000398901973}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:22:10 INFO     n_estimators: 25
+2024-12-22 23:22:10 INFO     Trial 123 finished with value: 0.8735721666666665 and parameters: {'scale_pos_weight': 93, 'max_delta_step': 22.462917651118232, 'colsample_bytree': 0.897524193009903, 'min_child_weight': 18.37625644949689, 'min_data_in_leaf': 4.764125569578168, 'lambda': 61.576903719613, 'alpha': 8.124864093306137, 'max_depth': 9, 'eta': 1.2982491666781182, 'gamma': 6.356315071203563}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:23:02 INFO     n_estimators: 36
+2024-12-22 23:23:02 INFO     Trial 124 finished with value: 0.8943835 and parameters: {'scale_pos_weight': 86, 'max_delta_step': 25.505560105067474, 'colsample_bytree': 0.9054990263897826, 'min_child_weight': 26.285139318269927, 'min_data_in_leaf': 5.021133631377394, 'lambda': 51.38240577340014, 'alpha': 11.306152994965998, 'max_depth': 9, 'eta': 1.7228291248925753, 'gamma': 5.491436862862086}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:23:03 INFO     Trial 125 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:23:56 INFO     n_estimators: 39
+2024-12-22 23:23:56 INFO     Trial 126 finished with value: 0.8949751666666667 and parameters: {'scale_pos_weight': 89, 'max_delta_step': 28.93523952419148, 'colsample_bytree': 0.8916212061556671, 'min_child_weight': 26.009208450861777, 'min_data_in_leaf': 4.905212150953702, 'lambda': 64.36716043409862, 'alpha': 5.359860557522529, 'max_depth': 9, 'eta': 1.7312600364913862, 'gamma': 5.847296405932326}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:23:58 INFO     Trial 127 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:23:59 INFO     Trial 128 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:24:00 INFO     Trial 129 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:24:51 INFO     n_estimators: 33
+2024-12-22 23:24:51 INFO     Trial 130 finished with value: 0.8986976666666666 and parameters: {'scale_pos_weight': 83, 'max_delta_step': 28.29990952514747, 'colsample_bytree': 0.913793926678022, 'min_child_weight': 14.788290709168864, 'min_data_in_leaf': 4.869261991008564, 'lambda': 59.28617310146619, 'alpha': 6.04834898596874, 'max_depth': 9, 'eta': 1.7019423559274771, 'gamma': 5.305181375821701}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:25:43 INFO     n_estimators: 36
+2024-12-22 23:25:43 INFO     Trial 131 finished with value: 0.8892644999999999 and parameters: {'scale_pos_weight': 83, 'max_delta_step': 27.20559693033134, 'colsample_bytree': 0.9135747147415104, 'min_child_weight': 25.603974395553244, 'min_data_in_leaf': 4.824675066387604, 'lambda': 65.40666500603605, 'alpha': 10.303136024013282, 'max_depth': 9, 'eta': 1.7185813977447981, 'gamma': 5.413226118161083}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:25:44 INFO     Trial 132 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:25:46 INFO     Trial 133 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:26:37 INFO     n_estimators: 35
+2024-12-22 23:26:37 INFO     Trial 134 finished with value: 0.8894810000000001 and parameters: {'scale_pos_weight': 82, 'max_delta_step': 29.858500725710382, 'colsample_bytree': 0.9003298119111238, 'min_child_weight': 15.231748229634931, 'min_data_in_leaf': 4.805770671132789, 'lambda': 69.77268249468396, 'alpha': 7.480772548220828, 'max_depth': 9, 'eta': 1.6068705285569616, 'gamma': 5.742924890263564}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:27:24 INFO     n_estimators: 28
+2024-12-22 23:27:24 INFO     Trial 135 finished with value: 0.8898151666666667 and parameters: {'scale_pos_weight': 77, 'max_delta_step': 36.10342151893864, 'colsample_bytree': 0.9024763456067854, 'min_child_weight': 14.63524976029689, 'min_data_in_leaf': 5.078966249085118, 'lambda': 69.28806663790266, 'alpha': 7.239635853251883, 'max_depth': 9, 'eta': 1.6559022779824466, 'gamma': 5.832622698597158}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:27:25 INFO     Trial 136 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:27:26 INFO     Trial 137 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:27:27 INFO     Trial 138 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:28:15 INFO     n_estimators: 29
+2024-12-22 23:28:15 INFO     Trial 139 finished with value: 0.8954468333333333 and parameters: {'scale_pos_weight': 71, 'max_delta_step': 30.694803978220587, 'colsample_bytree': 0.9130082517629633, 'min_child_weight': 13.414988110494694, 'min_data_in_leaf': 5.139325601908689, 'lambda': 56.41060928074991, 'alpha': 5.537242753081757, 'max_depth': 9, 'eta': 1.590724448573013, 'gamma': 5.367693677377635}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:29:05 INFO     n_estimators: 32
+2024-12-22 23:29:05 INFO     Trial 140 finished with value: 0.8967161666666666 and parameters: {'scale_pos_weight': 82, 'max_delta_step': 37.63306694620916, 'colsample_bytree': 0.9121490544685446, 'min_child_weight': 13.455376262331594, 'min_data_in_leaf': 5.199213867208977, 'lambda': 62.44493556647015, 'alpha': 5.520353187197028, 'max_depth': 9, 'eta': 1.6065750311820566, 'gamma': 5.745075125033821}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:29:53 INFO     n_estimators: 30
+2024-12-22 23:29:53 INFO     Trial 141 finished with value: 0.8939800000000001 and parameters: {'scale_pos_weight': 80, 'max_delta_step': 37.680637063326905, 'colsample_bytree': 0.9114242020442694, 'min_child_weight': 14.71315712400111, 'min_data_in_leaf': 5.247640949970707, 'lambda': 62.541067864907234, 'alpha': 3.5352047433290537, 'max_depth': 9, 'eta': 1.5065090470843137, 'gamma': 5.383481979354462}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:30:39 INFO     n_estimators: 27
+2024-12-22 23:30:39 INFO     Trial 142 finished with value: 0.8953905 and parameters: {'scale_pos_weight': 81, 'max_delta_step': 42.56107537248238, 'colsample_bytree': 0.9126198200397285, 'min_child_weight': 9.838426602650884, 'min_data_in_leaf': 5.256892213455242, 'lambda': 58.85208010318742, 'alpha': 5.0084976629332605, 'max_depth': 9, 'eta': 1.5972841796358728, 'gamma': 5.400354571129348}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:31:27 INFO     n_estimators: 30
+2024-12-22 23:31:27 INFO     Trial 143 finished with value: 0.8955953333333332 and parameters: {'scale_pos_weight': 81, 'max_delta_step': 39.7677370834137, 'colsample_bytree': 0.9127506254177377, 'min_child_weight': 13.217160038609128, 'min_data_in_leaf': 5.241355229137759, 'lambda': 59.016551740462845, 'alpha': 5.14393220930238, 'max_depth': 9, 'eta': 1.724472267551152, 'gamma': 6.20939035904189}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:32:20 INFO     n_estimators: 38
+2024-12-22 23:32:20 INFO     Trial 144 finished with value: 0.8989931666666666 and parameters: {'scale_pos_weight': 82, 'max_delta_step': 42.56640709668969, 'colsample_bytree': 0.9135947962812037, 'min_child_weight': 13.95427284116564, 'min_data_in_leaf': 5.50275741366749, 'lambda': 52.569398112406176, 'alpha': 5.173862921756555, 'max_depth': 9, 'eta': 1.6804839041129944, 'gamma': 5.455764498215683}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:33:07 INFO     n_estimators: 27
+2024-12-22 23:33:07 INFO     Trial 145 finished with value: 0.8980056666666666 and parameters: {'scale_pos_weight': 80, 'max_delta_step': 39.524123242688226, 'colsample_bytree': 0.9136293688702884, 'min_child_weight': 9.303868656688595, 'min_data_in_leaf': 5.167788400910333, 'lambda': 49.64930581204271, 'alpha': 4.962424216067662, 'max_depth': 9, 'eta': 1.6817300259213168, 'gamma': 6.764053621840469}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:33:09 INFO     Trial 146 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:34:01 INFO     n_estimators: 37
+2024-12-22 23:34:01 INFO     Trial 147 finished with value: 0.9000973333333332 and parameters: {'scale_pos_weight': 77, 'max_delta_step': 35.04673142973459, 'colsample_bytree': 0.9186193492995581, 'min_child_weight': 10.183488959831688, 'min_data_in_leaf': 5.5005170214519685, 'lambda': 50.32421946045061, 'alpha': 3.6536613225636096, 'max_depth': 9, 'eta': 1.7713722746699274, 'gamma': 6.581400822657017}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:34:02 INFO     Trial 148 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:34:04 INFO     Trial 149 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:34:05 INFO     Trial 150 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:34:58 INFO     n_estimators: 39
+2024-12-22 23:34:58 INFO     Trial 151 finished with value: 0.8981428333333333 and parameters: {'scale_pos_weight': 77, 'max_delta_step': 35.66592525135599, 'colsample_bytree': 0.909328702633799, 'min_child_weight': 7.727620391214549, 'min_data_in_leaf': 5.104724817107592, 'lambda': 52.52695682149748, 'alpha': 4.7662931005720495, 'max_depth': 9, 'eta': 1.8041605512735623, 'gamma': 6.512615462703432}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:35:00 INFO     Trial 152 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:36:02 INFO     n_estimators: 53
+2024-12-22 23:36:02 INFO     Trial 153 finished with value: 0.9019333333333335 and parameters: {'scale_pos_weight': 72, 'max_delta_step': 34.66663015766358, 'colsample_bytree': 0.9092744041696434, 'min_child_weight': 14.328542116649086, 'min_data_in_leaf': 5.352460830254021, 'lambda': 52.08466624447079, 'alpha': 2.320656037276012, 'max_depth': 9, 'eta': 1.759561561151592, 'gamma': 5.9891827999165415}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:36:03 INFO     Trial 154 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:36:05 INFO     Trial 155 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:36:51 INFO     n_estimators: 26
+2024-12-22 23:36:51 INFO     Trial 156 finished with value: 0.8919345 and parameters: {'scale_pos_weight': 66, 'max_delta_step': 44.57866570347119, 'colsample_bytree': 0.9057825312809562, 'min_child_weight': 9.60029618444129, 'min_data_in_leaf': 1.3585030995938032, 'lambda': 50.8369175663026, 'alpha': 2.624468518798048, 'max_depth': 9, 'eta': 1.5076281833934648, 'gamma': 6.076852630231677}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:37:36 INFO     n_estimators: 24
+2024-12-22 23:37:36 INFO     Trial 157 finished with value: 0.8897431666666668 and parameters: {'scale_pos_weight': 72, 'max_delta_step': 44.535989201462385, 'colsample_bytree': 0.9067091119982433, 'min_child_weight': 10.22810274614351, 'min_data_in_leaf': 5.153970099006148, 'lambda': 50.836216301218165, 'alpha': 2.366726134029614, 'max_depth': 9, 'eta': 1.4625390700278724, 'gamma': 6.431994567280437}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:37:38 INFO     Trial 158 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:37:40 INFO     Trial 159 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:37:41 INFO     Trial 160 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:38:26 INFO     n_estimators: 25
+2024-12-22 23:38:26 INFO     Trial 161 finished with value: 0.8936963333333333 and parameters: {'scale_pos_weight': 80, 'max_delta_step': 43.80998870032963, 'colsample_bytree': 0.9061711977440732, 'min_child_weight': 4.515987004489389, 'min_data_in_leaf': 5.170687331948231, 'lambda': 49.96977224078035, 'alpha': 2.078740444684862, 'max_depth': 9, 'eta': 1.485261380481011, 'gamma': 6.42543415994614}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:39:14 INFO     n_estimators: 29
+2024-12-22 23:39:14 INFO     Trial 162 finished with value: 0.8963168333333335 and parameters: {'scale_pos_weight': 78, 'max_delta_step': 37.104283364864536, 'colsample_bytree': 0.9172743958457446, 'min_child_weight': 4.257459049292267, 'min_data_in_leaf': 5.047013897099374, 'lambda': 49.5471513164835, 'alpha': 5.94914648567911, 'max_depth': 9, 'eta': 1.5601838146364269, 'gamma': 6.285653731414188}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:40:00 INFO     n_estimators: 27
+2024-12-22 23:40:00 INFO     Trial 163 finished with value: 0.8926601666666666 and parameters: {'scale_pos_weight': 80, 'max_delta_step': 44.97833771113415, 'colsample_bytree': 0.9152852250380238, 'min_child_weight': 4.454296741179945, 'min_data_in_leaf': 5.405429210522264, 'lambda': 47.22667101441418, 'alpha': 5.434698512724278, 'max_depth': 9, 'eta': 1.4716555771181303, 'gamma': 6.20176438192704}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:40:01 INFO     Trial 164 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:40:45 INFO     n_estimators: 23
+2024-12-22 23:40:45 INFO     Trial 165 finished with value: 0.8897946666666666 and parameters: {'scale_pos_weight': 79, 'max_delta_step': 37.38181948775925, 'colsample_bytree': 0.9163639668729284, 'min_child_weight': 5.161949306232398, 'min_data_in_leaf': 5.437277783862888, 'lambda': 47.689360106666186, 'alpha': 5.019259920128666, 'max_depth': 9, 'eta': 1.4452516380471856, 'gamma': 6.803951455545154}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:40:47 INFO     Trial 166 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:40:48 INFO     Trial 167 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:40:50 INFO     Trial 168 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:41:33 INFO     n_estimators: 22
+2024-12-22 23:41:33 INFO     Trial 169 finished with value: 0.8838181666666668 and parameters: {'scale_pos_weight': 79, 'max_delta_step': 43.05675546157147, 'colsample_bytree': 0.9083598543750783, 'min_child_weight': 4.570343389040062, 'min_data_in_leaf': 5.417815162883994, 'lambda': 55.73013908119055, 'alpha': 6.251521266902566, 'max_depth': 9, 'eta': 1.5189913100427437, 'gamma': 6.938372479573173}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:41:35 INFO     Trial 170 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:42:21 INFO     n_estimators: 27
+2024-12-22 23:42:21 INFO     Trial 171 finished with value: 0.8957378333333335 and parameters: {'scale_pos_weight': 71, 'max_delta_step': 43.922985070573546, 'colsample_bytree': 0.9042458386431272, 'min_child_weight': 10.25406828749559, 'min_data_in_leaf': 5.620364666182495, 'lambda': 50.65162279187936, 'alpha': 2.197213220870233, 'max_depth': 9, 'eta': 1.4642419177977395, 'gamma': 6.006602337147113}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:43:16 INFO     n_estimators: 41
+2024-12-22 23:43:16 INFO     Trial 172 finished with value: 0.9093468333333333 and parameters: {'scale_pos_weight': 72, 'max_delta_step': 41.296363708395795, 'colsample_bytree': 0.9141463506253349, 'min_child_weight': 16.60728221941729, 'min_data_in_leaf': 5.617733561638985, 'lambda': 46.68078623067269, 'alpha': 0.04548597714169533, 'max_depth': 9, 'eta': 1.6934751916080466, 'gamma': 5.3203451268931685}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:43:17 INFO     Trial 173 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:43:19 INFO     Trial 174 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:44:15 INFO     n_estimators: 44
+2024-12-22 23:44:15 INFO     Trial 175 finished with value: 0.904026 and parameters: {'scale_pos_weight': 68, 'max_delta_step': 31.792807825674455, 'colsample_bytree': 0.8928321467801081, 'min_child_weight': 13.599099187261608, 'min_data_in_leaf': 5.170241309465446, 'lambda': 53.5445184870174, 'alpha': 2.394274147761281, 'max_depth': 9, 'eta': 1.684705555226803, 'gamma': 5.365240993162313}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:44:17 INFO     Trial 176 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:45:09 INFO     n_estimators: 36
+2024-12-22 23:45:09 INFO     Trial 177 finished with value: 0.9020646666666666 and parameters: {'scale_pos_weight': 62, 'max_delta_step': 33.73924136311733, 'colsample_bytree': 0.9201675322449491, 'min_child_weight': 16.841800170289144, 'min_data_in_leaf': 4.988070176926324, 'lambda': 56.31305881247204, 'alpha': 3.4062106062158195, 'max_depth': 9, 'eta': 1.7189543410495602, 'gamma': 5.598594866026208}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:45:10 INFO     Trial 178 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:45:12 INFO     Trial 179 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:45:14 INFO     Trial 180 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:46:01 INFO     n_estimators: 30
+2024-12-22 23:46:02 INFO     Trial 181 finished with value: 0.8920988333333333 and parameters: {'scale_pos_weight': 73, 'max_delta_step': 37.464579032581305, 'colsample_bytree': 0.910305876570177, 'min_child_weight': 13.519652835806268, 'min_data_in_leaf': 5.29421748607766, 'lambda': 59.30318603482944, 'alpha': 2.810030448941702, 'max_depth': 9, 'eta': 1.3914705937932437, 'gamma': 5.257341093475966}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:46:51 INFO     n_estimators: 33
+2024-12-22 23:46:51 INFO     Trial 182 finished with value: 0.8954756666666667 and parameters: {'scale_pos_weight': 62, 'max_delta_step': 39.882600800095425, 'colsample_bytree': 0.918539809968324, 'min_child_weight': 11.911510900216992, 'min_data_in_leaf': 5.043033176498901, 'lambda': 56.71560219142738, 'alpha': 3.876470584131642, 'max_depth': 9, 'eta': 1.6336429609859493, 'gamma': 5.4459593650006095}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:47:56 INFO     n_estimators: 58
+2024-12-22 23:47:56 INFO     Trial 183 finished with value: 0.9033343333333334 and parameters: {'scale_pos_weight': 62, 'max_delta_step': 39.998666968790424, 'colsample_bytree': 0.9176680397170519, 'min_child_weight': 11.592144092854284, 'min_data_in_leaf': 4.679405373342837, 'lambda': 56.85076246920381, 'alpha': 0.23597885638107158, 'max_depth': 9, 'eta': 1.764124144314092, 'gamma': 5.719552685883256}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:47:57 INFO     Trial 184 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:47:59 INFO     Trial 185 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:48:49 INFO     n_estimators: 33
+2024-12-22 23:48:49 INFO     Trial 186 finished with value: 0.8953201666666667 and parameters: {'scale_pos_weight': 62, 'max_delta_step': 35.394514071752916, 'colsample_bytree': 0.915072639896314, 'min_child_weight': 12.818684266314524, 'min_data_in_leaf': 4.674445830227702, 'lambda': 56.290682847587, 'alpha': 4.280460983661379, 'max_depth': 9, 'eta': 1.6682423955009944, 'gamma': 5.961696233207536}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:49:36 INFO     n_estimators: 26
+2024-12-22 23:49:36 INFO     Trial 187 finished with value: 0.8937821666666667 and parameters: {'scale_pos_weight': 61, 'max_delta_step': 53.619796232670666, 'colsample_bytree': 0.9148731640274698, 'min_child_weight': 12.348095110023928, 'min_data_in_leaf': 4.685237045764256, 'lambda': 56.93068284100163, 'alpha': 0.0330969546995874, 'max_depth': 9, 'eta': 1.3402491304273618, 'gamma': 5.089649298726335}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:49:37 INFO     Trial 188 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:49:39 INFO     Trial 189 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:50:30 INFO     n_estimators: 34
+2024-12-22 23:50:30 INFO     Trial 190 finished with value: 0.9032478333333334 and parameters: {'scale_pos_weight': 66, 'max_delta_step': 34.28083932714289, 'colsample_bytree': 0.936463419713352, 'min_child_weight': 6.544269770344847, 'min_data_in_leaf': 5.09254667542968, 'lambda': 56.183396980925636, 'alpha': 2.084995003106587, 'max_depth': 9, 'eta': 1.5772648125585003, 'gamma': 5.691475469731401}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:51:18 INFO     n_estimators: 30
+2024-12-22 23:51:18 INFO     Trial 191 finished with value: 0.8963728333333334 and parameters: {'scale_pos_weight': 66, 'max_delta_step': 33.73207362010709, 'colsample_bytree': 0.9199328531235518, 'min_child_weight': 6.6658075054409185, 'min_data_in_leaf': 5.05683119770346, 'lambda': 56.85308369745198, 'alpha': 2.094603363379685, 'max_depth': 9, 'eta': 1.6165395619229495, 'gamma': 5.664043642227873}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:51:20 INFO     Trial 192 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:52:03 INFO     Trial 193 pruned. Trial was pruned at iteration 69.
+2024-12-22 23:52:49 INFO     n_estimators: 28
+2024-12-22 23:52:49 INFO     Trial 194 finished with value: 0.9011193333333333 and parameters: {'scale_pos_weight': 70, 'max_delta_step': 36.619880072486296, 'colsample_bytree': 0.9323833063335303, 'min_child_weight': 6.438757974272516, 'min_data_in_leaf': 5.208824582222972, 'lambda': 48.5319368276106, 'alpha': 2.7400957398496355, 'max_depth': 9, 'eta': 1.5780525711707754, 'gamma': 5.212964063136889}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:52:51 INFO     Trial 195 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:53:42 INFO     n_estimators: 34
+2024-12-22 23:53:42 INFO     Trial 196 finished with value: 0.9037846666666666 and parameters: {'scale_pos_weight': 71, 'max_delta_step': 31.421416294450776, 'colsample_bytree': 0.9411834117424219, 'min_child_weight': 7.078308369438373, 'min_data_in_leaf': 5.507042152293117, 'lambda': 46.29215868270783, 'alpha': 2.086614674391014, 'max_depth': 9, 'eta': 1.5810585182316508, 'gamma': 5.694329064363891}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:53:43 INFO     Trial 197 pruned. Trial was pruned at iteration 0.
+2024-12-22 23:54:15 INFO     Trial 198 pruned. Trial was pruned at iteration 51.
+2024-12-22 23:54:17 INFO     Trial 199 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:54:18 INFO     Trial 200 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:55:07 INFO     n_estimators: 32
+2024-12-22 23:55:07 INFO     Trial 201 finished with value: 0.8984168333333334 and parameters: {'scale_pos_weight': 71, 'max_delta_step': 31.16718580749508, 'colsample_bytree': 0.9290043493050751, 'min_child_weight': 15.611429003621765, 'min_data_in_leaf': 5.191797102934749, 'lambda': 52.050956490687305, 'alpha': 3.938888068758967, 'max_depth': 9, 'eta': 1.5585960835288517, 'gamma': 5.8525314063993665}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:55:52 INFO     n_estimators: 24
+2024-12-22 23:55:52 INFO     Trial 202 finished with value: 0.8968648333333333 and parameters: {'scale_pos_weight': 69, 'max_delta_step': 32.686501630223376, 'colsample_bytree': 0.9414378733532999, 'min_child_weight': 3.4237038075762847, 'min_data_in_leaf': 5.297419818918742, 'lambda': 51.51168442936835, 'alpha': 3.3113407686866285, 'max_depth': 9, 'eta': 1.570257373461191, 'gamma': 5.905460264024558}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:56:36 INFO     n_estimators: 23
+2024-12-22 23:56:36 INFO     Trial 203 finished with value: 0.894054 and parameters: {'scale_pos_weight': 73, 'max_delta_step': 31.386999270770385, 'colsample_bytree': 0.9395808707511646, 'min_child_weight': 3.0899855800567124, 'min_data_in_leaf': 5.3522348562556905, 'lambda': 51.065176568314094, 'alpha': 1.9377668542702517, 'max_depth': 9, 'eta': 1.4245625945474525, 'gamma': 5.917110408797802}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:56:37 INFO     Trial 204 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:57:23 INFO     n_estimators: 26
+2024-12-22 23:57:23 INFO     Trial 205 finished with value: 0.8974895000000002 and parameters: {'scale_pos_weight': 70, 'max_delta_step': 34.19372795299582, 'colsample_bytree': 0.92889377922781, 'min_child_weight': 6.171329302122724, 'min_data_in_leaf': 5.887887468473311, 'lambda': 53.232025657954814, 'alpha': 6.473633070371394, 'max_depth': 9, 'eta': 1.5980861094002274, 'gamma': 5.733322620221675}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:57:55 INFO     Trial 206 pruned. Trial was pruned at iteration 51.
+2024-12-22 23:57:58 INFO     Trial 207 pruned. Trial was pruned at iteration 3.
+2024-12-22 23:58:43 INFO     n_estimators: 26
+2024-12-22 23:58:44 INFO     Trial 208 finished with value: 0.8954523333333332 and parameters: {'scale_pos_weight': 65, 'max_delta_step': 35.9435651477377, 'colsample_bytree': 0.9340201545151676, 'min_child_weight': 8.759157340484037, 'min_data_in_leaf': 6.045064433626339, 'lambda': 50.11172969502503, 'alpha': 8.698943551330863, 'max_depth': 9, 'eta': 1.5831485937880514, 'gamma': 5.54495551293717}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-22 23:58:45 INFO     Trial 209 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:58:47 INFO     Trial 210 pruned. Trial was pruned at iteration 1.
+2024-12-22 23:59:32 INFO     Trial 211 pruned. Trial was pruned at iteration 75.
+2024-12-23 00:00:18 INFO     n_estimators: 26
+2024-12-23 00:00:18 INFO     Trial 212 finished with value: 0.8927718333333333 and parameters: {'scale_pos_weight': 69, 'max_delta_step': 33.77443194142198, 'colsample_bytree': 0.9374539670710188, 'min_child_weight': 14.192784568168713, 'min_data_in_leaf': 5.274626781986562, 'lambda': 49.17177808082903, 'alpha': 0.18692827738600304, 'max_depth': 9, 'eta': 1.529575813331119, 'gamma': 6.024236094926322}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:00:20 INFO     Trial 213 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:00:21 INFO     Trial 214 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:00:22 INFO     Trial 215 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:00:24 INFO     Trial 216 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:01:11 INFO     n_estimators: 28
+2024-12-23 00:01:11 INFO     Trial 217 finished with value: 0.8931393333333334 and parameters: {'scale_pos_weight': 73, 'max_delta_step': 30.155043985371172, 'colsample_bytree': 0.9184760002782119, 'min_child_weight': 14.305293365117507, 'min_data_in_leaf': 5.353492539556778, 'lambda': 53.444152049706396, 'alpha': 2.0999566135459413, 'max_depth': 9, 'eta': 1.5423449240533604, 'gamma': 6.304468503666741}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:01:55 INFO     Trial 218 pruned. Trial was pruned at iteration 71.
+2024-12-23 00:02:42 INFO     n_estimators: 28
+2024-12-23 00:02:42 INFO     Trial 219 finished with value: 0.8932263333333333 and parameters: {'scale_pos_weight': 71, 'max_delta_step': 38.5115479568037, 'colsample_bytree': 0.9024666116616424, 'min_child_weight': 3.805403074116203, 'min_data_in_leaf': 5.079608483220804, 'lambda': 55.490865789540365, 'alpha': 5.142684422905904, 'max_depth': 9, 'eta': 1.3781661447433244, 'gamma': 5.558956625433104}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:03:30 INFO     n_estimators: 30
+2024-12-23 00:03:30 INFO     Trial 220 finished with value: 0.9012531666666668 and parameters: {'scale_pos_weight': 67, 'max_delta_step': 32.03738985758914, 'colsample_bytree': 0.9145954795060786, 'min_child_weight': 18.466327963611096, 'min_data_in_leaf': 6.3447730370442175, 'lambda': 44.87707413589506, 'alpha': 3.516193496465873, 'max_depth': 9, 'eta': 1.6351018151871675, 'gamma': 5.900253018002219}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:04:19 INFO     n_estimators: 30
+2024-12-23 00:04:19 INFO     Trial 221 finished with value: 0.9025618333333333 and parameters: {'scale_pos_weight': 67, 'max_delta_step': 32.50514056356143, 'colsample_bytree': 0.9096933607913268, 'min_child_weight': 18.269620815230876, 'min_data_in_leaf': 5.186472845843573, 'lambda': 41.507882868402845, 'alpha': 2.710319662661407, 'max_depth': 9, 'eta': 1.6538197791687383, 'gamma': 5.822629851066882}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:05:07 INFO     n_estimators: 30
+2024-12-23 00:05:07 INFO     Trial 222 finished with value: 0.8978753333333334 and parameters: {'scale_pos_weight': 67, 'max_delta_step': 32.04965980550445, 'colsample_bytree': 0.9091368239477818, 'min_child_weight': 19.47377971944656, 'min_data_in_leaf': 6.610411510590065, 'lambda': 42.061492139012664, 'alpha': 2.9999319764088845, 'max_depth': 9, 'eta': 1.5875069200899816, 'gamma': 5.784290236901551}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:05:58 INFO     n_estimators: 34
+2024-12-23 00:05:58 INFO     Trial 223 finished with value: 0.9000386666666668 and parameters: {'scale_pos_weight': 64, 'max_delta_step': 32.08072601343361, 'colsample_bytree': 0.9152158065009343, 'min_child_weight': 20.18248378557847, 'min_data_in_leaf': 6.4539569012580165, 'lambda': 41.62816750371089, 'alpha': 3.876591243813453, 'max_depth': 9, 'eta': 1.6667655379079065, 'gamma': 5.789616494343122}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:05:59 INFO     Trial 224 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:06:01 INFO     Trial 225 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:06:57 INFO     n_estimators: 44
+2024-12-23 00:06:57 INFO     Trial 226 finished with value: 0.9054455 and parameters: {'scale_pos_weight': 64, 'max_delta_step': 32.07889553023553, 'colsample_bytree': 0.9402385146809158, 'min_child_weight': 21.60965499057292, 'min_data_in_leaf': 6.671083841537633, 'lambda': 40.67888920837363, 'alpha': 0.037049749865389, 'max_depth': 9, 'eta': 1.6651455516286702, 'gamma': 5.766304241466417}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:06:59 INFO     Trial 227 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:07:51 INFO     n_estimators: 36
+2024-12-23 00:07:51 INFO     Trial 228 finished with value: 0.9043920000000001 and parameters: {'scale_pos_weight': 61, 'max_delta_step': 29.844525813243663, 'colsample_bytree': 0.9410631302268306, 'min_child_weight': 19.0908684577309, 'min_data_in_leaf': 6.482007320320205, 'lambda': 42.73835424857683, 'alpha': 4.261165525604483, 'max_depth': 9, 'eta': 1.7211034008159363, 'gamma': 5.767227011743194}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:07:52 INFO     Trial 229 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:07:53 INFO     Trial 230 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:08:41 INFO     n_estimators: 30
+2024-12-23 00:08:42 INFO     Trial 231 finished with value: 0.9010661666666665 and parameters: {'scale_pos_weight': 60, 'max_delta_step': 31.40855015218221, 'colsample_bytree': 0.9375806859750262, 'min_child_weight': 17.221419543913914, 'min_data_in_leaf': 7.1802573174682545, 'lambda': 40.79054592183243, 'alpha': 6.439014379005904, 'max_depth': 9, 'eta': 1.6993787896449366, 'gamma': 5.727401179224894}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:09:33 INFO     n_estimators: 36
+2024-12-23 00:09:33 INFO     Trial 232 finished with value: 0.9015735 and parameters: {'scale_pos_weight': 60, 'max_delta_step': 31.10509625502286, 'colsample_bytree': 0.937449654614523, 'min_child_weight': 17.374230440978323, 'min_data_in_leaf': 7.06996819980728, 'lambda': 34.70968169810821, 'alpha': 7.3573759834108525, 'max_depth': 9, 'eta': 1.7400739222180939, 'gamma': 5.769481773266025}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:09:34 INFO     Trial 233 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:10:25 INFO     n_estimators: 34
+2024-12-23 00:10:25 INFO     Trial 234 finished with value: 0.9035703333333335 and parameters: {'scale_pos_weight': 59, 'max_delta_step': 26.797688702449555, 'colsample_bytree': 0.9394883017668767, 'min_child_weight': 19.323544819493964, 'min_data_in_leaf': 7.1526442106775034, 'lambda': 33.423216874209594, 'alpha': 6.75657530554321, 'max_depth': 9, 'eta': 1.7165121804144854, 'gamma': 5.515281335519205}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:10:26 INFO     Trial 235 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:11:14 INFO     n_estimators: 30
+2024-12-23 00:11:14 INFO     Trial 236 finished with value: 0.8979878333333334 and parameters: {'scale_pos_weight': 56, 'max_delta_step': 29.002406216275308, 'colsample_bytree': 0.9538549037723437, 'min_child_weight': 18.928651510235788, 'min_data_in_leaf': 7.262341519150819, 'lambda': 34.99352246444651, 'alpha': 10.451301158998508, 'max_depth': 9, 'eta': 1.7892295796933217, 'gamma': 5.517317749417476}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:11:19 INFO     Trial 237 pruned. Trial was pruned at iteration 5.
+2024-12-23 00:11:20 INFO     Trial 238 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:12:17 INFO     n_estimators: 46
+2024-12-23 00:12:17 INFO     Trial 239 finished with value: 0.9047015000000002 and parameters: {'scale_pos_weight': 56, 'max_delta_step': 29.48420327870288, 'colsample_bytree': 0.9340988915819357, 'min_child_weight': 20.98133471922576, 'min_data_in_leaf': 7.33582976848128, 'lambda': 28.344771975210076, 'alpha': 7.93500038950759, 'max_depth': 9, 'eta': 1.7817336837716093, 'gamma': 5.247583326858033}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:13:00 INFO     Trial 240 pruned. Trial was pruned at iteration 71.
+2024-12-23 00:13:58 INFO     n_estimators: 48
+2024-12-23 00:13:58 INFO     Trial 241 finished with value: 0.906 and parameters: {'scale_pos_weight': 56, 'max_delta_step': 29.06953561673053, 'colsample_bytree': 0.9515715514820979, 'min_child_weight': 21.09312714110987, 'min_data_in_leaf': 7.3538627699104495, 'lambda': 34.97285308020928, 'alpha': 6.550597340350454, 'max_depth': 9, 'eta': 1.7908177266400984, 'gamma': 5.240435207288629}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:14:51 INFO     n_estimators: 39
+2024-12-23 00:14:51 INFO     Trial 242 finished with value: 0.9012991666666667 and parameters: {'scale_pos_weight': 61, 'max_delta_step': 30.16621362477469, 'colsample_bytree': 0.950783599471404, 'min_child_weight': 21.199961489628155, 'min_data_in_leaf': 7.663240300842693, 'lambda': 34.5784991218363, 'alpha': 6.448207952929961, 'max_depth': 9, 'eta': 1.7043636243978244, 'gamma': 5.216568973277582}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:14:53 INFO     Trial 243 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:14:57 INFO     Trial 244 pruned. Trial was pruned at iteration 5.
+2024-12-23 00:14:58 INFO     Trial 245 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:15:51 INFO     n_estimators: 39
+2024-12-23 00:15:51 INFO     Trial 246 finished with value: 0.9036059999999999 and parameters: {'scale_pos_weight': 62, 'max_delta_step': 30.30120288248614, 'colsample_bytree': 0.9392756406313925, 'min_child_weight': 16.773828171376874, 'min_data_in_leaf': 7.668243646515496, 'lambda': 28.71237850271646, 'alpha': 8.441671190774272, 'max_depth': 9, 'eta': 1.743808101306121, 'gamma': 5.169595269636929}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:15:53 INFO     Trial 247 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:16:42 INFO     n_estimators: 31
+2024-12-23 00:16:42 INFO     Trial 248 finished with value: 0.9030686666666666 and parameters: {'scale_pos_weight': 61, 'max_delta_step': 28.704646980989157, 'colsample_bytree': 0.940687340651232, 'min_child_weight': 20.384197776479006, 'min_data_in_leaf': 7.113344920708918, 'lambda': 29.29365203048698, 'alpha': 7.329483483759455, 'max_depth': 9, 'eta': 1.662892712874755, 'gamma': 5.3457216010041595}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:16:44 INFO     Trial 249 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:17:34 INFO     n_estimators: 34
+2024-12-23 00:17:34 INFO     Trial 250 finished with value: 0.9030833333333333 and parameters: {'scale_pos_weight': 61, 'max_delta_step': 28.760195600839946, 'colsample_bytree': 0.946046516886374, 'min_child_weight': 22.54891942730428, 'min_data_in_leaf': 7.341784057310513, 'lambda': 27.628166501516407, 'alpha': 6.807376955313121, 'max_depth': 9, 'eta': 1.7213642525096273, 'gamma': 5.30028633175029}. Best is trial 16 with value: 0.9113156666666669.
+2024-12-23 00:17:39 INFO     Trial 251 pruned. Trial was pruned at iteration 6.
+2024-12-23 00:18:36 INFO     n_estimators: 45
+2024-12-23 00:18:36 INFO     Trial 252 finished with value: 0.9148525 and parameters: {'scale_pos_weight': 57, 'max_delta_step': 33.20504250807107, 'colsample_bytree': 0.9455630989749116, 'min_child_weight': 21.068761022295927, 'min_data_in_leaf': 7.065679014707297, 'lambda': 23.66104422649418, 'alpha': 0.12007466908082343, 'max_depth': 9, 'eta': 1.7168341647390848, 'gamma': 5.3515314040730155}. Best is trial 252 with value: 0.9148525.
+2024-12-23 00:18:37 INFO     Trial 253 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:18:39 INFO     Trial 254 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:18:40 INFO     Trial 255 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:18:42 INFO     Trial 256 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:19:27 INFO     n_estimators: 26
+2024-12-23 00:19:27 INFO     Trial 257 finished with value: 0.9019346666666666 and parameters: {'scale_pos_weight': 63, 'max_delta_step': 27.454946480206722, 'colsample_bytree': 0.9468814965490846, 'min_child_weight': 19.971640257607735, 'min_data_in_leaf': 6.805085661534868, 'lambda': 31.38032540930853, 'alpha': 0.1058674185660955, 'max_depth': 9, 'eta': 1.409294459696934, 'gamma': 5.180120439138179}. Best is trial 252 with value: 0.9148525.
+2024-12-23 00:19:32 INFO     Trial 258 pruned. Trial was pruned at iteration 6.
+2024-12-23 00:20:20 INFO     n_estimators: 29
+2024-12-23 00:20:20 INFO     Trial 259 finished with value: 0.9061878333333334 and parameters: {'scale_pos_weight': 57, 'max_delta_step': 27.646535014648652, 'colsample_bytree': 0.9393608595005902, 'min_child_weight': 17.881676475999186, 'min_data_in_leaf': 7.221906311136484, 'lambda': 24.594840069343995, 'alpha': 1.8971960777596606, 'max_depth': 9, 'eta': 1.4045601517270634, 'gamma': 4.852236079101743}. Best is trial 252 with value: 0.9148525.
+2024-12-23 00:21:06 INFO     n_estimators: 25
+2024-12-23 00:21:06 INFO     Trial 260 finished with value: 0.9020536666666666 and parameters: {'scale_pos_weight': 56, 'max_delta_step': 24.43557510854881, 'colsample_bytree': 0.9469975071331038, 'min_child_weight': 18.17722465042005, 'min_data_in_leaf': 7.227461602776566, 'lambda': 24.858906647522254, 'alpha': 1.378290832023028, 'max_depth': 9, 'eta': 1.38022863585502, 'gamma': 4.781020962784045}. Best is trial 252 with value: 0.9148525.
+2024-12-23 00:21:52 INFO     n_estimators: 28
+2024-12-23 00:21:52 INFO     Trial 261 finished with value: 0.8981656666666668 and parameters: {'scale_pos_weight': 57, 'max_delta_step': 24.183809076920962, 'colsample_bytree': 0.9466404724297395, 'min_child_weight': 18.95997929994325, 'min_data_in_leaf': 7.348905645994528, 'lambda': 24.40468572877299, 'alpha': 1.5803615788387146, 'max_depth': 9, 'eta': 1.327873375917468, 'gamma': 4.643764993666167}. Best is trial 252 with value: 0.9148525.
+2024-12-23 00:21:57 INFO     Trial 262 pruned. Trial was pruned at iteration 6.
+2024-12-23 00:22:43 INFO     n_estimators: 25
+2024-12-23 00:22:43 INFO     Trial 263 finished with value: 0.9005121666666667 and parameters: {'scale_pos_weight': 55, 'max_delta_step': 27.354746862760955, 'colsample_bytree': 0.9483825469792094, 'min_child_weight': 17.792490181712456, 'min_data_in_leaf': 6.729624051170623, 'lambda': 26.00171178970415, 'alpha': 1.9148624328186874, 'max_depth': 9, 'eta': 1.3995922019679365, 'gamma': 4.926866578688118}. Best is trial 252 with value: 0.9148525.
+2024-12-23 00:23:45 INFO     n_estimators: 50
+2024-12-23 00:23:45 INFO     Trial 264 finished with value: 0.9216606666666666 and parameters: {'scale_pos_weight': 63, 'max_delta_step': 64.15242190248044, 'colsample_bytree': 0.9403547847731073, 'min_child_weight': 23.958123390541722, 'min_data_in_leaf': 7.650433254767536, 'lambda': 30.481450111841443, 'alpha': 2.2912379661857116, 'max_depth': 9, 'eta': 1.4608961151970923, 'gamma': 1.8097306935421291}. Best is trial 264 with value: 0.9216606666666666.
+2024-12-23 00:23:46 INFO     Trial 265 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:24:58 INFO     n_estimators: 69
+2024-12-23 00:24:58 INFO     Trial 266 finished with value: 0.9326966666666667 and parameters: {'scale_pos_weight': 56, 'max_delta_step': 70.15763559492872, 'colsample_bytree': 0.9534402205137378, 'min_child_weight': 22.26851058525222, 'min_data_in_leaf': 7.65649402637406, 'lambda': 32.09232437189357, 'alpha': 2.7992469764403847, 'max_depth': 9, 'eta': 1.3870021301609012, 'gamma': 0.9246809189057286}. Best is trial 266 with value: 0.9326966666666667.
+2024-12-23 00:24:59 INFO     Trial 267 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:25:00 INFO     Trial 268 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:25:01 INFO     Trial 269 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:25:04 INFO     Trial 270 pruned. Trial was pruned at iteration 3.
+2024-12-23 00:25:05 INFO     Trial 271 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:25:07 INFO     Trial 272 pruned. Trial was pruned at iteration 2.
+2024-12-23 00:25:12 INFO     Trial 273 pruned. Trial was pruned at iteration 6.
+2024-12-23 00:25:13 INFO     Trial 274 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:25:15 INFO     Trial 275 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:26:25 INFO     n_estimators: 67
+2024-12-23 00:26:25 INFO     Trial 276 finished with value: 0.9364541666666667 and parameters: {'scale_pos_weight': 59, 'max_delta_step': 24.2263411175092, 'colsample_bytree': 0.9359337311582128, 'min_child_weight': 27.420468970416074, 'min_data_in_leaf': 7.51579761707078, 'lambda': 22.580039384608536, 'alpha': 0.07400840384427232, 'max_depth': 9, 'eta': 1.4631986088742048, 'gamma': 1.170341297032418}. Best is trial 276 with value: 0.9364541666666667.
+2024-12-23 00:26:28 INFO     Trial 277 pruned. Trial was pruned at iteration 2.
+2024-12-23 00:27:39 INFO     n_estimators: 68
+2024-12-23 00:27:39 INFO     Trial 278 finished with value: 0.9389871666666667 and parameters: {'scale_pos_weight': 56, 'max_delta_step': 25.30780930346015, 'colsample_bytree': 0.9389041893990775, 'min_child_weight': 27.090666668615498, 'min_data_in_leaf': 7.3386476373038425, 'lambda': 24.20481580516301, 'alpha': 0.12464005789863712, 'max_depth': 9, 'eta': 1.374658833665844, 'gamma': 0.9509753837198117}. Best is trial 278 with value: 0.9389871666666667.
+2024-12-23 00:27:44 INFO     Trial 279 pruned. Trial was pruned at iteration 7.
+2024-12-23 00:28:53 INFO     n_estimators: 66
+2024-12-23 00:28:53 INFO     Trial 280 finished with value: 0.936249 and parameters: {'scale_pos_weight': 56, 'max_delta_step': 24.101128445462948, 'colsample_bytree': 0.9383594678650544, 'min_child_weight': 27.621726452200797, 'min_data_in_leaf': 7.591550023523941, 'lambda': 24.105495509774848, 'alpha': 1.9670646620848458, 'max_depth': 9, 'eta': 1.4602166247089674, 'gamma': 1.1051479396926553}. Best is trial 278 with value: 0.9389871666666667.
+2024-12-23 00:28:55 INFO     Trial 281 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:30:21 INFO     n_estimators: 95
+2024-12-23 00:30:22 INFO     Trial 282 finished with value: 0.9413376666666666 and parameters: {'scale_pos_weight': 56, 'max_delta_step': 23.956412618159998, 'colsample_bytree': 0.9430251335229227, 'min_child_weight': 27.40863598831822, 'min_data_in_leaf': 8.265211758728823, 'lambda': 21.28919850755199, 'alpha': 0.049218739627798755, 'max_depth': 9, 'eta': 1.42815341658206, 'gamma': 0.8925373239438394}. Best is trial 282 with value: 0.9413376666666666.
+2024-12-23 00:31:26 INFO     Trial 283 pruned. Trial was pruned at iteration 105.
+2024-12-23 00:31:27 INFO     Trial 284 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:31:31 INFO     Trial 285 pruned. Trial was pruned at iteration 5.
+2024-12-23 00:31:32 INFO     Trial 286 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:31:34 INFO     Trial 287 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:31:36 INFO     Trial 288 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:32:51 INFO     n_estimators: 75
+2024-12-23 00:32:51 INFO     Trial 289 finished with value: 0.9375308333333333 and parameters: {'scale_pos_weight': 46, 'max_delta_step': 88.55745975433778, 'colsample_bytree': 0.9339262604080895, 'min_child_weight': 24.13586544670202, 'min_data_in_leaf': 7.2268054414315, 'lambda': 26.454398441474787, 'alpha': 4.552058203763199, 'max_depth': 9, 'eta': 1.5540057834619974, 'gamma': 0.7500774342378062}. Best is trial 282 with value: 0.9413376666666666.
+2024-12-23 00:33:52 INFO     Trial 290 pruned. Trial was pruned at iteration 99.
+2024-12-23 00:33:53 INFO     Trial 291 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:34:53 INFO     Trial 292 pruned. Trial was pruned at iteration 99.
+2024-12-23 00:34:54 INFO     Trial 293 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:34:56 INFO     Trial 294 pruned. Trial was pruned at iteration 2.
+2024-12-23 00:34:58 INFO     Trial 295 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:35:02 INFO     Trial 296 pruned. Trial was pruned at iteration 5.
+2024-12-23 00:35:03 INFO     Trial 297 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:35:04 INFO     Trial 298 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:36:32 INFO     n_estimators: 96
+2024-12-23 00:36:32 INFO     Trial 299 finished with value: 0.9448055000000002 and parameters: {'scale_pos_weight': 58, 'max_delta_step': 28.59493523243642, 'colsample_bytree': 0.9386212675251532, 'min_child_weight': 22.364727175478617, 'min_data_in_leaf': 7.438737413047956, 'lambda': 27.024330535275116, 'alpha': 5.168342917395438, 'max_depth': 9, 'eta': 1.4254604442829135, 'gamma': 0.32978804102227377}. Best is trial 299 with value: 0.9448055000000002.
+2024-12-23 00:36:38 INFO     Trial 300 pruned. Trial was pruned at iteration 7.
+2024-12-23 00:36:40 INFO     Trial 301 pruned. Trial was pruned at iteration 2.
+2024-12-23 00:36:41 INFO     Trial 302 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:36:48 INFO     Trial 303 pruned. Trial was pruned at iteration 9.
+2024-12-23 00:38:18 INFO     n_estimators: 100
+2024-12-23 00:38:18 INFO     Trial 304 finished with value: 0.9459723333333333 and parameters: {'scale_pos_weight': 54, 'max_delta_step': 29.202436686569147, 'colsample_bytree': 0.9337377100960856, 'min_child_weight': 26.068557743611645, 'min_data_in_leaf': 7.772490892460547, 'lambda': 17.48994092060195, 'alpha': 1.8338755362813997, 'max_depth': 9, 'eta': 1.2317604539881635, 'gamma': 0.5204492520871409}. Best is trial 304 with value: 0.9459723333333333.
+2024-12-23 00:38:20 INFO     Trial 305 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:38:21 INFO     Trial 306 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:38:25 INFO     Trial 307 pruned. Trial was pruned at iteration 5.
+2024-12-23 00:40:11 INFO     n_estimators: 127
+2024-12-23 00:40:11 INFO     Trial 308 finished with value: 0.9531333333333333 and parameters: {'scale_pos_weight': 58, 'max_delta_step': 29.178910563616128, 'colsample_bytree': 0.9452583264944125, 'min_child_weight': 23.690345582322017, 'min_data_in_leaf': 7.837138232418972, 'lambda': 16.318328282663725, 'alpha': 0.24222312886937775, 'max_depth': 9, 'eta': 1.410705842296613, 'gamma': 0.34395617672271506}. Best is trial 308 with value: 0.9531333333333333.
+2024-12-23 00:40:17 INFO     Trial 309 pruned. Trial was pruned at iteration 7.
+2024-12-23 00:40:18 INFO     Trial 310 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:42:08 INFO     n_estimators: 133
+2024-12-23 00:42:08 INFO     Trial 311 finished with value: 0.9505181666666666 and parameters: {'scale_pos_weight': 58, 'max_delta_step': 53.1264780972443, 'colsample_bytree': 0.9309759115139491, 'min_child_weight': 29.680417371527984, 'min_data_in_leaf': 7.838263596282168, 'lambda': 12.488702272880468, 'alpha': 0.17550904449692029, 'max_depth': 9, 'eta': 1.4070587136948416, 'gamma': 0.3920236811398622}. Best is trial 308 with value: 0.9531333333333333.
+2024-12-23 00:43:38 INFO     Trial 312 pruned. Trial was pruned at iteration 149.
+2024-12-23 00:43:39 INFO     Trial 313 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:43:41 INFO     Trial 314 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:43:43 INFO     Trial 315 pruned. Trial was pruned at iteration 3.
+2024-12-23 00:43:44 INFO     Trial 316 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:45:12 INFO     Trial 317 pruned. Trial was pruned at iteration 146.
+2024-12-23 00:46:09 INFO     Trial 318 pruned. Trial was pruned at iteration 94.
+2024-12-23 00:47:34 INFO     n_estimators: 92
+2024-12-23 00:47:34 INFO     Trial 319 finished with value: 0.9463373333333335 and parameters: {'scale_pos_weight': 54, 'max_delta_step': 73.9452546768068, 'colsample_bytree': 0.9427030700211799, 'min_child_weight': 23.002397312491226, 'min_data_in_leaf': 7.508551877113002, 'lambda': 12.190244414256192, 'alpha': 3.2904424098670004, 'max_depth': 9, 'eta': 1.5372301157576636, 'gamma': 0.36143052325490715}. Best is trial 308 with value: 0.9531333333333333.
+2024-12-23 00:49:42 INFO     n_estimators: 166
+2024-12-23 00:49:42 INFO     Trial 320 finished with value: 0.956525 and parameters: {'scale_pos_weight': 54, 'max_delta_step': 75.84106421095217, 'colsample_bytree': 0.9512033204014383, 'min_child_weight': 22.573150486730004, 'min_data_in_leaf': 7.437156585665786, 'lambda': 10.05276998303113, 'alpha': 0.011230164213200902, 'max_depth': 9, 'eta': 1.3164635235704405, 'gamma': 0.23861278125845065}. Best is trial 320 with value: 0.956525.
+2024-12-23 00:49:44 INFO     Trial 321 pruned. Trial was pruned at iteration 2.
+2024-12-23 00:50:54 INFO     Trial 322 pruned. Trial was pruned at iteration 115.
+2024-12-23 00:50:58 INFO     Trial 323 pruned. Trial was pruned at iteration 5.
+2024-12-23 00:52:14 INFO     Trial 324 pruned. Trial was pruned at iteration 125.
+2024-12-23 00:52:15 INFO     Trial 325 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:52:17 INFO     Trial 326 pruned. Trial was pruned at iteration 1.
+2024-12-23 00:53:45 INFO     Trial 327 pruned. Trial was pruned at iteration 146.
+2024-12-23 00:53:46 INFO     Trial 328 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:53:47 INFO     Trial 329 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:53:52 INFO     Trial 330 pruned. Trial was pruned at iteration 7.
+2024-12-23 00:54:58 INFO     Trial 331 pruned. Trial was pruned at iteration 108.
+2024-12-23 00:54:59 INFO     Trial 332 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:55:00 INFO     Trial 333 pruned. Trial was pruned at iteration 0.
+2024-12-23 00:58:25 INFO     n_estimators: 294
+2024-12-23 00:58:26 INFO     Trial 334 finished with value: 0.9600385 and parameters: {'scale_pos_weight': 51, 'max_delta_step': 24.470780285319087, 'colsample_bytree': 0.9536569079470629, 'min_child_weight': 20.684655863143757, 'min_data_in_leaf': 7.128287963026941, 'lambda': 18.014535458212098, 'alpha': 2.466729996269852, 'max_depth': 9, 'eta': 1.5865762428625438, 'gamma': 0.01295200272281316}. Best is trial 334 with value: 0.9600385.
+2024-12-23 01:00:17 INFO     Trial 335 pruned. Trial was pruned at iteration 182.
+2024-12-23 01:00:18 INFO     Trial 336 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:00:19 INFO     Trial 337 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:00:20 INFO     Trial 338 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:01:43 INFO     n_estimators: 90
+2024-12-23 01:01:43 INFO     Trial 339 finished with value: 0.9491186666666667 and parameters: {'scale_pos_weight': 52, 'max_delta_step': 61.533472929919775, 'colsample_bytree': 0.962793442031089, 'min_child_weight': 22.014789865239404, 'min_data_in_leaf': 7.599352772805658, 'lambda': 19.22653105445883, 'alpha': 0.01598751442482091, 'max_depth': 9, 'eta': 1.5803284369585395, 'gamma': 0.6493388140888052}. Best is trial 334 with value: 0.9600385.
+2024-12-23 01:01:45 INFO     Trial 340 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:01:46 INFO     Trial 341 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:02:47 INFO     Trial 342 pruned. Trial was pruned at iteration 99.
+2024-12-23 01:04:14 INFO     Trial 343 pruned. Trial was pruned at iteration 144.
+2024-12-23 01:04:15 INFO     Trial 344 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:04:17 INFO     Trial 345 pruned. Trial was pruned at iteration 2.
+2024-12-23 01:04:18 INFO     Trial 346 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:04:19 INFO     Trial 347 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:04:21 INFO     Trial 348 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:05:20 INFO     Trial 349 pruned. Trial was pruned at iteration 98.
+2024-12-23 01:05:25 INFO     Trial 350 pruned. Trial was pruned at iteration 6.
+2024-12-23 01:05:31 INFO     Trial 351 pruned. Trial was pruned at iteration 7.
+2024-12-23 01:05:32 INFO     Trial 352 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:05:35 INFO     Trial 353 pruned. Trial was pruned at iteration 3.
+2024-12-23 01:06:39 INFO     Trial 354 pruned. Trial was pruned at iteration 105.
+2024-12-23 01:06:45 INFO     Trial 355 pruned. Trial was pruned at iteration 7.
+2024-12-23 01:06:46 INFO     Trial 356 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:06:47 INFO     Trial 357 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:07:49 INFO     Trial 358 pruned. Trial was pruned at iteration 103.
+2024-12-23 01:07:55 INFO     Trial 359 pruned. Trial was pruned at iteration 7.
+2024-12-23 01:08:59 INFO     Trial 360 pruned. Trial was pruned at iteration 105.
+2024-12-23 01:09:00 INFO     Trial 361 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:09:02 INFO     Trial 362 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:09:03 INFO     Trial 363 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:09:04 INFO     Trial 364 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:09:06 INFO     Trial 365 pruned. Trial was pruned at iteration 2.
+2024-12-23 01:09:08 INFO     Trial 366 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:09:12 INFO     Trial 367 pruned. Trial was pruned at iteration 5.
+2024-12-23 01:09:22 INFO     Trial 368 pruned. Trial was pruned at iteration 13.
+2024-12-23 01:09:23 INFO     Trial 369 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:09:24 INFO     Trial 370 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:09:26 INFO     Trial 371 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:09:27 INFO     Trial 372 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:09:28 INFO     Trial 373 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:09:29 INFO     Trial 374 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:10:37 INFO     Trial 375 pruned. Trial was pruned at iteration 108.
+2024-12-23 01:10:38 INFO     Trial 376 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:10:39 INFO     Trial 377 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:10:41 INFO     Trial 378 pruned. Trial was pruned at iteration 2.
+2024-12-23 01:11:35 INFO     Trial 379 pruned. Trial was pruned at iteration 89.
+2024-12-23 01:11:36 INFO     Trial 380 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:12:30 INFO     Trial 381 pruned. Trial was pruned at iteration 89.
+2024-12-23 01:12:31 INFO     Trial 382 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:12:35 INFO     Trial 383 pruned. Trial was pruned at iteration 5.
+2024-12-23 01:14:24 INFO     Trial 384 pruned. Trial was pruned at iteration 182.
+2024-12-23 01:14:25 INFO     Trial 385 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:14:26 INFO     Trial 386 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:15:29 INFO     Trial 387 pruned. Trial was pruned at iteration 103.
+2024-12-23 01:16:19 INFO     n_estimators: 33
+2024-12-23 01:16:19 INFO     Trial 388 finished with value: 0.9122138333333334 and parameters: {'scale_pos_weight': 50, 'max_delta_step': 65.92604990483011, 'colsample_bytree': 0.9339244239676646, 'min_child_weight': 18.620228771297327, 'min_data_in_leaf': 7.802639640048153, 'lambda': 18.92054640686471, 'alpha': 7.584118562214064, 'max_depth': 9, 'eta': 1.4021838353785139, 'gamma': 2.766725314454615}. Best is trial 334 with value: 0.9600385.
+2024-12-23 01:16:20 INFO     Trial 389 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:17:09 INFO     Trial 390 pruned. Trial was pruned at iteration 80.
+2024-12-23 01:17:10 INFO     Trial 391 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:17:11 INFO     Trial 392 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:17:17 INFO     Trial 393 pruned. Trial was pruned at iteration 7.
+2024-12-23 01:18:18 INFO     Trial 394 pruned. Trial was pruned at iteration 99.
+2024-12-23 01:19:12 INFO     Trial 395 pruned. Trial was pruned at iteration 89.
+2024-12-23 01:19:13 INFO     Trial 396 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:20:17 INFO     Trial 397 pruned. Trial was pruned at iteration 105.
+2024-12-23 01:20:18 INFO     Trial 398 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:20:20 INFO     Trial 399 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:20:21 INFO     Trial 400 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:20:23 INFO     Trial 401 pruned. Trial was pruned at iteration 2.
+2024-12-23 01:20:25 INFO     Trial 402 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:20:27 INFO     Trial 403 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:20:28 INFO     Trial 404 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:20:29 INFO     Trial 405 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:21:45 INFO     Trial 406 pruned. Trial was pruned at iteration 125.
+2024-12-23 01:21:50 INFO     Trial 407 pruned. Trial was pruned at iteration 5.
+2024-12-23 01:22:45 INFO     Trial 408 pruned. Trial was pruned at iteration 90.
+2024-12-23 01:22:47 INFO     Trial 409 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:24:15 INFO     Trial 410 pruned. Trial was pruned at iteration 144.
+2024-12-23 01:25:10 INFO     Trial 411 pruned. Trial was pruned at iteration 90.
+2024-12-23 01:25:11 INFO     Trial 412 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:25:13 INFO     Trial 413 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:26:18 INFO     Trial 414 pruned. Trial was pruned at iteration 108.
+2024-12-23 01:27:12 INFO     Trial 415 pruned. Trial was pruned at iteration 89.
+2024-12-23 01:27:13 INFO     Trial 416 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:27:15 INFO     Trial 417 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:27:19 INFO     Trial 418 pruned. Trial was pruned at iteration 5.
+2024-12-23 01:27:23 INFO     Trial 419 pruned. Trial was pruned at iteration 5.
+2024-12-23 01:28:16 INFO     Trial 420 pruned. Trial was pruned at iteration 88.
+2024-12-23 01:28:17 INFO     Trial 421 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:28:19 INFO     Trial 422 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:28:20 INFO     Trial 423 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:28:22 INFO     Trial 424 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:28:23 INFO     Trial 425 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:28:26 INFO     Trial 426 pruned. Trial was pruned at iteration 3.
+2024-12-23 01:28:57 INFO     Trial 427 pruned. Trial was pruned at iteration 51.
+2024-12-23 01:28:58 INFO     Trial 428 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:29:00 INFO     Trial 429 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:29:44 INFO     n_estimators: 25
+2024-12-23 01:29:45 INFO     Trial 430 finished with value: 0.8979101666666667 and parameters: {'scale_pos_weight': 59, 'max_delta_step': 71.98067478133271, 'colsample_bytree': 0.9470278264418239, 'min_child_weight': 21.58560454725203, 'min_data_in_leaf': 3.6606818329312274, 'lambda': 23.424225676153746, 'alpha': 3.1186952583739758, 'max_depth': 9, 'eta': 1.3146222662098475, 'gamma': 5.012107661668911}. Best is trial 334 with value: 0.9600385.
+2024-12-23 01:29:50 INFO     Trial 431 pruned. Trial was pruned at iteration 7.
+2024-12-23 01:29:52 INFO     Trial 432 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:30:45 INFO     Trial 433 pruned. Trial was pruned at iteration 88.
+2024-12-23 01:30:46 INFO     Trial 434 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:30:47 INFO     Trial 435 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:30:49 INFO     Trial 436 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:30:51 INFO     Trial 437 pruned. Trial was pruned at iteration 3.
+2024-12-23 01:30:57 INFO     Trial 438 pruned. Trial was pruned at iteration 7.
+2024-12-23 01:30:59 INFO     Trial 439 pruned. Trial was pruned at iteration 2.
+2024-12-23 01:31:00 INFO     Trial 440 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:31:04 INFO     Trial 441 pruned. Trial was pruned at iteration 5.
+2024-12-23 01:31:06 INFO     Trial 442 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:32:56 INFO     Trial 443 pruned. Trial was pruned at iteration 182.
+2024-12-23 01:32:57 INFO     Trial 444 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:33:51 INFO     Trial 445 pruned. Trial was pruned at iteration 89.
+2024-12-23 01:33:52 INFO     Trial 446 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:34:47 INFO     Trial 447 pruned. Trial was pruned at iteration 90.
+2024-12-23 01:34:48 INFO     Trial 448 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:34:49 INFO     Trial 449 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:34:50 INFO     Trial 450 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:34:51 INFO     Trial 451 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:34:54 INFO     Trial 452 pruned. Trial was pruned at iteration 3.
+2024-12-23 01:34:55 INFO     Trial 453 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:34:56 INFO     Trial 454 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:36:01 INFO     Trial 455 pruned. Trial was pruned at iteration 108.
+2024-12-23 01:36:02 INFO     Trial 456 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:37:05 INFO     Trial 457 pruned. Trial was pruned at iteration 103.
+2024-12-23 01:37:10 INFO     Trial 458 pruned. Trial was pruned at iteration 5.
+2024-12-23 01:37:14 INFO     Trial 459 pruned. Trial was pruned at iteration 5.
+2024-12-23 01:38:08 INFO     Trial 460 pruned. Trial was pruned at iteration 89.
+2024-12-23 01:38:09 INFO     Trial 461 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:38:10 INFO     Trial 462 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:38:11 INFO     Trial 463 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:38:12 INFO     Trial 464 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:39:39 INFO     Trial 465 pruned. Trial was pruned at iteration 144.
+2024-12-23 01:40:34 INFO     Trial 466 pruned. Trial was pruned at iteration 90.
+2024-12-23 01:40:35 INFO     Trial 467 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:41:28 INFO     Trial 468 pruned. Trial was pruned at iteration 88.
+2024-12-23 01:41:29 INFO     Trial 469 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:42:22 INFO     n_estimators: 38
+2024-12-23 01:42:22 INFO     Trial 470 finished with value: 0.919175 and parameters: {'scale_pos_weight': 61, 'max_delta_step': 27.80844514418588, 'colsample_bytree': 0.9338219648298618, 'min_child_weight': 20.39984341634008, 'min_data_in_leaf': 7.34124322605699, 'lambda': 16.20105432823408, 'alpha': 0.013464770467434252, 'max_depth': 9, 'eta': 1.329161432969461, 'gamma': 2.8140371634492882}. Best is trial 334 with value: 0.9600385.
+2024-12-23 01:42:26 INFO     Trial 471 pruned. Trial was pruned at iteration 6.
+2024-12-23 01:42:28 INFO     Trial 472 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:42:29 INFO     Trial 473 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:42:30 INFO     Trial 474 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:42:32 INFO     Trial 475 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:42:33 INFO     Trial 476 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:42:35 INFO     Trial 477 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:42:36 INFO     Trial 478 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:42:37 INFO     Trial 479 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:43:24 INFO     n_estimators: 28
+2024-12-23 01:43:24 INFO     Trial 480 finished with value: 0.9089448333333333 and parameters: {'scale_pos_weight': 54, 'max_delta_step': 29.473318438799176, 'colsample_bytree': 0.9258298848015301, 'min_child_weight': 18.3449064581204, 'min_data_in_leaf': 7.7145210072126496, 'lambda': 26.104733393662308, 'alpha': 1.6753676176527297, 'max_depth': 9, 'eta': 1.5314585285128774, 'gamma': 3.9348561980268064}. Best is trial 334 with value: 0.9600385.
+2024-12-23 01:43:25 INFO     Trial 481 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:43:27 INFO     Trial 482 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:43:28 INFO     Trial 483 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:43:29 INFO     Trial 484 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:43:31 INFO     Trial 485 pruned. Trial was pruned at iteration 2.
+2024-12-23 01:44:17 INFO     n_estimators: 26
+2024-12-23 01:44:17 INFO     Trial 486 finished with value: 0.9016661666666667 and parameters: {'scale_pos_weight': 55, 'max_delta_step': 64.93303947526726, 'colsample_bytree': 0.9319694747391787, 'min_child_weight': 19.4017688674389, 'min_data_in_leaf': 7.450227371964356, 'lambda': 22.20604781829526, 'alpha': 3.676738322684362, 'max_depth': 9, 'eta': 1.3473253585496687, 'gamma': 4.1323652065657175}. Best is trial 334 with value: 0.9600385.
+2024-12-23 01:49:49 INFO     n_estimators: 509
+2024-12-23 01:49:49 INFO     Trial 487 finished with value: 0.9625968333333333 and parameters: {'scale_pos_weight': 50, 'max_delta_step': 59.96162989895781, 'colsample_bytree': 0.9344396540992603, 'min_child_weight': 23.905059311405143, 'min_data_in_leaf': 7.961083828857931, 'lambda': 30.172466417660374, 'alpha': 2.3692927455652693, 'max_depth': 9, 'eta': 1.5529730462534335, 'gamma': 0.0014241944545431706}. Best is trial 487 with value: 0.9625968333333333.
+2024-12-23 01:49:51 INFO     Trial 488 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:49:55 INFO     Trial 489 pruned. Trial was pruned at iteration 5.
+2024-12-23 01:49:56 INFO     Trial 490 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:50:02 INFO     Trial 491 pruned. Trial was pruned at iteration 8.
+2024-12-23 01:50:03 INFO     Trial 492 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:50:56 INFO     Trial 493 pruned. Trial was pruned at iteration 88.
+2024-12-23 01:50:57 INFO     Trial 494 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:51:45 INFO     n_estimators: 30
+2024-12-23 01:51:45 INFO     Trial 495 finished with value: 0.9136038333333333 and parameters: {'scale_pos_weight': 51, 'max_delta_step': 63.82000483644729, 'colsample_bytree': 0.9527334398645468, 'min_child_weight': 17.48160604556984, 'min_data_in_leaf': 7.71705004975587, 'lambda': 30.09966440594214, 'alpha': 3.514358254144195, 'max_depth': 9, 'eta': 1.4680233361007535, 'gamma': 2.247849494233343}. Best is trial 487 with value: 0.9625968333333333.
+2024-12-23 01:52:37 INFO     n_estimators: 38
+2024-12-23 01:52:37 INFO     Trial 496 finished with value: 0.9147975 and parameters: {'scale_pos_weight': 51, 'max_delta_step': 63.99225313973322, 'colsample_bytree': 0.9552934332205604, 'min_child_weight': 15.142613838502466, 'min_data_in_leaf': 8.463383386735165, 'lambda': 30.04681998271342, 'alpha': 4.935673348119518, 'max_depth': 9, 'eta': 1.3267213524530292, 'gamma': 2.208368073937513}. Best is trial 487 with value: 0.9625968333333333.
+2024-12-23 01:52:39 INFO     Trial 497 pruned. Trial was pruned at iteration 1.
+2024-12-23 01:52:40 INFO     Trial 498 pruned. Trial was pruned at iteration 0.
+2024-12-23 01:53:32 INFO     n_estimators: 38
+2024-12-23 01:53:32 INFO     Trial 499 finished with value: 0.9196538333333333 and parameters: {'scale_pos_weight': 50, 'max_delta_step': 60.160734854197685, 'colsample_bytree': 0.9559750071003728, 'min_child_weight': 13.532398679173884, 'min_data_in_leaf': 8.431416886842758, 'lambda': 27.53661793823169, 'alpha': 3.447161688847829, 'max_depth': 9, 'eta': 1.3686024024147032, 'gamma': 2.235459713170893}. Best is trial 487 with value: 0.9625968333333333.
+2024-12-24 09:43:12 INFO     A new study created in RDB with name: xgboost-starbucks-irr_with_v2-scaled_dvals
+2024-12-24 09:43:12 WARNING  Trial 0 failed with parameters: {'scale_pos_weight': 56, 'max_delta_step': 62.805341464179044, 'colsample_bytree': 0.8706865731204669, 'min_child_weight': 32.70078286604649, 'min_data_in_leaf': 5.48099215173284, 'lambda': 97.95270509128005, 'alpha': 59.28002000241452, 'max_depth': 8, 'eta': 7.829571945644888, 'gamma': 9.717333424133002} because of the following error: TypeError("cv() got an unexpected keyword argument 'evals'").
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/optuna/study/_optimize.py", line 197, in _run_trial
+    value_or_values = func(trial)
+  File "/var/folders/4p/r9m3gynn3wj6h4yh4_lwz5fw0000gn/T/ipykernel_1107/1036370366.py", line 9, in <lambda>
+    study.optimize(lambda trial: objective(trial,
+  File "/var/folders/4p/r9m3gynn3wj6h4yh4_lwz5fw0000gn/T/ipykernel_1107/3236460732.py", line 40, in objective
+    xgb_cv_results = xgb.cv(
+TypeError: cv() got an unexpected keyword argument 'evals'
+2024-12-24 09:43:12 WARNING  Trial 0 failed with value None.
+2024-12-29 16:50:49 INFO     Using an existing study with name 'xgboost-starbucks-irr_with_v2-scaled_dvals' instead of creating a new one.
+2024-12-29 16:50:50 WARNING  Trial 1 failed with parameters: {'scale_pos_weight': 15, 'max_delta_step': 52.70377283576158, 'colsample_bytree': 0.9955700263848827, 'min_child_weight': 10.067819329444953, 'min_data_in_leaf': 4.184534123365264, 'lambda': 55.57921931784164, 'alpha': 98.50712674380426, 'max_depth': 5, 'eta': 1.3713326297013742, 'gamma': 1.1213815346321656} because of the following error: TypeError("cv() got an unexpected keyword argument 'evals'").
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/optuna/study/_optimize.py", line 197, in _run_trial
+    value_or_values = func(trial)
+  File "/var/folders/4p/r9m3gynn3wj6h4yh4_lwz5fw0000gn/T/ipykernel_1107/1036370366.py", line 9, in <lambda>
+    study.optimize(lambda trial: objective(trial,
+  File "/var/folders/4p/r9m3gynn3wj6h4yh4_lwz5fw0000gn/T/ipykernel_1107/3236460732.py", line 40, in objective
+    xgb_cv_results = xgb.cv(
+TypeError: cv() got an unexpected keyword argument 'evals'
+2024-12-29 16:50:50 WARNING  Trial 1 failed with value None.
+2024-12-29 16:51:44 INFO     Using an existing study with name 'xgboost-starbucks-irr_with_v2-scaled_dvals' instead of creating a new one.
+2024-12-29 16:51:45 WARNING  Trial 2 failed with parameters: {'scale_pos_weight': 45, 'max_delta_step': 99.68165111112212, 'colsample_bytree': 0.9254558663424357, 'min_child_weight': 88.06212754236502, 'min_data_in_leaf': 7.910891757122986, 'lambda': 72.42934524726277, 'alpha': 41.39671615583967, 'max_depth': 8, 'eta': 3.10383601094844, 'gamma': 9.320732188736256} because of the following error: KeyError('validation-irr_score').
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/optuna/study/_optimize.py", line 197, in _run_trial
+    value_or_values = func(trial)
+  File "/var/folders/4p/r9m3gynn3wj6h4yh4_lwz5fw0000gn/T/ipykernel_1107/1036370366.py", line 9, in <lambda>
+    study.optimize(lambda trial: objective(trial,
+  File "/var/folders/4p/r9m3gynn3wj6h4yh4_lwz5fw0000gn/T/ipykernel_1107/782331000.py", line 40, in objective
+    xgb_cv_results = xgb.cv(
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/xgboost/training.py", line 572, in cv
+    should_break = callbacks_container.after_iteration(booster, i, dtrain, None)
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/xgboost/callback.py", line 261, in after_iteration
+    ret = any(c.after_iteration(model, epoch, self.history) for c in self.callbacks)
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/xgboost/callback.py", line 261, in <genexpr>
+    ret = any(c.after_iteration(model, epoch, self.history) for c in self.callbacks)
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/optuna_integration/xgboost/xgboost.py", line 75, in after_iteration
+    current_score = evaluation_results[self._observation_key]
+KeyError: 'validation-irr_score'
+2024-12-29 16:51:45 WARNING  Trial 2 failed with value None.
+2024-12-29 18:14:14 INFO     A new study created in RDB with name: xgboost-starbucks-irr_with_v2-scaled_adjusted_parms
+2024-12-29 18:24:27 WARNING  Trial 0 failed with parameters: {'max_delta_step': 84.00197096776677, 'colsample_bytree': 0.6834877261120957, 'subsample': 0.5014930638943182, 'min_child_weight': 197.29775121626162, 'min_data_in_leaf': 4.856904643947074, 'lambda': 2.0380089092133833, 'alpha': 0.3262964488468695, 'max_depth': 3, 'eta': 0.0668508458493947, 'gamma': 0.21470682802057028} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/optuna/study/_optimize.py", line 197, in _run_trial
+    value_or_values = func(trial)
+  File "/var/folders/4p/r9m3gynn3wj6h4yh4_lwz5fw0000gn/T/ipykernel_1107/1036370366.py", line 9, in <lambda>
+    study.optimize(lambda trial: objective(trial,
+  File "/var/folders/4p/r9m3gynn3wj6h4yh4_lwz5fw0000gn/T/ipykernel_1107/536293354.py", line 41, in objective
+    xgb_cv_results = xgb.cv(
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/xgboost/training.py", line 572, in cv
+    should_break = callbacks_container.after_iteration(booster, i, dtrain, None)
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/xgboost/callback.py", line 250, in after_iteration
+    scores = model.eval(epoch, self.metric, self._output_margin)
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/xgboost/training.py", line 235, in eval
+    result = [f.eval(iteration, feval, output_margin) for f in self.cvfolds]
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/xgboost/training.py", line 235, in <listcomp>
+    result = [f.eval(iteration, feval, output_margin) for f in self.cvfolds]
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/xgboost/training.py", line 219, in eval
+    return self.bst.eval_set(self.watchlist, iteration, feval, output_margin)
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/xgboost/core.py", line 2212, in eval_set
+    _LIB.XGBoosterEvalOneIter(
+KeyboardInterrupt
+2024-12-29 18:24:27 WARNING  Trial 0 failed with value None.
+2024-12-29 18:25:25 INFO     Using an existing study with name 'xgboost-starbucks-irr_with_v2-scaled_adjusted_parms' instead of creating a new one.
+2024-12-29 18:36:53 INFO     n_estimators: 1373
+2024-12-29 18:36:54 INFO     Trial 1 finished with value: 0.7617543999999998 and parameters: {'max_delta_step': 8.677839590153996, 'colsample_bytree': 0.5688456815916123, 'subsample': 0.9708467155349719, 'min_child_weight': 59.30943795823171, 'min_data_in_leaf': 5.2443732131604435, 'lambda': 0.9280572536604477, 'alpha': 9.969189901954538, 'max_depth': 5, 'eta': 0.04412740899635342, 'gamma': 6.47218910509099}. Best is trial 1 with value: 0.7617543999999998.
+2024-12-29 18:54:28 INFO     n_estimators: 2076
+2024-12-29 18:54:28 INFO     Trial 2 finished with value: 0.8324474000000001 and parameters: {'max_delta_step': 8.673864426345364, 'colsample_bytree': 0.8738026598851021, 'subsample': 0.7442628394613067, 'min_child_weight': 181.4888839432614, 'min_data_in_leaf': 3.80440732574938, 'lambda': 4.647990805571307, 'alpha': 3.893533192297541, 'max_depth': 6, 'eta': 0.07064161917235207, 'gamma': 6.239671252470028}. Best is trial 2 with value: 0.8324474000000001.
+2024-12-29 19:26:09 INFO     n_estimators: 3721
+2024-12-29 19:26:09 INFO     Trial 3 finished with value: 0.7422704 and parameters: {'max_delta_step': 9.693785272163364, 'colsample_bytree': 0.7240343239138411, 'subsample': 0.5285417367624329, 'min_child_weight': 223.66800455491102, 'min_data_in_leaf': 1.6832257231472245, 'lambda': 2.7621609225179564, 'alpha': 2.636044885434515, 'max_depth': 2, 'eta': 0.07121691159052719, 'gamma': 8.454812846813326}. Best is trial 2 with value: 0.8324474000000001.
+2024-12-29 19:40:42 INFO     n_estimators: 1831
+2024-12-29 19:40:42 INFO     Trial 4 finished with value: 0.7688774 and parameters: {'max_delta_step': 4.81762483770771, 'colsample_bytree': 0.6743588312186672, 'subsample': 0.7660233475956402, 'min_child_weight': 224.1078447908325, 'min_data_in_leaf': 4.979377253805253, 'lambda': 5.629005933998971, 'alpha': 6.223287485673006, 'max_depth': 5, 'eta': 0.06841450511015665, 'gamma': 9.466412228170684}. Best is trial 2 with value: 0.8324474000000001.
+2024-12-29 21:22:40 INFO     n_estimators: 10000
+2024-12-29 21:22:41 INFO     Trial 5 finished with value: 0.7407216 and parameters: {'max_delta_step': 3.5171253260793898, 'colsample_bytree': 0.8840044533940605, 'subsample': 0.5023066519438595, 'min_child_weight': 140.95537918516837, 'min_data_in_leaf': 6.443872085590011, 'lambda': 3.7539090992408712, 'alpha': 5.976168461480536, 'max_depth': 3, 'eta': 0.006829296091126664, 'gamma': 3.6104536042143023}. Best is trial 2 with value: 0.8324474000000001.
+2024-12-29 21:22:42 INFO     Trial 6 pruned. Trial was pruned at iteration 0.
+2024-12-29 21:22:43 INFO     Trial 7 pruned. Trial was pruned at iteration 0.
+2024-12-29 21:22:43 INFO     Trial 8 pruned. Trial was pruned at iteration 0.
+2024-12-29 21:47:51 INFO     n_estimators: 3055
+2024-12-29 21:47:51 INFO     Trial 9 finished with value: 0.8469215999999999 and parameters: {'max_delta_step': 4.208370170430255, 'colsample_bytree': 0.9549420377207943, 'subsample': 0.8612495983394364, 'min_child_weight': 298.94748047316546, 'min_data_in_leaf': 9.149876287454417, 'lambda': 3.7731565393893325, 'alpha': 3.8894772217403553, 'max_depth': 6, 'eta': 0.09259193372674752, 'gamma': 3.8847005403831467}. Best is trial 9 with value: 0.8469215999999999.
+2024-12-29 21:47:52 INFO     Trial 10 pruned. Trial was pruned at iteration 0.
+2024-12-29 22:18:58 INFO     n_estimators: 3675
+2024-12-29 22:18:58 INFO     Trial 11 finished with value: 0.8954243999999999 and parameters: {'max_delta_step': 1.8394811731741898, 'colsample_bytree': 0.9869941243334255, 'subsample': 0.9949437202372483, 'min_child_weight': 298.0217771003229, 'min_data_in_leaf': 9.41167217285081, 'lambda': 0.5543913305059074, 'alpha': 0.7016675777675689, 'max_depth': 7, 'eta': 0.09512194045499275, 'gamma': 0.022986426621252054}. Best is trial 11 with value: 0.8954243999999999.
+2024-12-29 22:49:38 INFO     n_estimators: 3638
+2024-12-29 22:49:38 INFO     Trial 12 finished with value: 0.8976112 and parameters: {'max_delta_step': 1.0998456515690447, 'colsample_bytree': 0.9924778409541383, 'subsample': 0.9661447375746868, 'min_child_weight': 299.8667808069195, 'min_data_in_leaf': 9.754938449604277, 'lambda': 0.557934361908516, 'alpha': 0.04134897766584267, 'max_depth': 7, 'eta': 0.09673850153903306, 'gamma': 0.10199724524768161}. Best is trial 12 with value: 0.8976112.
+2024-12-29 23:23:35 INFO     n_estimators: 3966
+2024-12-29 23:23:36 INFO     Trial 13 finished with value: 0.8998267999999999 and parameters: {'max_delta_step': 1.2351144615676466, 'colsample_bytree': 0.9885074751244826, 'subsample': 0.9927827199164916, 'min_child_weight': 297.016867032295, 'min_data_in_leaf': 7.838745640597308, 'lambda': 0.9202548432525088, 'alpha': 0.22841569662577405, 'max_depth': 7, 'eta': 0.09925861584876303, 'gamma': 0.17276501429109103}. Best is trial 13 with value: 0.8998267999999999.
+2024-12-29 23:23:43 INFO     Trial 14 pruned. Trial was pruned at iteration 12.
+2024-12-29 23:23:44 INFO     Trial 15 pruned. Trial was pruned at iteration 0.
+2024-12-29 23:23:45 INFO     Trial 16 pruned. Trial was pruned at iteration 0.
+2024-12-29 23:23:46 INFO     Trial 17 pruned. Trial was pruned at iteration 0.
+2024-12-29 23:23:47 INFO     Trial 18 pruned. Trial was pruned at iteration 0.
+2024-12-29 23:23:47 INFO     Trial 19 pruned. Trial was pruned at iteration 0.
+2024-12-29 23:23:48 INFO     Trial 20 pruned. Trial was pruned at iteration 0.
+2024-12-29 23:23:49 INFO     Trial 21 pruned. Trial was pruned at iteration 0.
+2024-12-29 23:50:45 INFO     Trial 22 pruned. Trial was pruned at iteration 3294.
+2024-12-30 00:15:47 INFO     Trial 23 pruned. Trial was pruned at iteration 3105.
+2024-12-30 00:15:52 INFO     Trial 24 pruned. Trial was pruned at iteration 10.
+2024-12-30 00:26:26 INFO     n_estimators: 1374
+2024-12-30 00:26:26 INFO     Trial 25 finished with value: 0.8268536 and parameters: {'max_delta_step': 2.213700238237271, 'colsample_bytree': 0.9216578369576278, 'subsample': 0.9986567455676078, 'min_child_weight': 278.9772095633784, 'min_data_in_leaf': 8.104163099615876, 'lambda': 2.2445978623477356, 'alpha': 0.9097039012668524, 'max_depth': 6, 'eta': 0.09152902185523792, 'gamma': 2.0244958608629418}. Best is trial 13 with value: 0.8998267999999999.
+2024-12-30 00:49:46 INFO     n_estimators: 2880
+2024-12-30 00:49:46 INFO     Trial 26 finished with value: 0.8968586000000001 and parameters: {'max_delta_step': 3.690395156535794, 'colsample_bytree': 0.9605411629879079, 'subsample': 0.82164587504289, 'min_child_weight': 231.64506964827046, 'min_data_in_leaf': 9.263046880629348, 'lambda': 3.2803132054253754, 'alpha': 3.0098764331325025, 'max_depth': 7, 'eta': 0.09790733016300318, 'gamma': 0.91173815394664}. Best is trial 13 with value: 0.8998267999999999.
+2024-12-30 00:49:47 INFO     Trial 27 pruned. Trial was pruned at iteration 0.
+2024-12-30 00:49:52 INFO     Trial 28 pruned. Trial was pruned at iteration 11.
+2024-12-30 00:49:53 INFO     Trial 29 pruned. Trial was pruned at iteration 0.
+2024-12-30 00:49:54 INFO     Trial 30 pruned. Trial was pruned at iteration 0.
+2024-12-30 00:49:55 INFO     Trial 31 pruned. Trial was pruned at iteration 0.
+2024-12-30 00:49:56 INFO     Trial 32 pruned. Trial was pruned at iteration 1.
+2024-12-30 01:06:18 INFO     Trial 33 pruned. Trial was pruned at iteration 2126.
+2024-12-30 01:11:10 INFO     Trial 34 pruned. Trial was pruned at iteration 678.
+2024-12-30 01:37:48 INFO     n_estimators: 3256
+2024-12-30 01:37:48 INFO     Trial 35 finished with value: 0.8949196 and parameters: {'max_delta_step': 2.0774861957699513, 'colsample_bytree': 0.8597383011364592, 'subsample': 0.9050790774224856, 'min_child_weight': 220.15744478781136, 'min_data_in_leaf': 7.506467388229772, 'lambda': 2.81722919263666, 'alpha': 0.6208054995521499, 'max_depth': 7, 'eta': 0.07167249314630157, 'gamma': 1.1422073824073107}. Best is trial 13 with value: 0.8998267999999999.
+2024-12-30 01:37:49 INFO     Trial 36 pruned. Trial was pruned at iteration 0.
+2024-12-30 01:54:12 INFO     Trial 37 pruned. Trial was pruned at iteration 2126.
+2024-12-30 01:54:13 INFO     Trial 38 pruned. Trial was pruned at iteration 0.
+2024-12-30 01:54:14 INFO     Trial 39 pruned. Trial was pruned at iteration 0.
+2024-12-30 01:54:15 INFO     Trial 40 pruned. Trial was pruned at iteration 0.
+2024-12-30 01:54:16 INFO     Trial 41 pruned. Trial was pruned at iteration 0.
+2024-12-30 01:54:16 INFO     Trial 42 pruned. Trial was pruned at iteration 0.
+2024-12-30 02:17:05 INFO     Trial 43 pruned. Trial was pruned at iteration 2891.
+2024-12-30 02:31:22 INFO     Trial 44 pruned. Trial was pruned at iteration 1880.
+2024-12-30 02:31:27 INFO     Trial 45 pruned. Trial was pruned at iteration 12.
+2024-12-30 02:45:37 INFO     Trial 46 pruned. Trial was pruned at iteration 1880.
+2024-12-30 02:45:44 INFO     Trial 47 pruned. Trial was pruned at iteration 14.
+2024-12-30 02:45:44 INFO     Trial 48 pruned. Trial was pruned at iteration 0.
+2024-12-30 02:45:45 INFO     Trial 49 pruned. Trial was pruned at iteration 0.
+2024-12-30 02:45:50 INFO     Trial 50 pruned. Trial was pruned at iteration 10.
+2024-12-30 02:45:51 INFO     Trial 51 pruned. Trial was pruned at iteration 1.
+2024-12-30 02:45:53 INFO     Trial 52 pruned. Trial was pruned at iteration 2.
+2024-12-30 02:45:58 INFO     Trial 53 pruned. Trial was pruned at iteration 11.
+2024-12-30 03:00:15 INFO     Trial 54 pruned. Trial was pruned at iteration 1880.
+2024-12-30 03:00:16 INFO     Trial 55 pruned. Trial was pruned at iteration 0.
+2024-12-30 03:00:28 INFO     Trial 56 pruned. Trial was pruned at iteration 25.
+2024-12-30 03:00:29 INFO     Trial 57 pruned. Trial was pruned at iteration 0.
+2024-12-30 03:14:39 INFO     Trial 58 pruned. Trial was pruned at iteration 1880.
+2024-12-30 03:14:52 INFO     Trial 59 pruned. Trial was pruned at iteration 30.
+2024-12-30 03:14:55 INFO     Trial 60 pruned. Trial was pruned at iteration 5.
+2024-12-30 03:31:16 INFO     Trial 61 pruned. Trial was pruned at iteration 2126.
+2024-12-30 03:31:17 INFO     Trial 62 pruned. Trial was pruned at iteration 0.
+2024-12-30 03:31:17 INFO     Trial 63 pruned. Trial was pruned at iteration 0.
+2024-12-30 03:31:23 INFO     Trial 64 pruned. Trial was pruned at iteration 12.
+2024-12-30 03:31:24 INFO     Trial 65 pruned. Trial was pruned at iteration 0.
+2024-12-30 03:31:25 INFO     Trial 66 pruned. Trial was pruned at iteration 0.
+2024-12-30 03:31:29 INFO     Trial 67 pruned. Trial was pruned at iteration 10.
+2024-12-30 04:00:23 INFO     n_estimators: 3509
+2024-12-30 04:00:23 INFO     Trial 68 finished with value: 0.9016988000000001 and parameters: {'max_delta_step': 1.9666305803714104, 'colsample_bytree': 0.9608456350860767, 'subsample': 0.8318299726579919, 'min_child_weight': 232.42877343023503, 'min_data_in_leaf': 5.060954106230082, 'lambda': 0.8200272925369603, 'alpha': 0.22863128539462144, 'max_depth': 7, 'eta': 0.09017520359601229, 'gamma': 0.22998376378501917}. Best is trial 68 with value: 0.9016988000000001.
+2024-12-30 04:24:25 INFO     n_estimators: 2966
+2024-12-30 04:24:25 INFO     Trial 69 finished with value: 0.898237 and parameters: {'max_delta_step': 1.9935529709648003, 'colsample_bytree': 0.9566959457940045, 'subsample': 0.8364140654788151, 'min_child_weight': 230.82877636727466, 'min_data_in_leaf': 5.121307223405772, 'lambda': 0.7189565092310963, 'alpha': 0.25416569658287014, 'max_depth': 7, 'eta': 0.0895224047788195, 'gamma': 0.21368843815932997}. Best is trial 68 with value: 0.9016988000000001.
+2024-12-30 04:24:26 INFO     Trial 70 pruned. Trial was pruned at iteration 0.
+2024-12-30 04:46:53 INFO     n_estimators: 2799
+2024-12-30 04:46:53 INFO     Trial 71 finished with value: 0.898763 and parameters: {'max_delta_step': 1.9637786651209326, 'colsample_bytree': 0.9897795583463056, 'subsample': 0.8388587812257665, 'min_child_weight': 211.99972435722546, 'min_data_in_leaf': 4.85315229139866, 'lambda': 0.7946621072561602, 'alpha': 0.161490578296397, 'max_depth': 7, 'eta': 0.08511149083882358, 'gamma': 0.33836957577681104}. Best is trial 68 with value: 0.9016988000000001.
+2024-12-30 05:09:41 INFO     n_estimators: 2814
+2024-12-30 05:09:42 INFO     Trial 72 finished with value: 0.8943078 and parameters: {'max_delta_step': 1.9433339078087255, 'colsample_bytree': 0.9333506659179369, 'subsample': 0.8250347380638582, 'min_child_weight': 231.9690818735455, 'min_data_in_leaf': 4.512090868451335, 'lambda': 0.7665480313379559, 'alpha': 0.1765676245189127, 'max_depth': 7, 'eta': 0.08475478121019056, 'gamma': 0.34098527858656097}. Best is trial 68 with value: 0.9016988000000001.
+2024-12-30 05:36:11 INFO     n_estimators: 3259
+2024-12-30 05:36:11 INFO     Trial 73 finished with value: 0.9069306000000001 and parameters: {'max_delta_step': 2.302712732538205, 'colsample_bytree': 0.9866420023024669, 'subsample': 0.841777213555621, 'min_child_weight': 208.47109083827235, 'min_data_in_leaf': 6.073705794958149, 'lambda': 1.4860443625351532, 'alpha': 0.8531709192547918, 'max_depth': 7, 'eta': 0.09645023439409232, 'gamma': 0.7473075581978026}. Best is trial 73 with value: 0.9069306000000001.
+2024-12-30 05:36:13 INFO     Trial 74 pruned. Trial was pruned at iteration 3.
+2024-12-30 05:36:15 INFO     Trial 75 pruned. Trial was pruned at iteration 2.
+2024-12-30 06:00:04 INFO     n_estimators: 2967
+2024-12-30 06:00:04 INFO     Trial 76 finished with value: 0.9013572 and parameters: {'max_delta_step': 2.7032053830882488, 'colsample_bytree': 0.9889492171043349, 'subsample': 0.7899204830893821, 'min_child_weight': 201.65328627215655, 'min_data_in_leaf': 4.825199392558359, 'lambda': 0.19806282422237398, 'alpha': 1.7319054034516426, 'max_depth': 7, 'eta': 0.09695800746346535, 'gamma': 1.3775527937224117}. Best is trial 73 with value: 0.9069306000000001.
+2024-12-30 06:22:24 INFO     n_estimators: 2794
+2024-12-30 06:22:24 INFO     Trial 77 finished with value: 0.9003624 and parameters: {'max_delta_step': 2.6202518390421776, 'colsample_bytree': 0.9885176938961817, 'subsample': 0.7888629859616951, 'min_child_weight': 205.35105494995383, 'min_data_in_leaf': 4.945105504455387, 'lambda': 0.01416260419599702, 'alpha': 1.619774201366679, 'max_depth': 7, 'eta': 0.09738413165316433, 'gamma': 1.2421026009520257}. Best is trial 73 with value: 0.9069306000000001.
+2024-12-30 06:48:36 INFO     n_estimators: 3231
+2024-12-30 06:48:37 INFO     Trial 78 finished with value: 0.9001284 and parameters: {'max_delta_step': 2.7109529220235395, 'colsample_bytree': 0.9999644476439912, 'subsample': 0.7930743826016449, 'min_child_weight': 205.6723827465151, 'min_data_in_leaf': 5.0376590016496445, 'lambda': 0.03281055306278069, 'alpha': 1.2092634071986357, 'max_depth': 7, 'eta': 0.08805376225488122, 'gamma': 1.4359995865421151}. Best is trial 73 with value: 0.9069306000000001.
+2024-12-30 06:48:38 INFO     Trial 79 pruned. Trial was pruned at iteration 1.
+2024-12-30 06:48:50 INFO     Trial 80 pruned. Trial was pruned at iteration 27.
+2024-12-30 06:48:51 INFO     Trial 81 pruned. Trial was pruned at iteration 0.
+2024-12-30 07:06:00 INFO     n_estimators: 2199
+2024-12-30 07:06:00 INFO     Trial 82 finished with value: 0.8949695999999999 and parameters: {'max_delta_step': 2.157176813821397, 'colsample_bytree': 0.9869026464083394, 'subsample': 0.8375110941533689, 'min_child_weight': 212.2633607399877, 'min_data_in_leaf': 5.00301941182719, 'lambda': 0.5963299624726058, 'alpha': 0.476831492709919, 'max_depth': 7, 'eta': 0.09337231611202298, 'gamma': 0.6451917274165067}. Best is trial 73 with value: 0.9069306000000001.
+2024-12-30 07:06:02 INFO     Trial 83 pruned. Trial was pruned at iteration 3.
+2024-12-30 07:06:02 INFO     Trial 84 pruned. Trial was pruned at iteration 0.
+2024-12-30 07:32:54 INFO     n_estimators: 3308
+2024-12-30 07:32:54 INFO     Trial 85 finished with value: 0.9104056 and parameters: {'max_delta_step': 1.911195780473625, 'colsample_bytree': 0.9687808789728941, 'subsample': 0.8514226802961378, 'min_child_weight': 177.92420626960396, 'min_data_in_leaf': 6.049170874338647, 'lambda': 1.2850857584177073, 'alpha': 1.4518538311342333, 'max_depth': 7, 'eta': 0.08617236287437541, 'gamma': 0.44928545024775235}. Best is trial 85 with value: 0.9104056.
+2024-12-30 07:33:04 INFO     Trial 86 pruned. Trial was pruned at iteration 23.
+2024-12-30 07:33:17 INFO     Trial 87 pruned. Trial was pruned at iteration 26.
+2024-12-30 07:33:18 INFO     Trial 88 pruned. Trial was pruned at iteration 0.
+2024-12-30 07:54:37 INFO     n_estimators: 2689
+2024-12-30 07:54:37 INFO     Trial 89 finished with value: 0.9063124 and parameters: {'max_delta_step': 1.7236557419272196, 'colsample_bytree': 0.9508983935493825, 'subsample': 0.8187046407944284, 'min_child_weight': 174.11768676783373, 'min_data_in_leaf': 4.546472744593803, 'lambda': 0.24516725646261917, 'alpha': 0.5830241093177484, 'max_depth': 7, 'eta': 0.09395646045204363, 'gamma': 1.233381810289012}. Best is trial 85 with value: 0.9104056.
+2024-12-30 07:54:39 INFO     Trial 90 pruned. Trial was pruned at iteration 3.
+2024-12-30 08:13:59 INFO     n_estimators: 2449
+2024-12-30 08:13:59 INFO     Trial 91 finished with value: 0.9010958 and parameters: {'max_delta_step': 1.25149185628295, 'colsample_bytree': 0.9775626659271333, 'subsample': 0.8160938371481696, 'min_child_weight': 122.05612569569494, 'min_data_in_leaf': 3.585808972556957, 'lambda': 1.109957186397382, 'alpha': 1.7690271874761256, 'max_depth': 7, 'eta': 0.0830283453427635, 'gamma': 2.291316749333337}. Best is trial 85 with value: 0.9104056.
+2024-12-30 08:33:49 INFO     n_estimators: 2371
+2024-12-30 08:33:49 INFO     Trial 92 finished with value: 0.9141078 and parameters: {'max_delta_step': 1.1866281971695936, 'colsample_bytree': 0.9746558671921287, 'subsample': 0.8165151089477317, 'min_child_weight': 92.70413837083981, 'min_data_in_leaf': 3.4915171982857585, 'lambda': 1.1614664884289239, 'alpha': 2.182019096372167, 'max_depth': 7, 'eta': 0.08418147903963656, 'gamma': 1.7959525989651988}. Best is trial 92 with value: 0.9141078.
+2024-12-30 08:54:52 INFO     n_estimators: 2274
+2024-12-30 08:54:52 INFO     Trial 93 finished with value: 0.9070484000000001 and parameters: {'max_delta_step': 1.2582392959368105, 'colsample_bytree': 0.971026040358648, 'subsample': 0.8168822632479442, 'min_child_weight': 84.60552455181116, 'min_data_in_leaf': 2.905931693723828, 'lambda': 1.1098832400470262, 'alpha': 2.2136336037996216, 'max_depth': 7, 'eta': 0.08236591122169112, 'gamma': 2.3392215604627444}. Best is trial 92 with value: 0.9141078.
+2024-12-30 09:17:59 INFO     n_estimators: 2416
+2024-12-30 09:17:59 INFO     Trial 94 finished with value: 0.902448 and parameters: {'max_delta_step': 1.455837870468907, 'colsample_bytree': 0.9746977637690271, 'subsample': 0.8192593932809662, 'min_child_weight': 87.12051699682169, 'min_data_in_leaf': 3.036007827853295, 'lambda': 1.8706449933976395, 'alpha': 2.113481081647806, 'max_depth': 7, 'eta': 0.08333768289500247, 'gamma': 2.62881373450448}. Best is trial 92 with value: 0.9141078.
+2024-12-30 09:42:21 INFO     n_estimators: 2530
+2024-12-30 09:42:21 INFO     Trial 95 finished with value: 0.9062894 and parameters: {'max_delta_step': 1.4602451072306994, 'colsample_bytree': 0.944610969995563, 'subsample': 0.8140479564362089, 'min_child_weight': 88.69109660184466, 'min_data_in_leaf': 3.0766285286863932, 'lambda': 2.0647770832461685, 'alpha': 2.3226486397438326, 'max_depth': 7, 'eta': 0.08266680605066441, 'gamma': 2.378710854145611}. Best is trial 92 with value: 0.9141078.
+2024-12-30 10:02:51 INFO     n_estimators: 2176
+2024-12-30 10:02:52 INFO     Trial 96 finished with value: 0.9042315999999999 and parameters: {'max_delta_step': 1.1725191737354352, 'colsample_bytree': 0.9417513382707244, 'subsample': 0.8211437560797877, 'min_child_weight': 85.83559781154435, 'min_data_in_leaf': 2.979298225074649, 'lambda': 1.8901031087688178, 'alpha': 2.163436571472769, 'max_depth': 7, 'eta': 0.07471035634948481, 'gamma': 2.304421201232447}. Best is trial 92 with value: 0.9141078.
+2024-12-30 10:03:09 INFO     Trial 97 pruned. Trial was pruned at iteration 33.
+2024-12-30 10:03:23 INFO     Trial 98 pruned. Trial was pruned at iteration 25.
+2024-12-30 10:23:15 INFO     n_estimators: 2094
+2024-12-30 10:23:15 INFO     Trial 99 finished with value: 0.9168976000000001 and parameters: {'max_delta_step': 1.5207669619028208, 'colsample_bytree': 0.9485807716683775, 'subsample': 0.8197880856669751, 'min_child_weight': 62.29583215681362, 'min_data_in_leaf': 2.287144729105444, 'lambda': 1.595796502332273, 'alpha': 3.011139194137747, 'max_depth': 7, 'eta': 0.08139206666708786, 'gamma': 1.8986270727653074}. Best is trial 99 with value: 0.9168976000000001.
+2024-12-30 10:40:22 INFO     n_estimators: 1840
+2024-12-30 10:40:22 INFO     Trial 100 finished with value: 0.9136756 and parameters: {'max_delta_step': 1.4648358725395352, 'colsample_bytree': 0.8978164058922805, 'subsample': 0.8576199302922103, 'min_child_weight': 53.326191411220755, 'min_data_in_leaf': 1.989153042007921, 'lambda': 1.7186386002926277, 'alpha': 2.4513386740811667, 'max_depth': 7, 'eta': 0.0812984324407942, 'gamma': 1.9139283183815239}. Best is trial 99 with value: 0.9168976000000001.
+2024-12-30 11:00:56 INFO     n_estimators: 2200
+2024-12-30 11:00:56 INFO     Trial 101 finished with value: 0.9197186 and parameters: {'max_delta_step': 1.5356772069689302, 'colsample_bytree': 0.9012932158880069, 'subsample': 0.8175668420836085, 'min_child_weight': 48.654670665087664, 'min_data_in_leaf': 2.164267415319427, 'lambda': 1.7973534235309336, 'alpha': 2.8777153775599733, 'max_depth': 7, 'eta': 0.07614939870326899, 'gamma': 1.897569748520941}. Best is trial 101 with value: 0.9197186.
+2024-12-30 11:08:00 WARNING  Trial 102 failed with parameters: {'max_delta_step': 1.5566752031319044, 'colsample_bytree': 0.9045192981041705, 'subsample': 0.813415900896522, 'min_child_weight': 56.725145693165324, 'min_data_in_leaf': 2.109694979358256, 'lambda': 1.7042332306370183, 'alpha': 2.9517414636446793, 'max_depth': 7, 'eta': 0.06918134070939008, 'gamma': 2.00988680614778} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/optuna/study/_optimize.py", line 197, in _run_trial
+    value_or_values = func(trial)
+  File "/var/folders/4p/r9m3gynn3wj6h4yh4_lwz5fw0000gn/T/ipykernel_1107/2751180468.py", line 9, in <lambda>
+    study.optimize(lambda trial: objective(trial,
+  File "/var/folders/4p/r9m3gynn3wj6h4yh4_lwz5fw0000gn/T/ipykernel_1107/1856103062.py", line 41, in objective
+    xgb_cv_results = xgb.cv(
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/xgboost/training.py", line 572, in cv
+    should_break = callbacks_container.after_iteration(booster, i, dtrain, None)
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/xgboost/callback.py", line 250, in after_iteration
+    scores = model.eval(epoch, self.metric, self._output_margin)
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/xgboost/training.py", line 235, in eval
+    result = [f.eval(iteration, feval, output_margin) for f in self.cvfolds]
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/xgboost/training.py", line 235, in <listcomp>
+    result = [f.eval(iteration, feval, output_margin) for f in self.cvfolds]
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/xgboost/training.py", line 219, in eval
+    return self.bst.eval_set(self.watchlist, iteration, feval, output_margin)
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/xgboost/core.py", line 2225, in eval_set
+    feval_ret = feval(
+  File "/var/folders/4p/r9m3gynn3wj6h4yh4_lwz5fw0000gn/T/ipykernel_1107/42378994.py", line 14, in irr_score
+    tn, fp, fn, tp = confusion_matrix(y_true, y_pred).ravel()
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/sklearn/metrics/_classification.py", line 342, in confusion_matrix
+    y_type, y_true, y_pred = _check_targets(y_true, y_pred)
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/sklearn/metrics/_classification.py", line 131, in _check_targets
+    unique_values = _union1d(y_true, y_pred, xp)
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/sklearn/utils/_array_api.py", line 184, in _union1d
+    return xp.asarray(numpy.union1d(a, b))
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/numpy/lib/arraysetops.py", line 932, in union1d
+    return unique(np.concatenate((ar1, ar2), axis=None))
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/numpy/lib/arraysetops.py", line 274, in unique
+    ret = _unique1d(ar, return_index, return_inverse, return_counts,
+  File "/opt/anaconda3/envs/abstarbucks/lib/python3.10/site-packages/numpy/lib/arraysetops.py", line 336, in _unique1d
+    ar.sort()
+KeyboardInterrupt
+2024-12-30 11:08:00 WARNING  Trial 102 failed with value None.
+2024-12-30 11:17:59 INFO     Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-12-30 11:17:59 INFO     Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-12-30 11:18:44 INFO     Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-12-30 11:18:44 INFO     Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-12-30 11:21:20 INFO     Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-12-30 11:21:20 INFO     Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-12-30 11:21:20 INFO     Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-12-30 11:21:20 INFO     Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-12-30 14:39:44 INFO     A new study created in RDB with name: xgboost-starbucks-irr_with_v2-scaled_adjusted_parms2
+2024-12-30 14:39:53 INFO     n_estimators: 1
+2024-12-30 14:39:53 INFO     Trial 0 finished with value: 0.5092506000000001 and parameters: {'max_delta_step': 6.634852143707336, 'colsample_bytree': 0.5209491031171702, 'subsample': 0.5241292834026827, 'min_child_weight': 288.6109325448309, 'min_data_in_leaf': 3.0363267420308806, 'lambda': 0.04430110427802211, 'alpha': 9.165960586151682, 'max_depth': 2, 'eta': 0.08070571865033874, 'gamma': 4.252287899495223}. Best is trial 0 with value: 0.5092506000000001.
+2024-12-30 14:47:12 INFO     n_estimators: 889
+2024-12-30 14:47:13 INFO     Trial 1 finished with value: 0.7868436000000001 and parameters: {'max_delta_step': 1.1824200020255577, 'colsample_bytree': 0.8039441249687875, 'subsample': 0.9853434581151608, 'min_child_weight': 99.21613506062998, 'min_data_in_leaf': 8.259582697150258, 'lambda': 6.993631836467105, 'alpha': 1.528536349089754, 'max_depth': 3, 'eta': 0.07221139387675013, 'gamma': 4.49215576928963}. Best is trial 1 with value: 0.7868436000000001.
+2024-12-30 14:47:22 INFO     n_estimators: 1
+2024-12-30 14:47:22 INFO     Trial 2 finished with value: 0.46992960000000006 and parameters: {'max_delta_step': 8.09793195798288, 'colsample_bytree': 0.9560677022587278, 'subsample': 0.840515679504672, 'min_child_weight': 126.48660461939933, 'min_data_in_leaf': 9.445201449402317, 'lambda': 1.1216476328021772, 'alpha': 5.900934543515118, 'max_depth': 1, 'eta': 0.06636778217814314, 'gamma': 9.993171146317255}. Best is trial 1 with value: 0.7868436000000001.
+2024-12-30 14:54:16 INFO     n_estimators: 825
+2024-12-30 14:54:16 INFO     Trial 3 finished with value: 0.7192558 and parameters: {'max_delta_step': 2.5358290905204637, 'colsample_bytree': 0.7856028407017864, 'subsample': 0.9992097716348438, 'min_child_weight': 90.02201750633093, 'min_data_in_leaf': 9.429182509728768, 'lambda': 3.7608729174879447, 'alpha': 8.351605513725746, 'max_depth': 2, 'eta': 0.05968636090894678, 'gamma': 8.12540218452222}. Best is trial 1 with value: 0.7868436000000001.
+2024-12-30 15:03:08 INFO     n_estimators: 1000
+2024-12-30 15:03:08 INFO     Trial 4 finished with value: 0.761201 and parameters: {'max_delta_step': 5.675983695650877, 'colsample_bytree': 0.9532777151673382, 'subsample': 0.7687828313336396, 'min_child_weight': 266.5104869399063, 'min_data_in_leaf': 2.220631750294861, 'lambda': 3.616251137947564, 'alpha': 6.368083604524255, 'max_depth': 3, 'eta': 0.08599741197993706, 'gamma': 9.228537582487817}. Best is trial 1 with value: 0.7868436000000001.
+2024-12-30 15:03:46 INFO     Trial 5 pruned. Trial was pruned at iteration 69.
+2024-12-30 15:03:47 INFO     Trial 6 pruned. Trial was pruned at iteration 0.
+2024-12-30 15:03:48 INFO     Trial 7 pruned. Trial was pruned at iteration 0.
+2024-12-30 15:04:03 INFO     Trial 8 pruned. Trial was pruned at iteration 27.
+2024-12-30 15:04:05 INFO     Trial 9 pruned. Trial was pruned at iteration 0.
+2024-12-30 15:13:11 INFO     n_estimators: 1000
+2024-12-30 15:13:11 INFO     Trial 10 finished with value: 0.8775454 and parameters: {'max_delta_step': 3.9783811127818267, 'colsample_bytree': 0.7759233933874468, 'subsample': 0.9596534987153862, 'min_child_weight': 190.32285576178862, 'min_data_in_leaf': 3.934165987187285, 'lambda': 6.733726290938732, 'alpha': 0.3083847458989557, 'max_depth': 7, 'eta': 0.08912422363184896, 'gamma': 0.3144111821539939}. Best is trial 10 with value: 0.8775454.
+2024-12-30 15:22:13 INFO     n_estimators: 1000
+2024-12-30 15:22:13 INFO     Trial 11 finished with value: 0.8798136 and parameters: {'max_delta_step': 3.9780699013073617, 'colsample_bytree': 0.7840424439310044, 'subsample': 0.9855725219289883, 'min_child_weight': 202.55025049623944, 'min_data_in_leaf': 4.080419002912106, 'lambda': 6.46787925059394, 'alpha': 0.009026989484738124, 'max_depth': 7, 'eta': 0.09939759768828388, 'gamma': 0.2866075206321485}. Best is trial 11 with value: 0.8798136.
+2024-12-30 15:22:14 INFO     Trial 12 pruned. Trial was pruned at iteration 0.
+2024-12-30 15:31:11 INFO     n_estimators: 1000
+2024-12-30 15:31:11 INFO     Trial 13 finished with value: 0.8804684 and parameters: {'max_delta_step': 4.60979221457426, 'colsample_bytree': 0.8389914827622307, 'subsample': 0.910470127732055, 'min_child_weight': 212.14071387666766, 'min_data_in_leaf': 4.307309652481198, 'lambda': 5.221468978173109, 'alpha': 3.2197467730619587, 'max_depth': 7, 'eta': 0.09747324599273002, 'gamma': 0.05457730584966114}. Best is trial 13 with value: 0.8804684.
+2024-12-30 15:38:38 INFO     Trial 14 pruned. Trial was pruned at iteration 845.
+2024-12-30 15:38:39 INFO     Trial 15 pruned. Trial was pruned at iteration 0.
+2024-12-30 15:38:53 INFO     Trial 16 pruned. Trial was pruned at iteration 22.
+2024-12-30 15:39:04 INFO     Trial 17 pruned. Trial was pruned at iteration 21.
+2024-12-30 15:39:07 INFO     Trial 18 pruned. Trial was pruned at iteration 0.
+2024-12-30 15:39:08 INFO     Trial 19 pruned. Trial was pruned at iteration 0.
+2024-12-30 15:39:28 INFO     Trial 20 pruned. Trial was pruned at iteration 35.
+2024-12-30 15:46:54 INFO     Trial 21 pruned. Trial was pruned at iteration 845.
+2024-12-30 15:55:14 INFO     Trial 22 pruned. Trial was pruned at iteration 946.
+2024-12-30 16:02:35 INFO     Trial 23 pruned. Trial was pruned at iteration 845.
+2024-12-30 16:09:55 INFO     Trial 24 pruned. Trial was pruned at iteration 845.
+2024-12-30 16:17:15 INFO     Trial 25 pruned. Trial was pruned at iteration 845.
+2024-12-30 16:25:14 INFO     Trial 26 pruned. Trial was pruned at iteration 845.
+2024-12-30 16:35:22 INFO     Trial 27 pruned. Trial was pruned at iteration 845.
+2024-12-30 16:35:23 INFO     Trial 28 pruned. Trial was pruned at iteration 0.
+2024-12-30 16:35:24 INFO     Trial 29 pruned. Trial was pruned at iteration 0.
+2024-12-30 16:35:26 INFO     Trial 30 pruned. Trial was pruned at iteration 0.
+2024-12-30 16:35:27 INFO     Trial 31 pruned. Trial was pruned at iteration 0.
+2024-12-30 16:35:28 INFO     Trial 32 pruned. Trial was pruned at iteration 0.
+2024-12-30 16:35:29 INFO     Trial 33 pruned. Trial was pruned at iteration 0.
+2024-12-30 16:35:31 INFO     Trial 34 pruned. Trial was pruned at iteration 0.
+2024-12-30 16:35:32 INFO     Trial 35 pruned. Trial was pruned at iteration 0.
+2024-12-30 16:45:43 INFO     Trial 36 pruned. Trial was pruned at iteration 845.
+2024-12-30 16:45:59 INFO     Trial 37 pruned. Trial was pruned at iteration 21.
+2024-12-30 16:46:00 INFO     Trial 38 pruned. Trial was pruned at iteration 0.
+2024-12-30 16:46:02 INFO     Trial 39 pruned. Trial was pruned at iteration 0.
+2024-12-30 16:56:25 INFO     Trial 40 pruned. Trial was pruned at iteration 845.
+2024-12-30 16:56:26 INFO     Trial 41 pruned. Trial was pruned at iteration 0.
+2024-12-30 16:56:27 INFO     Trial 42 pruned. Trial was pruned at iteration 0.
+2024-12-30 16:56:29 INFO     Trial 43 pruned. Trial was pruned at iteration 0.
+2024-12-30 16:56:33 INFO     Trial 44 pruned. Trial was pruned at iteration 6.
+2024-12-30 16:57:05 INFO     Trial 45 pruned. Trial was pruned at iteration 41.
+2024-12-30 16:57:06 INFO     Trial 46 pruned. Trial was pruned at iteration 0.
+2024-12-30 17:01:47 INFO     Trial 47 pruned. Trial was pruned at iteration 390.
+2024-12-30 17:02:01 INFO     Trial 48 pruned. Trial was pruned at iteration 21.
+2024-12-30 17:02:02 INFO     Trial 49 pruned. Trial was pruned at iteration 0.
+2024-12-30 17:02:04 INFO     Trial 50 pruned. Trial was pruned at iteration 0.
+2024-12-30 17:02:05 INFO     Trial 51 pruned. Trial was pruned at iteration 0.
+2024-12-30 17:02:06 INFO     Trial 52 pruned. Trial was pruned at iteration 0.
+2024-12-30 17:02:08 INFO     Trial 53 pruned. Trial was pruned at iteration 0.
+2024-12-30 17:02:10 INFO     Trial 54 pruned. Trial was pruned at iteration 0.
+2024-12-30 17:02:11 INFO     Trial 55 pruned. Trial was pruned at iteration 0.
+2024-12-30 17:14:28 INFO     n_estimators: 1000
+2024-12-30 17:14:29 INFO     Trial 56 finished with value: 0.9090355999999999 and parameters: {'max_delta_step': 2.524015139814277, 'colsample_bytree': 0.8747714821097075, 'subsample': 0.9795821607735083, 'min_child_weight': 84.17873354002546, 'min_data_in_leaf': 5.111583666923965, 'lambda': 4.657331382168118, 'alpha': 5.9363153862979665, 'max_depth': 7, 'eta': 0.07276841887784478, 'gamma': 0.8721927177232276}. Best is trial 56 with value: 0.9090355999999999.
+2024-12-30 17:23:12 INFO     n_estimators: 1000
+2024-12-30 17:23:12 INFO     Trial 57 finished with value: 0.9085796 and parameters: {'max_delta_step': 3.9273683146406944, 'colsample_bytree': 0.9154985828986374, 'subsample': 0.9817419767833719, 'min_child_weight': 80.94408879914813, 'min_data_in_leaf': 5.948727020504286, 'lambda': 4.701439741694325, 'alpha': 6.094897960128347, 'max_depth': 7, 'eta': 0.07212103922235791, 'gamma': 0.9455252135158978}. Best is trial 56 with value: 0.9090355999999999.
+2024-12-30 17:31:12 INFO     n_estimators: 1000
+2024-12-30 17:31:12 INFO     Trial 58 finished with value: 0.9063434000000001 and parameters: {'max_delta_step': 3.9488545652928138, 'colsample_bytree': 0.8759375725049479, 'subsample': 0.9800951416868601, 'min_child_weight': 87.90614284158455, 'min_data_in_leaf': 5.127345707810009, 'lambda': 4.776024521281795, 'alpha': 6.024433022017626, 'max_depth': 7, 'eta': 0.07221431402661765, 'gamma': 0.977492387467267}. Best is trial 56 with value: 0.9090355999999999.
+2024-12-30 17:39:43 INFO     n_estimators: 1000
+2024-12-30 17:39:43 INFO     Trial 59 finished with value: 0.9096221999999999 and parameters: {'max_delta_step': 3.962232881374404, 'colsample_bytree': 0.879151649981062, 'subsample': 0.9450393111168578, 'min_child_weight': 84.09120095124551, 'min_data_in_leaf': 5.193985573000723, 'lambda': 4.6438462290421825, 'alpha': 5.227232418431727, 'max_depth': 7, 'eta': 0.07053377967488193, 'gamma': 0.9017906998344561}. Best is trial 59 with value: 0.9096221999999999.
+2024-12-30 17:48:17 INFO     n_estimators: 1000
+2024-12-30 17:48:18 INFO     Trial 60 finished with value: 0.9022392 and parameters: {'max_delta_step': 3.3677718777714056, 'colsample_bytree': 0.9021015475339524, 'subsample': 0.9807250979630668, 'min_child_weight': 89.39824783849808, 'min_data_in_leaf': 5.23286530203783, 'lambda': 4.771922159267572, 'alpha': 5.284612538263341, 'max_depth': 7, 'eta': 0.06641687123039379, 'gamma': 1.0429090222028048}. Best is trial 59 with value: 0.9096221999999999.
+2024-12-30 17:56:54 INFO     n_estimators: 1000
+2024-12-30 17:56:54 INFO     Trial 61 finished with value: 0.9088884 and parameters: {'max_delta_step': 3.4114440221087428, 'colsample_bytree': 0.9137377945075609, 'subsample': 0.9775846887324317, 'min_child_weight': 78.0473359798324, 'min_data_in_leaf': 5.872978995669407, 'lambda': 4.613377693526706, 'alpha': 5.932116949874636, 'max_depth': 7, 'eta': 0.07076775306981531, 'gamma': 0.9260278842640448}. Best is trial 59 with value: 0.9096221999999999.
+2024-12-30 18:05:10 INFO     Trial 62 pruned. Trial was pruned at iteration 960.
+2024-12-30 18:05:29 INFO     Trial 63 pruned. Trial was pruned at iteration 35.
+2024-12-30 18:13:43 INFO     Trial 64 pruned. Trial was pruned at iteration 956.
+2024-12-30 18:13:54 INFO     Trial 65 pruned. Trial was pruned at iteration 20.
+2024-12-30 18:21:34 INFO     Trial 66 pruned. Trial was pruned at iteration 889.
+2024-12-30 18:21:49 INFO     Trial 67 pruned. Trial was pruned at iteration 28.
+2024-12-30 18:22:00 INFO     Trial 68 pruned. Trial was pruned at iteration 20.
+2024-12-30 18:28:49 INFO     n_estimators: 775
+2024-12-30 18:28:49 INFO     Trial 69 finished with value: 0.8928114 and parameters: {'max_delta_step': 3.0721957625527803, 'colsample_bytree': 0.8687581455764872, 'subsample': 0.9892228048959365, 'min_child_weight': 91.3625739810045, 'min_data_in_leaf': 4.419429726784687, 'lambda': 4.195101364926309, 'alpha': 5.753149759222007, 'max_depth': 7, 'eta': 0.07620240840038134, 'gamma': 1.559854778650478}. Best is trial 59 with value: 0.9096221999999999.
+2024-12-30 18:35:21 INFO     Trial 70 pruned. Trial was pruned at iteration 753.
+2024-12-30 18:35:42 INFO     Trial 71 pruned. Trial was pruned at iteration 38.
+2024-12-30 18:35:53 INFO     Trial 72 pruned. Trial was pruned at iteration 21.
+2024-12-30 18:36:05 INFO     Trial 73 pruned. Trial was pruned at iteration 21.
+2024-12-30 18:36:16 INFO     Trial 74 pruned. Trial was pruned at iteration 20.
+2024-12-30 18:36:36 INFO     Trial 75 pruned. Trial was pruned at iteration 37.
+2024-12-30 18:36:47 INFO     Trial 76 pruned. Trial was pruned at iteration 20.
+2024-12-30 18:37:17 INFO     Trial 77 pruned. Trial was pruned at iteration 55.
+2024-12-30 18:38:48 INFO     Trial 78 pruned. Trial was pruned at iteration 178.
+2024-12-30 18:38:57 INFO     Trial 79 pruned. Trial was pruned at iteration 15.
+2024-12-30 18:44:11 INFO     Trial 80 pruned. Trial was pruned at iteration 611.
+2024-12-30 18:44:23 INFO     Trial 81 pruned. Trial was pruned at iteration 21.
+2024-12-30 18:53:06 INFO     n_estimators: 1000
+2024-12-30 18:53:06 INFO     Trial 82 finished with value: 0.9125034 and parameters: {'max_delta_step': 3.944427532655909, 'colsample_bytree': 0.8466817632619552, 'subsample': 0.9638588529549045, 'min_child_weight': 66.32280370891627, 'min_data_in_leaf': 5.3182866530263935, 'lambda': 4.86657012163712, 'alpha': 5.967809277689642, 'max_depth': 7, 'eta': 0.08192863485117756, 'gamma': 0.4621105745918213}. Best is trial 82 with value: 0.9125034.
+2024-12-30 19:01:51 INFO     n_estimators: 1000
+2024-12-30 19:01:51 INFO     Trial 83 finished with value: 0.9148652 and parameters: {'max_delta_step': 3.8759254108036596, 'colsample_bytree': 0.8655520714295218, 'subsample': 0.9504376784061916, 'min_child_weight': 61.64527309157292, 'min_data_in_leaf': 5.309778895819523, 'lambda': 4.406053597626092, 'alpha': 6.637334943963568, 'max_depth': 7, 'eta': 0.06779084281224278, 'gamma': 0.539344367797688}. Best is trial 83 with value: 0.9148652.
+2024-12-30 19:02:10 INFO     Trial 84 pruned. Trial was pruned at iteration 35.
+2024-12-30 19:10:11 INFO     n_estimators: 908
+2024-12-30 19:10:11 INFO     Trial 85 finished with value: 0.9097156 and parameters: {'max_delta_step': 4.3877168460226965, 'colsample_bytree': 0.9248252558246084, 'subsample': 0.9728435273234333, 'min_child_weight': 52.26797485817849, 'min_data_in_leaf': 5.513402517051954, 'lambda': 4.87619128511616, 'alpha': 6.217084835236501, 'max_depth': 7, 'eta': 0.07511864451006861, 'gamma': 1.2546218882495352}. Best is trial 83 with value: 0.9148652.
+2024-12-30 19:16:29 INFO     n_estimators: 713
+2024-12-30 19:16:29 INFO     Trial 86 finished with value: 0.9128382 and parameters: {'max_delta_step': 4.338970557504068, 'colsample_bytree': 0.9206254667699971, 'subsample': 0.9451253415436056, 'min_child_weight': 24.750433246984514, 'min_data_in_leaf': 5.523835455252681, 'lambda': 4.854806480094835, 'alpha': 7.1785998638169595, 'max_depth': 7, 'eta': 0.07129695114534929, 'gamma': 1.301996022226187}. Best is trial 83 with value: 0.9148652.
+2024-12-30 19:21:30 INFO     n_estimators: 570
+2024-12-30 19:21:30 INFO     Trial 87 finished with value: 0.9033608000000001 and parameters: {'max_delta_step': 4.867791242932935, 'colsample_bytree': 0.9228089362218619, 'subsample': 0.9471833402110618, 'min_child_weight': 9.086298750341157, 'min_data_in_leaf': 5.53108109133722, 'lambda': 5.093652810311966, 'alpha': 7.232213630744716, 'max_depth': 7, 'eta': 0.08214250469561676, 'gamma': 1.83245307410751}. Best is trial 83 with value: 0.9148652.
+2024-12-30 19:21:34 INFO     Trial 88 pruned. Trial was pruned at iteration 7.
+2024-12-30 19:30:16 INFO     n_estimators: 1000
+2024-12-30 19:30:16 INFO     Trial 89 finished with value: 0.9318291999999999 and parameters: {'max_delta_step': 5.193132479821071, 'colsample_bytree': 0.983874106375368, 'subsample': 0.9057444623735365, 'min_child_weight': 33.50703583513741, 'min_data_in_leaf': 5.744992673715323, 'lambda': 5.572186154149516, 'alpha': 7.526516184042482, 'max_depth': 7, 'eta': 0.08006596627054104, 'gamma': 0.712839438349942}. Best is trial 89 with value: 0.9318291999999999.
+2024-12-30 19:39:00 INFO     n_estimators: 1000
+2024-12-30 19:39:00 INFO     Trial 90 finished with value: 0.9338637999999999 and parameters: {'max_delta_step': 5.196039349115484, 'colsample_bytree': 0.9411851838592685, 'subsample': 0.8924045097539862, 'min_child_weight': 32.63928114217059, 'min_data_in_leaf': 6.557609767414307, 'lambda': 5.619822080921456, 'alpha': 7.388125110818288, 'max_depth': 7, 'eta': 0.07966019960004996, 'gamma': 0.20557043737215197}. Best is trial 90 with value: 0.9338637999999999.
+2024-12-30 19:47:41 INFO     n_estimators: 1000
+2024-12-30 19:47:41 INFO     Trial 91 finished with value: 0.930409 and parameters: {'max_delta_step': 5.2828357821694665, 'colsample_bytree': 0.9429932408439755, 'subsample': 0.905630864588828, 'min_child_weight': 33.59455302642405, 'min_data_in_leaf': 6.44862321525837, 'lambda': 5.592779350468973, 'alpha': 7.876212113552562, 'max_depth': 7, 'eta': 0.07917120064455274, 'gamma': 0.7578963476673658}. Best is trial 90 with value: 0.9338637999999999.
+2024-12-30 19:56:24 INFO     n_estimators: 1000
+2024-12-30 19:56:24 INFO     Trial 92 finished with value: 0.9327409999999998 and parameters: {'max_delta_step': 5.219187215061429, 'colsample_bytree': 0.9876671523786444, 'subsample': 0.8906522777469179, 'min_child_weight': 35.82850426632418, 'min_data_in_leaf': 6.601674274181867, 'lambda': 5.474989747093571, 'alpha': 7.587336883095494, 'max_depth': 7, 'eta': 0.08492845086252221, 'gamma': 0.6761958369350286}. Best is trial 90 with value: 0.9338637999999999.
+2024-12-30 20:05:07 INFO     n_estimators: 1000
+2024-12-30 20:05:07 INFO     Trial 93 finished with value: 0.933915 and parameters: {'max_delta_step': 5.233684375751518, 'colsample_bytree': 0.9813940548610361, 'subsample': 0.8882258974282955, 'min_child_weight': 30.625485967672198, 'min_data_in_leaf': 6.705491554712913, 'lambda': 5.601520545020586, 'alpha': 7.664535309338151, 'max_depth': 7, 'eta': 0.07931815174913029, 'gamma': 0.18045232277978202}. Best is trial 93 with value: 0.933915.
+2024-12-30 20:13:04 INFO     n_estimators: 895
+2024-12-30 20:13:04 INFO     Trial 94 finished with value: 0.934272 and parameters: {'max_delta_step': 5.17991644749881, 'colsample_bytree': 0.9994684715042798, 'subsample': 0.8830911478372541, 'min_child_weight': 30.19671550749402, 'min_data_in_leaf': 6.604728214452406, 'lambda': 6.38122229252255, 'alpha': 7.744273811442725, 'max_depth': 7, 'eta': 0.08409157123182409, 'gamma': 0.15208427944621628}. Best is trial 94 with value: 0.934272.
+2024-12-30 20:13:05 INFO     Trial 95 pruned. Trial was pruned at iteration 0.
+2024-12-30 20:21:48 INFO     n_estimators: 1000
+2024-12-30 20:21:49 INFO     Trial 96 finished with value: 0.9454499999999999 and parameters: {'max_delta_step': 5.937789997053037, 'colsample_bytree': 0.9805662565937078, 'subsample': 0.8844099425141242, 'min_child_weight': 13.900018071400627, 'min_data_in_leaf': 7.362677901615089, 'lambda': 6.401420542617121, 'alpha': 8.12938430951852, 'max_depth': 7, 'eta': 0.08094714458187789, 'gamma': 0.013212689204013417}. Best is trial 96 with value: 0.9454499999999999.
+2024-12-30 20:21:51 INFO     Trial 97 pruned. Trial was pruned at iteration 4.
+2024-12-30 20:30:15 INFO     n_estimators: 948
+2024-12-30 20:30:15 INFO     Trial 98 finished with value: 0.9363203999999999 and parameters: {'max_delta_step': 5.495455787156139, 'colsample_bytree': 0.9882474103084175, 'subsample': 0.8207510985657658, 'min_child_weight': 27.138071853550898, 'min_data_in_leaf': 7.399763931360193, 'lambda': 6.411052556825619, 'alpha': 7.5184628796768225, 'max_depth': 7, 'eta': 0.08307821958544204, 'gamma': 0.46166215153327517}. Best is trial 96 with value: 0.9454499999999999.
+2024-12-30 20:38:58 INFO     n_estimators: 1000
+2024-12-30 20:38:58 INFO     Trial 99 finished with value: 0.9439496 and parameters: {'max_delta_step': 6.289498399522948, 'colsample_bytree': 0.9873577254375172, 'subsample': 0.8211801495824147, 'min_child_weight': 16.226557556500904, 'min_data_in_leaf': 7.420903023546055, 'lambda': 7.1212276949151425, 'alpha': 8.053004137609795, 'max_depth': 7, 'eta': 0.08689767808756785, 'gamma': 0.24042058678166028}. Best is trial 96 with value: 0.9454499999999999.
+2024-12-30 20:45:20 INFO     n_estimators: 719
+2024-12-30 20:45:20 INFO     Trial 100 finished with value: 0.9374692 and parameters: {'max_delta_step': 6.2495316416207105, 'colsample_bytree': 0.9840570408219321, 'subsample': 0.8168036465198257, 'min_child_weight': 15.354626060607606, 'min_data_in_leaf': 7.223493903303151, 'lambda': 7.128238754882636, 'alpha': 7.510340484198828, 'max_depth': 7, 'eta': 0.08802127768775699, 'gamma': 0.6452758260073406}. Best is trial 96 with value: 0.9454499999999999.
+2024-12-30 20:54:00 INFO     n_estimators: 1000
+2024-12-30 20:54:00 INFO     Trial 101 finished with value: 0.9437554 and parameters: {'max_delta_step': 6.150762951731295, 'colsample_bytree': 0.9871060766488444, 'subsample': 0.8195176122851419, 'min_child_weight': 15.016152750549777, 'min_data_in_leaf': 7.389443267310057, 'lambda': 6.870090829686419, 'alpha': 7.47962448044328, 'max_depth': 7, 'eta': 0.08734424201137278, 'gamma': 0.6311434797386746}. Best is trial 96 with value: 0.9454499999999999.
+2024-12-30 21:02:42 INFO     n_estimators: 1000
+2024-12-30 21:02:42 INFO     Trial 102 finished with value: 0.9444536000000001 and parameters: {'max_delta_step': 6.282791971077458, 'colsample_bytree': 0.9863527365835172, 'subsample': 0.8184656300593146, 'min_child_weight': 15.565924261834713, 'min_data_in_leaf': 7.366827930694358, 'lambda': 7.107304946497714, 'alpha': 7.489592406158435, 'max_depth': 7, 'eta': 0.08752296049054312, 'gamma': 0.24872899597530584}. Best is trial 96 with value: 0.9454499999999999.
+2024-12-30 21:11:22 INFO     n_estimators: 1000
+2024-12-30 21:11:23 INFO     Trial 103 finished with value: 0.9474442 and parameters: {'max_delta_step': 6.370468035435481, 'colsample_bytree': 0.9845516583340993, 'subsample': 0.820419902942379, 'min_child_weight': 11.114966365312899, 'min_data_in_leaf': 7.414702486549395, 'lambda': 7.2071436154828925, 'alpha': 7.504540833179981, 'max_depth': 7, 'eta': 0.09168944787212016, 'gamma': 0.20669429475584516}. Best is trial 103 with value: 0.9474442.
+2024-12-30 21:19:13 INFO     n_estimators: 885
+2024-12-30 21:19:13 INFO     Trial 104 finished with value: 0.9434875999999999 and parameters: {'max_delta_step': 6.371043110910741, 'colsample_bytree': 0.9922800372924955, 'subsample': 0.8211490380859005, 'min_child_weight': 14.937966387453152, 'min_data_in_leaf': 7.43578950020095, 'lambda': 7.146857191235549, 'alpha': 7.5847245060124, 'max_depth': 7, 'eta': 0.08759015239684494, 'gamma': 0.22065230362332547}. Best is trial 103 with value: 0.9474442.
+2024-12-30 21:25:58 INFO     n_estimators: 767
+2024-12-30 21:25:58 INFO     Trial 105 finished with value: 0.9397002000000001 and parameters: {'max_delta_step': 6.33352173821157, 'colsample_bytree': 0.9993402065781897, 'subsample': 0.818360055166558, 'min_child_weight': 14.875019293401513, 'min_data_in_leaf': 7.424340697221975, 'lambda': 7.1592755620021356, 'alpha': 8.119842574340717, 'max_depth': 7, 'eta': 0.09103504649796981, 'gamma': 0.23269877770843292}. Best is trial 103 with value: 0.9474442.
+2024-12-30 21:25:59 INFO     Trial 106 pruned. Trial was pruned at iteration 0.
+2024-12-30 21:34:38 INFO     n_estimators: 1000
+2024-12-30 21:34:38 INFO     Trial 107 finished with value: 0.9512442 and parameters: {'max_delta_step': 6.7319766701634824, 'colsample_bytree': 0.9713172251440754, 'subsample': 0.7893007601150853, 'min_child_weight': 1.6956920456120592, 'min_data_in_leaf': 7.362583609953117, 'lambda': 6.881873723431015, 'alpha': 8.231991108079168, 'max_depth': 7, 'eta': 0.09595330125014988, 'gamma': 0.1434335944579133}. Best is trial 107 with value: 0.9512442.
+2024-12-30 21:41:05 INFO     n_estimators: 806
+2024-12-30 21:41:05 INFO     Trial 108 finished with value: 0.9482175999999999 and parameters: {'max_delta_step': 6.71096167075053, 'colsample_bytree': 0.9587561020174429, 'subsample': 0.7858782894735874, 'min_child_weight': 2.241244738372174, 'min_data_in_leaf': 7.458465735053905, 'lambda': 7.392049741211412, 'alpha': 8.102162780032069, 'max_depth': 7, 'eta': 0.0960561942487338, 'gamma': 0.00106330071326724}. Best is trial 107 with value: 0.9512442.
+2024-12-30 21:49:17 INFO     n_estimators: 1000
+2024-12-30 21:49:17 INFO     Trial 109 finished with value: 0.9506294000000001 and parameters: {'max_delta_step': 6.803090950310408, 'colsample_bytree': 0.9586277023992797, 'subsample': 0.786016194328938, 'min_child_weight': 2.9732611457036757, 'min_data_in_leaf': 7.3903351335972065, 'lambda': 7.433498769288841, 'alpha': 8.172619146390275, 'max_depth': 7, 'eta': 0.09607623553817843, 'gamma': 0.020498850594596565}. Best is trial 107 with value: 0.9512442.
+2024-12-30 21:57:57 INFO     n_estimators: 1000
+2024-12-30 21:57:57 INFO     Trial 110 finished with value: 0.9515152 and parameters: {'max_delta_step': 6.804805560611529, 'colsample_bytree': 0.9612602571654487, 'subsample': 0.7804891273870957, 'min_child_weight': 1.406137514235736, 'min_data_in_leaf': 7.802236805715826, 'lambda': 7.499678998904088, 'alpha': 8.138701110323648, 'max_depth': 7, 'eta': 0.09467392519224818, 'gamma': 0.003294190260349744}. Best is trial 110 with value: 0.9515152.
+2024-12-30 22:05:49 INFO     n_estimators: 892
+2024-12-30 22:05:49 INFO     Trial 111 finished with value: 0.9484923999999999 and parameters: {'max_delta_step': 6.819139417526444, 'colsample_bytree': 0.9589690946516388, 'subsample': 0.7817076480971338, 'min_child_weight': 3.012263453498953, 'min_data_in_leaf': 7.802599418404565, 'lambda': 7.467602040173583, 'alpha': 8.127328174634739, 'max_depth': 7, 'eta': 0.08979608056230651, 'gamma': 0.0647558278406406}. Best is trial 110 with value: 0.9515152.
+2024-12-30 22:14:32 INFO     n_estimators: 1000
+2024-12-30 22:14:32 INFO     Trial 112 finished with value: 0.9514196 and parameters: {'max_delta_step': 6.785296522950693, 'colsample_bytree': 0.962255201854477, 'subsample': 0.7748887324448072, 'min_child_weight': 2.6933843168580824, 'min_data_in_leaf': 7.814014383865127, 'lambda': 7.5000370454305445, 'alpha': 8.021585007549596, 'max_depth': 7, 'eta': 0.09666964988936289, 'gamma': 0.049905270653154185}. Best is trial 110 with value: 0.9515152.
+2024-12-30 22:21:26 INFO     n_estimators: 779
+2024-12-30 22:21:26 INFO     Trial 113 finished with value: 0.9450272 and parameters: {'max_delta_step': 6.8403990154052625, 'colsample_bytree': 0.960198235471732, 'subsample': 0.7836856116253142, 'min_child_weight': 2.5624522558467127, 'min_data_in_leaf': 7.852509849029621, 'lambda': 7.551361507770746, 'alpha': 9.312348109794575, 'max_depth': 7, 'eta': 0.09610388990183141, 'gamma': 0.007038953487963787}. Best is trial 110 with value: 0.9515152.
+2024-12-30 22:29:36 INFO     n_estimators: 922
+2024-12-30 22:29:36 INFO     Trial 114 finished with value: 0.9466464 and parameters: {'max_delta_step': 6.8186968621338355, 'colsample_bytree': 0.959148024225023, 'subsample': 0.7799696017705147, 'min_child_weight': 4.098909578116086, 'min_data_in_leaf': 7.771317471281479, 'lambda': 7.56929615312862, 'alpha': 9.453426903046164, 'max_depth': 7, 'eta': 0.09694204313853907, 'gamma': 0.02701511748960102}. Best is trial 110 with value: 0.9515152.
+2024-12-30 22:38:21 INFO     n_estimators: 1000
+2024-12-30 22:38:21 INFO     Trial 115 finished with value: 0.9492889999999999 and parameters: {'max_delta_step': 6.823934529346654, 'colsample_bytree': 0.9578771234425298, 'subsample': 0.7790823978206619, 'min_child_weight': 1.118707566802959, 'min_data_in_leaf': 7.82847590023925, 'lambda': 7.544720949592658, 'alpha': 9.299872577550714, 'max_depth': 7, 'eta': 0.09601192537038185, 'gamma': 0.03025463707429174}. Best is trial 110 with value: 0.9515152.
+2024-12-30 22:47:00 INFO     n_estimators: 972
+2024-12-30 22:47:00 INFO     Trial 116 finished with value: 0.948869 and parameters: {'max_delta_step': 6.779875785770921, 'colsample_bytree': 0.9603872514659421, 'subsample': 0.7818831542924459, 'min_child_weight': 2.7632568112612064, 'min_data_in_leaf': 7.868553002334815, 'lambda': 7.7434420075594295, 'alpha': 9.27890160482458, 'max_depth': 7, 'eta': 0.09586020618188454, 'gamma': 0.015590728466346016}. Best is trial 110 with value: 0.9515152.
+2024-12-30 22:47:01 INFO     Trial 117 pruned. Trial was pruned at iteration 0.
+2024-12-30 22:55:43 INFO     n_estimators: 1000
+2024-12-30 22:55:43 INFO     Trial 118 finished with value: 0.9480516 and parameters: {'max_delta_step': 7.3943956766601975, 'colsample_bytree': 0.9561511354533537, 'subsample': 0.7997821398463828, 'min_child_weight': 7.526941741377609, 'min_data_in_leaf': 8.37035613082122, 'lambda': 7.892437344824878, 'alpha': 9.146170857228382, 'max_depth': 7, 'eta': 0.09658040036769591, 'gamma': 0.07585742793064668}. Best is trial 110 with value: 0.9515152.
+2024-12-30 22:55:48 INFO     Trial 119 pruned. Trial was pruned at iteration 7.
+2024-12-30 23:04:28 INFO     n_estimators: 1000
+2024-12-30 23:04:29 INFO     Trial 120 finished with value: 0.9458947999999999 and parameters: {'max_delta_step': 7.040929645200514, 'colsample_bytree': 0.9522905735525165, 'subsample': 0.7389363351564994, 'min_child_weight': 6.183703698353369, 'min_data_in_leaf': 8.247192452502134, 'lambda': 8.49278296368902, 'alpha': 9.767561039267894, 'max_depth': 7, 'eta': 0.09757033687692185, 'gamma': 0.4386542663278338}. Best is trial 110 with value: 0.9515152.
+2024-12-30 23:04:32 INFO     Trial 121 pruned. Trial was pruned at iteration 4.
+2024-12-30 23:13:12 INFO     n_estimators: 1000
+2024-12-30 23:13:13 INFO     Trial 122 finished with value: 0.9481156000000001 and parameters: {'max_delta_step': 7.376339041801183, 'colsample_bytree': 0.9553940432607635, 'subsample': 0.770003321363725, 'min_child_weight': 1.1780826492474903, 'min_data_in_leaf': 8.80173645620321, 'lambda': 8.002030544560846, 'alpha': 8.492002268641397, 'max_depth': 7, 'eta': 0.09386869318088345, 'gamma': 0.481499520899595}. Best is trial 110 with value: 0.9515152.
+2024-12-30 23:21:07 INFO     n_estimators: 892
+2024-12-30 23:21:07 INFO     Trial 123 finished with value: 0.9469014 and parameters: {'max_delta_step': 7.366410901129825, 'colsample_bytree': 0.9529986448955968, 'subsample': 0.7753627017012495, 'min_child_weight': 1.567709493492014, 'min_data_in_leaf': 8.798192703183005, 'lambda': 7.902019419103701, 'alpha': 8.538723420632923, 'max_depth': 7, 'eta': 0.0938436206671875, 'gamma': 0.4619601840477387}. Best is trial 110 with value: 0.9515152.
+2024-12-30 23:27:59 INFO     n_estimators: 776
+2024-12-30 23:27:59 INFO     Trial 124 finished with value: 0.9447011999999999 and parameters: {'max_delta_step': 8.072392078232442, 'colsample_bytree': 0.9385606367092266, 'subsample': 0.7732010829308366, 'min_child_weight': 1.5876079255467221, 'min_data_in_leaf': 8.782472510405652, 'lambda': 7.831046716758525, 'alpha': 8.591473347388147, 'max_depth': 7, 'eta': 0.09270915142376214, 'gamma': 0.4137138112903811}. Best is trial 110 with value: 0.9515152.
+2024-12-30 23:35:32 INFO     n_estimators: 854
+2024-12-30 23:35:33 INFO     Trial 125 finished with value: 0.9379806 and parameters: {'max_delta_step': 6.591686787404152, 'colsample_bytree': 0.96888945825188, 'subsample': 0.7985250746104517, 'min_child_weight': 20.735330085718168, 'min_data_in_leaf': 8.962828796859991, 'lambda': 9.091131218565453, 'alpha': 8.991251653168495, 'max_depth': 7, 'eta': 0.09426582320107108, 'gamma': 0.3666404921526669}. Best is trial 110 with value: 0.9515152.
+2024-12-30 23:43:45 INFO     n_estimators: 927
+2024-12-30 23:43:45 INFO     Trial 126 finished with value: 0.9456032000000001 and parameters: {'max_delta_step': 7.316696670346573, 'colsample_bytree': 0.9577948232941643, 'subsample': 0.7640839892290359, 'min_child_weight': 1.3359159010806057, 'min_data_in_leaf': 8.055639130676944, 'lambda': 8.27205373357992, 'alpha': 9.512234168192203, 'max_depth': 7, 'eta': 0.09569044814924023, 'gamma': 0.5623948117732169}. Best is trial 110 with value: 0.9515152.
+2024-12-30 23:43:46 INFO     Trial 127 pruned. Trial was pruned at iteration 0.
+2024-12-30 23:43:49 INFO     Trial 128 pruned. Trial was pruned at iteration 4.
+2024-12-30 23:50:40 INFO     n_estimators: 772
+2024-12-30 23:50:40 INFO     Trial 129 finished with value: 0.9409136 and parameters: {'max_delta_step': 6.975378123364016, 'colsample_bytree': 0.9310913516076127, 'subsample': 0.8049989726354939, 'min_child_weight': 7.744462885458409, 'min_data_in_leaf': 8.530940563569144, 'lambda': 7.789885184375464, 'alpha': 9.070085941936291, 'max_depth': 7, 'eta': 0.09683942769499049, 'gamma': 0.7221553888517398}. Best is trial 110 with value: 0.9515152.
+2024-12-30 23:50:41 INFO     Trial 130 pruned. Trial was pruned at iteration 0.
+2024-12-30 23:59:21 INFO     n_estimators: 1000
+2024-12-30 23:59:21 INFO     Trial 131 finished with value: 0.9446436 and parameters: {'max_delta_step': 6.979845725058486, 'colsample_bytree': 0.9581432642305987, 'subsample': 0.7394653929797483, 'min_child_weight': 7.472413757916748, 'min_data_in_leaf': 8.25315098702054, 'lambda': 8.503929047288965, 'alpha': 9.689631496480693, 'max_depth': 7, 'eta': 0.09865301220277538, 'gamma': 0.4942821111958856}. Best is trial 110 with value: 0.9515152.
+2024-12-30 23:59:22 INFO     Trial 132 pruned. Trial was pruned at iteration 0.
+2024-12-31 00:08:05 INFO     n_estimators: 1000
+2024-12-31 00:08:05 INFO     Trial 133 finished with value: 0.9458432 and parameters: {'max_delta_step': 7.7273016767304625, 'colsample_bytree': 0.9726635344802569, 'subsample': 0.7854299501101738, 'min_child_weight': 9.679081858579348, 'min_data_in_leaf': 7.023594069914753, 'lambda': 7.7023563816002305, 'alpha': 9.198758590074032, 'max_depth': 7, 'eta': 0.09194339470390178, 'gamma': 0.006247904037015001}. Best is trial 110 with value: 0.9515152.
+2024-12-31 00:15:28 INFO     n_estimators: 833
+2024-12-31 00:15:28 INFO     Trial 134 finished with value: 0.9439242 and parameters: {'max_delta_step': 7.949999479466277, 'colsample_bytree': 0.9625151979440838, 'subsample': 0.7261998242974469, 'min_child_weight': 1.483372083105848, 'min_data_in_leaf': 8.44471268296076, 'lambda': 7.375564581040219, 'alpha': 8.783869933155064, 'max_depth': 7, 'eta': 0.09074900041826307, 'gamma': 0.5119815843241409}. Best is trial 110 with value: 0.9515152.
+2024-12-31 00:15:29 INFO     Trial 135 pruned. Trial was pruned at iteration 0.
+2024-12-31 00:15:31 INFO     Trial 136 pruned. Trial was pruned at iteration 2.
+2024-12-31 00:23:10 INFO     n_estimators: 864
+2024-12-31 00:23:10 INFO     Trial 137 finished with value: 0.9430913999999999 and parameters: {'max_delta_step': 8.29551978283067, 'colsample_bytree': 0.9611334504246858, 'subsample': 0.8330509264935629, 'min_child_weight': 10.748363129023717, 'min_data_in_leaf': 9.064835108762958, 'lambda': 7.6616551242148265, 'alpha': 9.953931433071482, 'max_depth': 7, 'eta': 0.09645141246498497, 'gamma': 0.18124493335190528}. Best is trial 110 with value: 0.9515152.
+2024-12-31 00:23:11 INFO     Trial 138 pruned. Trial was pruned at iteration 0.
+2024-12-31 00:23:12 INFO     Trial 139 pruned. Trial was pruned at iteration 0.
+2024-12-31 00:23:13 INFO     Trial 140 pruned. Trial was pruned at iteration 0.
+2024-12-31 00:23:26 INFO     Trial 141 pruned. Trial was pruned at iteration 25.
+2024-12-31 00:23:29 INFO     Trial 142 pruned. Trial was pruned at iteration 3.
+2024-12-31 00:32:13 INFO     n_estimators: 1000
+2024-12-31 00:32:13 INFO     Trial 143 finished with value: 0.9519578 and parameters: {'max_delta_step': 7.799133175267282, 'colsample_bytree': 0.9524536215964492, 'subsample': 0.7675977461661783, 'min_child_weight': 1.0020535245681288, 'min_data_in_leaf': 7.630515368513778, 'lambda': 7.333647199997202, 'alpha': 8.315101294517499, 'max_depth': 7, 'eta': 0.095002287306703, 'gamma': 0.007198814876252034}. Best is trial 143 with value: 0.9519578.
+2024-12-31 00:35:47 INFO     Trial 144 pruned. Trial was pruned at iteration 418.
+2024-12-31 00:35:49 INFO     Trial 145 pruned. Trial was pruned at iteration 1.
+2024-12-31 00:44:29 INFO     n_estimators: 1000
+2024-12-31 00:44:29 INFO     Trial 146 finished with value: 0.9452636 and parameters: {'max_delta_step': 7.0942215714033745, 'colsample_bytree': 0.9457109428521382, 'subsample': 0.8066855055041348, 'min_child_weight': 11.470942054202403, 'min_data_in_leaf': 7.220338716007454, 'lambda': 7.469677631755244, 'alpha': 8.432626186518892, 'max_depth': 7, 'eta': 0.09427952491748472, 'gamma': 0.4738241302702735}. Best is trial 143 with value: 0.9519578.
+2024-12-31 00:44:30 INFO     Trial 147 pruned. Trial was pruned at iteration 0.
+2024-12-31 00:44:34 INFO     Trial 148 pruned. Trial was pruned at iteration 8.
+2024-12-31 00:44:36 INFO     Trial 149 pruned. Trial was pruned at iteration 2.
+2024-12-31 00:44:37 INFO     Trial 150 pruned. Trial was pruned at iteration 0.
+2024-12-31 00:44:40 INFO     Trial 151 pruned. Trial was pruned at iteration 4.
+2024-12-31 00:44:44 INFO     Trial 152 pruned. Trial was pruned at iteration 4.
+2024-12-31 00:47:44 INFO     Trial 153 pruned. Trial was pruned at iteration 354.
+2024-12-31 00:54:22 INFO     n_estimators: 756
+2024-12-31 00:54:23 INFO     Trial 154 finished with value: 0.9412304 and parameters: {'max_delta_step': 7.045668074011596, 'colsample_bytree': 0.9782047746730567, 'subsample': 0.8308708697677402, 'min_child_weight': 8.453761377027458, 'min_data_in_leaf': 7.8433509666918155, 'lambda': 7.930136917518992, 'alpha': 8.248624890091016, 'max_depth': 7, 'eta': 0.09848357451880091, 'gamma': 0.7689856077798973}. Best is trial 143 with value: 0.9519578.
+2024-12-31 01:02:58 INFO     n_estimators: 960
+2024-12-31 01:02:58 INFO     Trial 155 finished with value: 0.9492206 and parameters: {'max_delta_step': 6.087711267888646, 'colsample_bytree': 0.9512271661696308, 'subsample': 0.806924668355487, 'min_child_weight': 1.0026798504595522, 'min_data_in_leaf': 8.31245820281465, 'lambda': 7.3365588546968485, 'alpha': 9.163039884782915, 'max_depth': 7, 'eta': 0.09028594029854772, 'gamma': 0.0002291652361781915}. Best is trial 143 with value: 0.9519578.
+2024-12-31 01:03:00 INFO     Trial 156 pruned. Trial was pruned at iteration 3.
+2024-12-31 01:03:01 INFO     Trial 157 pruned. Trial was pruned at iteration 1.
+2024-12-31 01:03:02 INFO     Trial 158 pruned. Trial was pruned at iteration 0.
+2024-12-31 01:10:01 INFO     n_estimators: 789
+2024-12-31 01:10:01 INFO     Trial 159 finished with value: 0.9436116 and parameters: {'max_delta_step': 6.8448148174859735, 'colsample_bytree': 0.9361936593638432, 'subsample': 0.7760928681689386, 'min_child_weight': 7.264485740018842, 'min_data_in_leaf': 7.9646049210617695, 'lambda': 7.560220383203656, 'alpha': 8.955272252676908, 'max_depth': 7, 'eta': 0.09676545636975178, 'gamma': 0.32783081787379065}. Best is trial 143 with value: 0.9519578.
+2024-12-31 01:10:02 INFO     Trial 160 pruned. Trial was pruned at iteration 0.
+2024-12-31 01:10:16 INFO     Trial 161 pruned. Trial was pruned at iteration 25.
+2024-12-31 01:10:18 INFO     Trial 162 pruned. Trial was pruned at iteration 3.
+2024-12-31 01:18:09 INFO     n_estimators: 885
+2024-12-31 01:18:09 INFO     Trial 163 finished with value: 0.9453044 and parameters: {'max_delta_step': 6.911566247817447, 'colsample_bytree': 0.9531106239065013, 'subsample': 0.7591564363625555, 'min_child_weight': 1.5602096426143852, 'min_data_in_leaf': 7.230593153817688, 'lambda': 6.651826026464838, 'alpha': 9.407239180937827, 'max_depth': 7, 'eta': 0.09058834737458477, 'gamma': 0.46776777295653443}. Best is trial 143 with value: 0.9519578.
+2024-12-31 01:18:10 INFO     Trial 164 pruned. Trial was pruned at iteration 0.
+2024-12-31 01:18:11 INFO     Trial 165 pruned. Trial was pruned at iteration 0.
+2024-12-31 01:18:12 INFO     Trial 166 pruned. Trial was pruned at iteration 0.
+2024-12-31 01:18:13 INFO     Trial 167 pruned. Trial was pruned at iteration 0.
+2024-12-31 01:24:12 INFO     Trial 168 pruned. Trial was pruned at iteration 699.
+2024-12-31 01:24:15 INFO     Trial 169 pruned. Trial was pruned at iteration 4.
+2024-12-31 01:24:16 INFO     Trial 170 pruned. Trial was pruned at iteration 0.
+2024-12-31 01:24:19 INFO     Trial 171 pruned. Trial was pruned at iteration 5.
+2024-12-31 01:24:20 INFO     Trial 172 pruned. Trial was pruned at iteration 0.
+2024-12-31 01:24:23 INFO     Trial 173 pruned. Trial was pruned at iteration 3.
+2024-12-31 01:24:25 INFO     Trial 174 pruned. Trial was pruned at iteration 2.
+2024-12-31 01:24:26 INFO     Trial 175 pruned. Trial was pruned at iteration 0.
+2024-12-31 01:24:27 INFO     Trial 176 pruned. Trial was pruned at iteration 0.
+2024-12-31 01:33:09 INFO     n_estimators: 1000
+2024-12-31 01:33:09 INFO     Trial 177 finished with value: 0.9494664 and parameters: {'max_delta_step': 6.6121464514582895, 'colsample_bytree': 0.9850257832002205, 'subsample': 0.7681743060264595, 'min_child_weight': 6.8962211069390404, 'min_data_in_leaf': 7.264894893040943, 'lambda': 7.791819903114085, 'alpha': 8.050564609598396, 'max_depth': 7, 'eta': 0.09999905265752232, 'gamma': 0.22323993947129053}. Best is trial 143 with value: 0.9519578.
+2024-12-31 01:33:10 INFO     Trial 178 pruned. Trial was pruned at iteration 0.
+2024-12-31 01:41:56 INFO     n_estimators: 1000
+2024-12-31 01:41:56 INFO     Trial 179 finished with value: 0.9486491999999999 and parameters: {'max_delta_step': 6.827669814606717, 'colsample_bytree': 0.9912644407679863, 'subsample': 0.7473688755628864, 'min_child_weight': 7.662806337352082, 'min_data_in_leaf': 7.253309789044892, 'lambda': 7.270741495124438, 'alpha': 8.29079203828751, 'max_depth': 7, 'eta': 0.09829325473029855, 'gamma': 0.24184341401022622}. Best is trial 143 with value: 0.9519578.
+2024-12-31 01:50:40 INFO     n_estimators: 1000
+2024-12-31 01:50:40 INFO     Trial 180 finished with value: 0.9489922 and parameters: {'max_delta_step': 6.881659231857909, 'colsample_bytree': 0.9955897210011524, 'subsample': 0.7700563618443261, 'min_child_weight': 6.637788795377723, 'min_data_in_leaf': 7.273201092102285, 'lambda': 7.044379130234808, 'alpha': 8.294663292425387, 'max_depth': 7, 'eta': 0.0984173276353522, 'gamma': 0.31874449527959825}. Best is trial 143 with value: 0.9519578.
+2024-12-31 01:50:41 INFO     Trial 181 pruned. Trial was pruned at iteration 1.
+2024-12-31 01:59:23 INFO     n_estimators: 1000
+2024-12-31 01:59:23 INFO     Trial 182 finished with value: 0.9491756 and parameters: {'max_delta_step': 6.470194571128638, 'colsample_bytree': 0.9860918247273998, 'subsample': 0.7658484247486278, 'min_child_weight': 7.0003368630400065, 'min_data_in_leaf': 7.261729375576943, 'lambda': 7.303784808926916, 'alpha': 7.933182197310314, 'max_depth': 7, 'eta': 0.09962564396274562, 'gamma': 0.4045161722393273}. Best is trial 143 with value: 0.9519578.
+2024-12-31 01:59:24 INFO     Trial 183 pruned. Trial was pruned at iteration 1.
+2024-12-31 02:07:48 INFO     n_estimators: 946
+2024-12-31 02:07:48 INFO     Trial 184 finished with value: 0.9475467999999999 and parameters: {'max_delta_step': 6.805740118243721, 'colsample_bytree': 0.9859529143175749, 'subsample': 0.770905533141748, 'min_child_weight': 1.0459829746586813, 'min_data_in_leaf': 7.334094533501099, 'lambda': 6.64698507516411, 'alpha': 8.153521739609932, 'max_depth': 7, 'eta': 0.09601068860778576, 'gamma': 0.7471821727971774}. Best is trial 143 with value: 0.9519578.
+2024-12-31 02:07:49 INFO     Trial 185 pruned. Trial was pruned at iteration 0.
+2024-12-31 02:07:50 INFO     Trial 186 pruned. Trial was pruned at iteration 0.
+2024-12-31 02:07:51 INFO     Trial 187 pruned. Trial was pruned at iteration 0.
+2024-12-31 02:07:53 INFO     Trial 188 pruned. Trial was pruned at iteration 3.
+2024-12-31 02:15:51 INFO     n_estimators: 896
+2024-12-31 02:15:51 INFO     Trial 189 finished with value: 0.9460341999999999 and parameters: {'max_delta_step': 6.224979639501464, 'colsample_bytree': 0.9818745311711203, 'subsample': 0.8293377566982703, 'min_child_weight': 7.34554685677807, 'min_data_in_leaf': 7.5122045141093325, 'lambda': 7.134869448776853, 'alpha': 8.16558543334325, 'max_depth': 7, 'eta': 0.09356462147439586, 'gamma': 0.4544513461868858}. Best is trial 143 with value: 0.9519578.
+2024-12-31 02:15:52 INFO     Trial 190 pruned. Trial was pruned at iteration 0.
+2024-12-31 02:15:55 INFO     Trial 191 pruned. Trial was pruned at iteration 3.
+2024-12-31 02:15:56 INFO     Trial 192 pruned. Trial was pruned at iteration 0.
+2024-12-31 02:16:01 INFO     Trial 193 pruned. Trial was pruned at iteration 8.
+2024-12-31 02:16:02 INFO     Trial 194 pruned. Trial was pruned at iteration 0.
+2024-12-31 02:23:30 INFO     n_estimators: 838
+2024-12-31 02:23:30 INFO     Trial 195 finished with value: 0.9446539999999999 and parameters: {'max_delta_step': 6.454336815709721, 'colsample_bytree': 0.9759677798755183, 'subsample': 0.790426186789423, 'min_child_weight': 6.7104615277123925, 'min_data_in_leaf': 7.831857520165142, 'lambda': 7.451330023831361, 'alpha': 8.71116923288354, 'max_depth': 7, 'eta': 0.099992321757437, 'gamma': 0.49874412590848527}. Best is trial 143 with value: 0.9519578.
+2024-12-31 02:23:32 INFO     Trial 196 pruned. Trial was pruned at iteration 2.
+2024-12-31 02:23:37 INFO     Trial 197 pruned. Trial was pruned at iteration 7.
+2024-12-31 02:23:38 INFO     Trial 198 pruned. Trial was pruned at iteration 0.
+2024-12-31 02:23:39 INFO     Trial 199 pruned. Trial was pruned at iteration 0.
