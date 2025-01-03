@@ -6,3 +6,5 @@ __pycache__
 Starbucks-2.ipynb
 xgboost_cv_results
 irr_with_v2_scaled
+*.db
+/Starbucks_all_code.ipynb
