@@ -161,13 +161,19 @@ XGBOOST algorithm was extended to use a custom metric 'IRR' to maximize individu
 My thinking is, the more people who purchase the product after receiving a promotion, the more revenue we will make. 
 A custom objective function was used to calculate weighted class loss to handle imbalance between classes.
 
-Optuna was used to fine-tune the model with faster hyperparameter searching
+Optuna was used to fine-tune the model with faster hyperparameter searching.
 
 
 ### Model performance
 
+The confusion matrix shows that 86 out of 144 positive labels were correctly identified during validation, which is reasonably good!
+However, we see a higher error rate for the negative labels; 5207 out of 8329 records were correctly labeled.
 
+<img src="images/confusion.png" alt="confusion" width=300/>
 
+My promotion strategy results give a much higher IRR and NIR rate than Starbucks own solution, which is a wonderful success story :-)
+
+<img src="images/results.png" alt="confusion" width=500/>
 
 
 # 6. Licensing, Authors, Acknowledgements<a name="licensing"></a>
