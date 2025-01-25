@@ -1,7 +1,7 @@
 
 Udacity Data Science Nanodegree
 ---
-## Starbucks take home assignment (formally given to their job applicants)
+## Starbucks take home assignment
 The purpose of this project is to demonstrate the ability to use AB testing and target market modeling together in a project.
 
 <img src="https://opj.ca/wp-content/uploads/2018/02/New-Starbucks-Logo-1200x969.jpg" width="200" height="200">
@@ -48,7 +48,7 @@ $$ IRR = \frac{purch_{treat}}{cust_{treat}} - \frac{purch_{ctrl}}{cust_{ctrl}} $
 
 NIR depicts how much is made (or lost) by sending out the promotion.
 
-$$ NIR = (10\cdot purch_{treat} - 0.15 \cdot cust_{treat}) - 10 \cdot purch_{ctrl}$$git
+$$ NIR = (10\cdot purch_{treat} - 0.15 \cdot cust_{treat}) - 10 \cdot purch_{ctrl}$$
 
 The project is divided into two main parts and questions:
 1) **AB Testing:**
