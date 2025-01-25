@@ -8,31 +8,27 @@ The purpose of this project is to demonstrate the ability to use AB testing and 
 
 #### Created by: Juanita Smith
 #### Last date: January 2025
----
+
 
 Starbucks wants to uplift their sales by sending out promotions more selectively 
 to only those customers that are more likely to react to promotions and buy the product as a result.
 
 ### Table of contents
-
 * [1. Project Overview](#1-project-overview)
-* [2. Udacity Project requirements](#2-udacity-project-requirements)
-* [3. Installation](#3-installation)
-* [4. Instructions](#4-instructions)
-* [6. Dataset overview](#6-input-file-descriptions)
-* [7. Modelling](#7-modelling)
-  * [Data cleaning](#data-cleaning)
-  * [Modelling approach](#modelling-approach)
-    * [Dealing with Imbalance](#dealing-with-imbalance)
-    * [Cross-validation](#cross-validation)
-    * [Evaluation metrics](#evaluation-metrics)
-    * [Model performance](#model-performance)
-* [10. Licensing, Authors, Acknowledgements<a name="licensing"></a>](#10-licensing-authors-acknowledgementsa-namelicensinga)
-* [11. References](#11-references)
+* [2. Installation](#2-installation)
+* [3. Dataset Overview](#3-dataset-overview)
+* [4. Notebook overview](#4-notebook-overview)
+* [5. Conclusions](#5-conclusions)
+  * [Conclusion of Exploratory Data Analysis](#conclusion-of-exploratory-data-analysis)
+  * [Conclusion of Hypothesis testing for IRR](#conclusion-of-hypothesis-testing-for-irr)
+  * [Conclusion of Hypothesis Testing for NIR](#conclusion-of-hypothesis-testing-for-nir)
+  * [Conclusion of promotion strategy](#conclusion-of-promotion-strategy)
+* [6. Licensing, Authors, Acknowledgements<a name="licensing"></a>](#6-licensing-authors-acknowledgementsa-namelicensinga)
+* [7. References](#7-references)
 
 
 # 1. Project Overview
----
+
 The dataset provided in this portfolio exercise was originally used as a take-home assignment provided by Starbucks for their job candidates. 
 The data for this exercise consists of about 120,000 data points split in a 2:1 ratio among training and test files. 
 In the experiment simulated by the data, an advertising promotion was tested to see if it would bring more customers
@@ -66,7 +62,7 @@ The project is divided into two main parts and questions:
 
 
 # 2. Installation
----
+
 To clone the repository. use `git clone https://github.com/JuanitaSmith/ab_testing_starbucks.git`
 
 - Project environment was built using Anaconda.
@@ -80,20 +76,20 @@ To clone the repository. use `git clone https://github.com/JuanitaSmith/ab_testi
 
 
 # 3. Dataset Overview
----
+
 Each data point includes one column indicating whether an individual was sent a promotion for the product, 
 and one column indicating whether that individual eventually purchased that product. 
 Each individual also has seven additional features associated with them, which are provided abstractly as V1-V7.
 
 # 4. Notebook overview
----
+
 Project was split into three notebooks available in folder `/notebooks`
 1) EDA to assess, clean and explore data distributions, relationships and patterns.
 2) Hypothesis testing answering project question 1.
 3) Target market modeling using machine learning answering question 2.
 
 # 5. Conclusions
----
+
 ## Conclusion of Exploratory Data Analysis
 
 Data were quite clean already with no missing values and significant outliers.
@@ -174,12 +170,12 @@ Optuna was used to fine-tune the model with faster hyperparameter searching
 
 
 # 6. Licensing, Authors, Acknowledgements<a name="licensing"></a>
----
+
 Must give credit to Starbucks for the data.
 
 
 # 7. References
----
+
 - [XGBOOST handling imbalance with focal loss](https://github.com/handongfeng/Xgboost-With-Imbalance-And-Focal-Loss/blob/master/Xgboost_sklearn.py)
 - [XGBOOST understanding algorithm](https://github.com/datacamp/Machine-Learning-With-XGboost-live-training/blob/master/notebooks/Machine-Learning-with-XGBoost-solution.ipynb)
 - [Dynamic bin size of histograms](https://medium.com/@maxmarkovvision/optimal-number-of-bins-for-histograms-3d7c48086fde)
