@@ -42,12 +42,13 @@ Starbucks wants to measure the success of the experiment using two evaluation me
 
 IRR depicts how many more customers purchased the product with the promotion, as compared to if they didn't receive the promotion.
 
-$ IRR = \frac{purch_{treat}}{cust_{treat}} - \frac{purch_{ctrl}}{cust_{ctrl}} $
+$$ IRR = \frac{purch_{treat}}{cust_{treat}} - \frac{purch_{ctrl}}{cust_{ctrl}} $$
 
 **Net Incremental Revenue (NIR)**
 
 NIR depicts how much is made (or lost) by sending out the promotion.
-$ NIR = (10\cdot purch_{treat} - 0.15 \cdot cust_{treat}) - 10 \cdot purch_{ctrl}$
+
+$$ NIR = (10\cdot purch_{treat} - 0.15 \cdot cust_{treat}) - 10 \cdot purch_{ctrl}$$git
 
 The project is divided into two main parts and questions:
 1) **AB Testing:**
