@@ -3,8 +3,11 @@
 __pycache__
 .ipynb_checkpoints
 *.pytest_cache/
-Starbucks-2.ipynb
-xgboost_cv_results
-irr_with_v2_scaled
 *.db
-/Starbucks_all_code.ipynb
+/notebooks/Starbucks_all_code.ipynb
+/notebooks/Starbucks_segmentation.ipynb
+/notebooks/Why-sigmoid.ipynb
+/notebooks/XGBoost-Implementation.ipynb
+/notebooks/Starbucks_all_focalloss.ipynb
+/notebooks/Model_Tuning.ipynb
+requirements2.txt

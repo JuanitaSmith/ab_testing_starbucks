@@ -1,15 +1,17 @@
-## Udacity Data Science Nanodegree
+
+Udacity Data Science Nanodegree
 ---
-## Portfolio Exercise: Starbucks take home assignment
-The purpose of this project is to demonstrate the ability to do AB tests
+## Starbucks take home assignment (formally given to their job applicants)
+The purpose of this project is to demonstrate the ability to use AB testing and target market modeling together in a project.
+
+<img src="https://opj.ca/wp-content/uploads/2018/02/New-Starbucks-Logo-1200x969.jpg" width="200" height="200">
 
 #### Created by: Juanita Smith
-#### Last date: September 2024
+#### Last date: January 2025
 ---
 
-Starbucks wants to uplift their sales by sending out promotions more selectively to only those customers that are more likely to purchase the product.
-Who responds better to promotions?
-How can we identify the target market better?
+Starbucks wants to uplift their sales by sending out promotions more selectively 
+to only those customers that are more likely to react to promotions and buy the product as a result.
 
 ### Table of contents
 
@@ -17,8 +19,7 @@ How can we identify the target market better?
 * [2. Udacity Project requirements](#2-udacity-project-requirements)
 * [3. Installation](#3-installation)
 * [4. Instructions](#4-instructions)
-* [5. Language translator with CHATGPT (optional step)](#5-language-translator-with-chatgpt-optional-step)
-* [6. Input File Descriptions](#6-input-file-descriptions)
+* [6. Dataset overview](#6-input-file-descriptions)
 * [7. Modelling](#7-modelling)
   * [Data cleaning](#data-cleaning)
   * [Modelling approach](#modelling-approach)
@@ -26,312 +27,159 @@ How can we identify the target market better?
     * [Cross-validation](#cross-validation)
     * [Evaluation metrics](#evaluation-metrics)
     * [Model performance](#model-performance)
-* [8. Flask Web App](#8-flask-web-app)
-* [9. Skills learned:](#9-skills-learned)
 * [10. Licensing, Authors, Acknowledgements<a name="licensing"></a>](#10-licensing-authors-acknowledgementsa-namelicensinga)
 * [11. References](#11-references)
 
 
 # 1. Project Overview
+---
+The dataset provided in this portfolio exercise was originally used as a take-home assignment provided by Starbucks for their job candidates. 
+The data for this exercise consists of about 120,000 data points split in a 2:1 ratio among training and test files. 
+In the experiment simulated by the data, an advertising promotion was tested to see if it would bring more customers
+to purchase a specific product priced at $10. 
+Since it costs the company 0.15 to send out each promotion, it would be best to limit that promotion only to those 
+that are most receptive to the promotion. 
 
-This project is using data supplied from [Appen](https://www.appen.com) (formally Figure 8) that contains pre-labeled tweets and text messages that were received during real live disasters.
+Starbucks wants to measure the success of the experiment using two evaluation metrics:
 
-Using software and data engineering skills learned during this course, 
-this project builds a machine learning pipeline
-which builds a supervised learning model
-to classify these events so that it can send messages to the appropriate disaster relieve agency.
+**Incremental Response Rate (IRR)** 
 
-Some organizations care about water, others about blocked roads, others about medical supplies.
-The dataset contains 36 different categories:
+IRR depicts how many more customers purchased the product with the promotion, as compared to if they didn't receive the promotion.
 
-<img src="disasterapp/static/assets/categories.png" alt="drawing" width="582" height="551"/>
+$ IRR = \frac{purch_{treat}}{cust_{treat}} - \frac{purch_{ctrl}}{cust_{ctrl}} $
 
-The classifier needs to use **multi-label** classification,
-meaning the same message can be classified as 'water', 'food' and 'clothing'.
-As we can see in the graph, the categories are highly imbalanced. 
-We don't have a lot of records with categories 'offer', 'shops', 'tools', etc. present in the dataset
+**Net Incremental Revenue (NIR)**
 
-This project includes a web app where an emergency worker can input a new message,
-select the genre, and get immediate classification results.
-The webapp will use the developed classifier model to display the resulting categories for the new message.
+NIR depicts how much is made (or lost) by sending out the promotion.
+$ NIR = (10\cdot purch_{treat} - 0.15 \cdot cust_{treat}) - 10 \cdot purch_{ctrl}$
 
-<img src="disasterapp/static/assets/website_input.png" alt="drawing" width="950"/>
-
-
-# 2. Udacity Project requirements
-
-1. Build an ETL pipeline to load and clean messages and store results in an SQLite database 
-2. Build a text processing and machine learning pipeline to build a classification model, and export the final model as a pickle file.
-3. Use the trained classifier in the provided Flask Web App to classify text messages.
+The project is divided into two main parts and questions:
+1) **AB Testing:**
+   - Did more customers buy the product as a result of the promotion? Does the treatment group have a higher IRR and is it significant?
+   - Did the promotion generate more revenue? Does the treatment group have a higher NIR and is it significant?
+   <br><br>
+2) **Target marketing modeling: Develop a promotion strategy** <br>
+   Identify those customers who should receive promotions that are likely to buy the product consequently using machine learning
+   - Who responds better to promotions?
+   - How can we identify the target market better to minimize promotion costs?
+   - How can we maximize IRR and NIR?
 
 
-# 3. Installation
-To clone the repository. use `git clone https://github.com/JuanitaSmith/disaster_recovery_pipelines.git`
+# 2. Installation
+---
+To clone the repository. use `git clone https://github.com/JuanitaSmith/ab_testing_starbucks.git`
 
 - Project environment was built using Anaconda.
-- Python 3.9 interpreter was used.
+- Python 3.10 interpreter was used.
 - Refer to `requirements.txt` for libraries and versions needed to build your environment.
 - Use below commands to rebuild the environment automatically
   - `conda install -r requirements.txt` or 
   - `pip install -r requirements.txt` or 
   - `conda install -c conda-forge --yes --file requirements.txt`
 - Refer to `environment.yaml` for environment setup and conda channels used
-- Note: Library `iterative-stratification` was installed using pip
 
 
-# 4. Instructions
-Run the following commands in the project's **root directory** to set up your database and model.
+# 3. Dataset Overview
+---
+Each data point includes one column indicating whether an individual was sent a promotion for the product, 
+and one column indicating whether that individual eventually purchased that product. 
+Each individual also has seven additional features associated with them, which are provided abstractly as V1-V7.
 
-A configuration file `src/config.pg` contains defaults for the project structure and file paths. 
-Ideally do not change this structure.
+# 4. Notebook overview
+---
+Project was split into three notebooks available in folder `/notebooks`
+1) EDA to assess, clean and explore data distributions, relationships and patterns.
+2) Hypothesis testing answering project question 1.
+3) Target market modeling using machine learning answering question 2.
 
-**IMPORTANT**: MAKE SURE ALL COMMANDS ARE RUN FROM THE TERMINAL IN THE MAIN PROJECT ROOT
+# 5. Conclusions
+---
+## Conclusion of Exploratory Data Analysis
 
-    1. To run the ETL pipeline that cleans data and stores results in an SQLite database:
-        `python -m src.process_data data/raw/disaster_messages.csv data/raw/disaster_categories.csv data/clean/DisasterResponse.db`
+Data were quite clean already with no missing values and significant outliers.
 
-        - parameter 1: path where `messages.csv` is stored
-        - parameter 2: path where `disaster_categories.csv` is stored
-        - parameter 3: path to SQLite database
+Features V3, V4, V5 were identified as the most important features to be used in modeling to best identify customers that react to promotions.
 
-    2. Optional Step: To translate non-english texts to english using CHATGPT (not a project requirement) 
-        (See `5. Language translator with CHATGPT` below for more details)
+* **V3**: Float with uniform distribution <br>
+Control and Treatment groups have different mean and IQR for those who purchased the product <br><br>
+![v3.png](images/v3.png)
 
-        - To translate 400 more unchecked messages:
-          `python -m src.translator <Insert OpenAI API key here> True 400`
+* **Treatment vs Control correlation with purchase**<br>
+Most correlated features with purchase for the treatment group is V4, V5 and V3.
+Control group have totally different features with an overall weaker correlating with purchase
 
-        - To only accumulate and save previous batch results already executed on OpenAI:
-          `python -m src.translator <Insert OpenAI API key here> False 0`
+<img src="images/corr.png" alt="corr" width=600/>
 
-        - parameter 1: OpenAI API key
-        - parameter 2: True or False, indicating if more messages should be checked and translated to English
-        - parameter 3: If paramter 2 is True, how any messages should be checked and translated (paid service).
-                       A minimum of 400 messages will be checked and translated at a time.
-    
-    3. To run ML pipeline that trains the classifier and saves the model: (expect 10-15 minutes runtime)
+* **Feature importance:**<br>
+During logistic regression, only features V3, V4 and V5 have a p-value < 0.025.
+V3 have a negative effect of purchase whilst V4 and V5 have positive effect on purchase
 
-        `python -m src.train_classifier data/clean/DisasterResponse.db models/classifier.pkl`
+<img src="images/logit.png" alt="logit" width=400/>
 
-        - parameter 1: link to SQLite database
-        - parameter 2: Where model should be saved
+* **Conclusion:**
 
-    4. Run the following command in the **main project directory** to run your web app locally.
+Only features V3, V4 and V5 was selected target market modeling.
 
-        `python disasterapp/run.py`
+## Conclusion of Hypothesis testing for IRR
 
-    5. Go to http://0.0.0.0:3001/ to run the project locally or 
-       run hosted webapp on https://disasters-JuaSmithy.pythonanywhere.com
+Did the promotion increase sales?
 
-    6. Optional: To run unittests, will take around 10-15 minutes
+Hypothesis to test:
 
-        run command `python -m unittest discover` in the terminal
+### $H_0 = \frac{purch_{treat}}{cust_{treat}} - \frac{purch_{ctrl}}{cust_{ctrl}} <= 0$ <br>
+### $H_1 = \frac{purch_{treat}}{cust_{treat}} - \frac{purch_{ctrl}}{cust_{ctrl}} > 0$
 
-        Or to run a single unit test
-        run command `python -m unittest tests.test_process_data_unittest` in the terminal
+Reject the null hypothesis. <br>
+The difference of actual 0.9% in IRR is significant with a p-value of 0, thus could not have come from the null. <br>
+Promotions have a positive effect on sales.
 
+<img src="images/irr bootstrap.png" alt="irr" width=700/>
 
-# 5. Language translator with CHATGPT (optional step)
+## Conclusion of Hypothesis Testing for NIR
 
-During EDA, it was detected that some text messages are not in English, or are only partially in English.
-I used OpenAI and CHATGPT to translate a portion of these messages into pure English,
-to experiment with modern technologies.
+How much is made (or lost) by sending out the promotion?
 
-Example: 
-A text message for index 9874 will be translated from:
-- From: `2O TRI PYE, 5 POIRO, 2GD PESI, 1OMORU, 5LAY3DOLA SITWON`  
-- To: `20 bags of rice, 5 bottles of water, 2 packs of peas, 1 tomato, 5 layers of dollars situation` 
+$ NIR = (10\cdot purch_{treat} - 0.15 \cdot cust_{treat}) - 10 \cdot purch_{ctrl}$
 
-Preparation notebook is stored in `notebooks/Language Detection Pipeline Preparation`
+Hypothesis to test:
 
-This step can be completely omitted, it is not an Udacity project requirement, but rather some extra fun.
-If this step is omitted, the original messages will be used for classification, even if they are not in English.
+### $H_0 = NIR <= 0 $
+### $H_1 = NIR > 0 $
 
-If the language translation step is run, (see instructions above)
-then improved messages will be updated in the SQLite database without changing the original file layout.
+Fail to reject the NULL hypothesis. <br>
+The actual NIR of -2334 is not significant with a p-value of 1. <br>
+There is no evidence that promotions generate more revenue.
 
-Note: CHATGPT is a paid service. 
-To run this step, create first an account and load some funds. 
-(Around $5-10 is enough for a small experiment in this project)
-Then create your API key here [https://platform.openai.com/account/api-keys](https://platform.openai.com/api-keys)
+<img src="images/nir bootstrap.png" alt="nir" width=700/>
 
-Just for experimentation, only a sample of the data was checked and converted and using batch mode as it's cheaper.
-Translations are stored in json format in `../data/translations/batch_job_results`
-The `messages` table in the SQLite database in `../data/clean/DisasterResponse.db` will be updated with the improved messages.
+## Conclusion of promotion strategy
 
-A class `OpenAITranslator` was designed to convert only a portion of the messages for experimental reasons. 
+There are no strong linear relations between independent and dependent features; therefore, a tree-based algorithm was selected.
+XGBOOST was selected for this solution due to its extendability to custom metrics and objective functions, 
+and extensive hyperparameters to control overfitting. <br>
 
-A log file was created in `logs/translation.log` recording all processing steps.
+This notebook learns the patterns of those individuals who purchased the product after receiving a promotion, using only the treatment dataset. <br>
 
-# 6. Input File Descriptions
+XGBOOST algorithm was extended to use a custom metric 'IRR' to maximize individuals who purchased the product after receiving a promotion. 
+My thinking is, the more people who purchase the product after receiving a promotion, the more revenue we will make. 
+A custom objective function was used to calculate weighted class loss to handle imbalance between classes.
 
-- Two files were provided by Udacity and [Appen](https://www.appen.com), and stored in `../data/raw`
+Optuna was used to fine-tune the model with faster hyperparameter searching
 
-1. `disaster_categories.csv`:
-   - id: unique key identifying each message
-   - 36 categories with binary indicators 1 or 0
-
-2. `disaster_messages.csv`:
-   - id: unique key identifying each message
-   - message: text message 'cleaned' by Appen although some problems still exist with translations
-   - original: original text messages received
-   - genre: classify text as 'news', 'social' or 'direct'
-
-Both files contain 26,248 records
-
-# 7. Modelling
-
-## Data cleaning
-
-Preparation notebook is stored in `notebooks/ETL Pipeline Preparation.ipynb`
-
-The following data cleaning was completed:
-- category 'child_alone' was dropped as it had all entries 'False', giving us no ability to learn
-- clean categories so each category appear in its own column with binary indicator 1 or 0
-- merge categories and messages datasets using 'id' as key to join
-- id was set as a unique index, which is especially needed for language translation during OpenAI
-- duplicated messages and indexes were dropped
-- column 'original' was dropped as it's unnecessary for the model
-- category `related` had 376 records that contained a non-binary value of '2', 
-which was changed to '0' as no other categories contained true labels for such records.
-
-
-## Modelling approach
-
-Preparation notebook is stored in `notebooks/ML Pipeline Preparation.ipynb`
-XGBOOST algorythm was used, as it now supports multi-label classification out of the box.
-
-### Dealing with Imbalance
-- To deal with imbalance labels, the following techniques were used:
-  - Multi-label stratification split into test and train datasets, 
-    using package [iterative-stratification](https://pypi.org/project/iterative-stratification/)
-  - A new class `src/mloversampler.py` was developed to perform over-sampling 
-    for minority classes in MULTI-LABEL classification problems by either duplicating records or using augmentation.
-    The Level of duplication is determined by a ratio factor representing the severity of imbalance of each label.
-    Example: label 'offer' is duplicated 20 times, whilst label security is duplicated 6 times.
-  - A new custom `focal loss` function in class `src/focalloss.py` was developed
-    to reduce the importance of the majority class. 
-    This function is used as loss function in XGBOOST hyper parameter `eval_metric`.
-
-Result after stratified split and oversampling: 
-- Labels are evenly distributed in label datasets before and after stratified split.
-- Oversampling is only applied to the training dataset, number of records increased from 17,452 to 30,815 in the notebook preparation.
-<img src="disasterapp/static/assets/oversampling_results.png" alt="oversampling"/>
-
-### Cross-validation
-
-During cross-validation, GridSearchCV was used for hyperparameter tuning as it was a project requirement.
-Due to long runtimes, the grid search was restricted to `max_depth` and `n_estimators` only.
-
-As a second step,
-[OPTUNA](https://www.dailydoseofds.com/bayesian-optimization-for-hyperparameter-tuning/) 
-was used for further hyperparameter tuning, as it's much faster.
-
-Both Grid search and Random Search evaluate every hyperparameter configuration independently. 
-Thus, they iteratively explore all hyperparameter configurations to find the most optimal one.
-
-However, Bayesian Optimization takes informed steps based on the results of the previous hyperparameter configurations.
-This lets it confidently discard non-optimal configurations. 
-Consequently, the model converges to an optimal set of hyperparameters much faster.
-
-### Evaluation metrics
-
-**Precision macro** score was used as the main evaluation metrics. 
-During a disaster, there are limited resources and services, 
-and we want to send resources where we are sure it is necessary. 
-Some messages are very vague and unclear.
-It's not so easy to get a high precision macro score; it needs extensive engineering effort to get great results.
 
 ### Model performance
 
-Model performance during training using **macro precision** as scoring, is increased after grid search.
-<img src="disasterapp/static/assets/model_output_results.png" alt="model_output"/>
-
-Final model performance on test data is amazing with 0.84 micro precision and 0.86 macro performance !! 
-Great performance on imbalanced labels.
-<img src="disasterapp/static/assets/final_model_performance.png" alt="model_output"/>
-
-
-# 8. Flask Web App
-
-User can input a message, select the genre and click on the button 'Classify Message'.
-
-The saved classification model will be used to classify the message.
-All positive classes will be highlighted in green.
-
-<img src="disasterapp/static/assets/website_output.png" alt="website_output"/>
-
-
-# 9. Classification with OpenAI
-
-Using OpenAI embeddings during classification modeling is showing excellent results during training, 
-with a high micro precision of 0.86, 
-but poor results for imbalanced labels on the left of the graph with macro precision very low at 0.55.
-
-Surprisingly, `CountVectorizer` and `TfidfTransformer` seems to be winner !!!???
-
-<img src="disasterapp/static/assets/openai_comparison.png" alt="openai"/>
 
 
 
-# 9. Skills learned:
 
-Skills applied in this project:
-
-- Web Development using Flask, Plotly and Software Engineering
-- Clean and modular code, see custom modules and classes
-- GIT version control
-- Automated unit testing using library `unittest`, see folder `tests`
-- Logging: see folder `logging` for logging results
-- Introduction to Object-Oriented Programming - see `src/translator.py` and `mloversampler.py` for custom classes
-- Data Engineering: Building pipelines using `scikit-learn` `Pipeline`
-
-# 10. Licensing, Authors, Acknowledgements<a name="licensing"></a>
-
-Must give credit to Appen for the data.
+# 6. Licensing, Authors, Acknowledgements<a name="licensing"></a>
+---
+Must give credit to Starbucks for the data.
 
 
-# 11. References
-
-###### XGBOOST:
-- [XGBOOST for LLMS](https://www.kaggle.com/code/vbmokin/llm-20-feature-xgboost-after-deobfuscation/notebook)
-- [How to use XGBOOST multi-label](https://xgboost.readthedocs.io/en/latest/python/examples/multioutput_regression.html#sphx-glr-python-examples-multioutput-regression-py)
-- [XGBOOST is all you need](https://www.kaggle.com/code/lucamassaron/easy-peasy-eda-xgboost-is-all-you-need/notebook)
-- [Hyperparameter grid search with XGBOOST](https://www.kaggle.com/code/tilii7/hyperparameter-grid-search-with-xgboost)
-- [Mastering XGBOOST Parameters Tuning](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
-- [XGBOOST Notes on Parameter Tuning](https://xgboost.readthedocs.io/en/stable/tutorials/param_tuning.html#handle-imbalanced-dataset)
-
-###### Pipelines:
-- [Nested pipelines](https://gist.github.com/amberjrivera/8c5c145516f5a2e894681e16a8095b5c)
-
-###### Grid Search:
-- [Using predefined split during cross-validation](https://stackoverflow.com/questions/31948879/using-explicit-predefined-validation-set-for-grid-search-with-sklearn)
-- [Using GridSearchCV to validate against validation dataset](https://stackoverflow.com/questions/46815252/using-scikit-learn-gridsearchcv-for-cross-validation-with-predefinedsplit-susp)
-- [Plotting training vs validation cross-validation scores](https://www.kaggle.com/code/willcanniford/predicting-back-pain-with-sklearn-and-gridsearchcv)
-- [Early stopping](https://stackoverflow.com/questions/78178902/is-there-example-of-xgb-xgbregressor-with-callbacks-early-stop-early-stop-xgb)
-
-###### OPTUNA:
-- [Optima demo](https://github.com/optuna/optuna-examples/blob/main/xgboost/xgboost_simple.py)
-- [From Daily Dose of Data Science: Bayesian Optimization for Hyperparameter Tuning](https://www.dailydoseofds.com/bayesian-optimization-for-hyperparameter-tuning/)
-
-###### Imbalance:
-- [Stratification multi-label](https://videolectures.net/ecmlpkdd2011_tsoumakas_stratification/?q=stratification%20multi%20label)
-- [Test/Train split for multi-label stratification](https://datascience.stackexchange.com/questions/45174/how-to-use-sklearn-train-test-split-to-stratify-data-for-multi-label-classificat)
-- [Upsample with multilabel MLSMOTE](https://www.kaggle.com/code/tolgadincer/upsampling-multilabel-data-with-mlsmote)
-- [Oversampling](https://www.kaggle.com/code/thedrcat/oversampling-for-multi-label-classification)
-- [Creating Balanced Multi-Label Datasets for Model Training and Evaluation](https://medium.com/gumgum-tech/creating-balanced-multi-label-datasets-for-model-training-and-evaluation-16b6a3a2d912)
-- [MLSMOTE for MoA](https://www.kaggle.com/code/yassinealouini/mlsmote-for-moa)
-- [Creating balanced multilabel datasets comparing multiple libraries](https://medium.com/gumgum-tech/creating-balanced-multi-label-datasets-for-model-training-and-evaluation-16b6a3a2d912)
-- [XGBoost and imbalanced datasets: Strategies for handling class imbalance](https://medium.com/@rithpansanga/xgboost-and-imbalanced-datasets-strategies-for-handling-class-imbalance-cdd810b3905c)
-
-###### Evaluation:
-- [Evaluation metrics for cross valdation](https://datascience.stackexchange.com/questions/15989/micro-average-vs-macro-average-performance-in-a-multiclass-classification-settin/16001)
-- [Focal loss with XGBOOST](https://www.kaggle.com/code/kriskriskris/imbalanced-data-practice)
-- [Precision-recall curves](https://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html)
-- [Focal multi-label loss](https://www.kaggle.com/code/thedrcat/focal-multilabel-loss-in-pytorch-explained)
-- [Focal loss for handling the issue of class imbalance](https://medium.com/data-science-ecom-express/focal-loss-for-handling-the-issue-of-class-imbalance-be7addebd856)
-
-###### OpenAI:
-- [Open OpenAI batch processing](https://cookbook.openai.com/examples/batch_processing)
-
-###### Text processing
-- [Text augmentation using SynonymAug](https://medium.com/@ka.kaewnoparat/the-power-of-stopword-removal-and-data-augmentation-for-imbalanced-classes-in-multi-label-61444ba8dacd)
+# 7. References
+---
+- [XGBOOST handling imbalance with focal loss](https://github.com/handongfeng/Xgboost-With-Imbalance-And-Focal-Loss/blob/master/Xgboost_sklearn.py)
+- [XGBOOST understanding algorithm](https://github.com/datacamp/Machine-Learning-With-XGboost-live-training/blob/master/notebooks/Machine-Learning-with-XGBoost-solution.ipynb)
+- [Dynamic bin size of histograms](https://medium.com/@maxmarkovvision/optimal-number-of-bins-for-histograms-3d7c48086fde)

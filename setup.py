@@ -5,12 +5,12 @@ A demonstration of how to write code for ML development
 """
 
 setup(
-    name = "ml_service",
+    name = "starbucks_js",
     version = "0.0.1",
-    author = "Damien Benveniste",
-    author_email = "damien@mail.com",
-    description = description,
+    author = "Juanita Smith",
+    author_email = "juasmithy@gmail.com",
+    description = 'Starbucks takehome assignment',
     license = "BSD",
-    url = "http://mywiki",
+    url = "https://github.com/JuanitaSmith",
     packages=find_packages()
 )
